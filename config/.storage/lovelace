@@ -1,0 +1,724 @@
+{
+    "version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "title": "Homes",
+            "views": [
+                {
+                    "path": "default_view",
+                    "title": "Home",
+                    "cards": [
+                        {
+                            "type": "custom:sun-card"
+                        },
+                        {
+                            "type": "iframe",
+                            "url": "https://embed.windy.com/embed2.html?lat=45.393&lon=-75.829&detailLat=45.393&detailLon=-75.829&width=650&height=450&zoom=5&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1",
+                            "aspect_ratio": "50%"
+                        },
+                        {
+                            "type": "custom:compass-card",
+                            "indicator_sensors": [
+                                {
+                                    "sensor": "sensor.openweathermap_wind_bearing",
+                                    "indicator": {
+                                        "type": "arrow_inward"
+                                    }
+                                }
+                            ],
+                            "value_sensors": [
+                                {
+                                    "sensor": "sensor.outdoor_windspeed_km"
+                                }
+                            ],
+                            "language": "en"
+                        },
+                        {
+                            "type": "vertical-stack",
+                            "cards": [
+                                {
+                                    "type": "weather-forecast",
+                                    "entity": "weather.openweathermap"
+                                },
+                                {
+                                    "type": "horizontal-stack",
+                                    "cards": [
+                                        {
+                                            "type": "gauge",
+                                            "min": 0,
+                                            "entity": "sensor.outdoor_windspeed_km",
+                                            "name": "Wind",
+                                            "needle": true,
+                                            "severity": {
+                                                "green": 0,
+                                                "yellow": 6,
+                                                "red": 12
+                                            },
+                                            "max": 36
+                                        },
+                                        {
+                                            "type": "gauge",
+                                            "entity": "sensor.openweathermap_cloud_coverage",
+                                            "name": "Coverage",
+                                            "needle": true,
+                                            "min": 0,
+                                            "max": 100
+                                        },
+                                        {
+                                            "type": "gauge",
+                                            "entity": "sensor.openweathermap_feels_like_temperature",
+                                            "name": "Feel",
+                                            "needle": true,
+                                            "min": -35,
+                                            "max": 35
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "vertical-stack",
+                            "cards": [
+                                {
+                                    "type": "picture-glance",
+                                    "title": "FRONT DOOR",
+                                    "entities": [
+                                        {
+                                            "entity": "light.front_yard_light"
+                                        }
+                                    ],
+                                    "image": "http://10.0.0.248:8891/"
+                                },
+                                {
+                                    "type": "picture-glance",
+                                    "title": "DRIVEWAY",
+                                    "entities": [
+                                        {
+                                            "entity": "light.front_yard_light"
+                                        }
+                                    ],
+                                    "image": "http://10.0.0.248:8892/"
+                                },
+                                {
+                                    "type": "picture-glance",
+                                    "title": "BACKYARD",
+                                    "entities": [
+                                        {
+                                            "entity": "switch.backyard"
+                                        }
+                                    ],
+                                    "image": "http://10.0.0.248:8893/"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "vertical-stack",
+                            "cards": [
+                                {
+                                    "type": "history-graph",
+                                    "title": "Temperature",
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.openweathermap_temperature"
+                                        },
+                                        {
+                                            "entity": "sensor.openweathermap_feels_like_temperature"
+                                        },
+                                        {
+                                            "entity": "sensor.sonoff_a440003247_temperature"
+                                        },
+                                        {
+                                            "entity": "sensor.sonoff_a4400031b7_temperature"
+                                        },
+                                        {
+                                            "entity": "sensor.sonoff_a4400031e5_temperature"
+                                        },
+                                        {
+                                            "entity": "sensor.sonoff_a4400031ed_temperature"
+                                        }
+                                    ],
+                                    "refresh_interval": 0,
+                                    "hours_to_show": 240
+                                },
+                                {
+                                    "type": "history-graph",
+                                    "title": "Humidity",
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.openweathermap_humidity"
+                                        },
+                                        {
+                                            "entity": "sensor.sonoff_a440003247_humidity"
+                                        },
+                                        {
+                                            "entity": "sensor.sonoff_a4400031b7_humidity"
+                                        },
+                                        {
+                                            "entity": "sensor.sonoff_a4400031e5_humidity"
+                                        },
+                                        {
+                                            "entity": "sensor.sonoff_a4400031ed_humidity"
+                                        }
+                                    ],
+                                    "refresh_interval": 0,
+                                    "hours_to_show": 240
+                                },
+                                {
+                                    "type": "history-graph",
+                                    "title": "Wind",
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.openweathermap_wind_speed"
+                                        }
+                                    ],
+                                    "refresh_interval": 0,
+                                    "hours_to_show": 240
+                                },
+                                {
+                                    "type": "history-graph",
+                                    "title": "Pressure",
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.openweathermap_pressure"
+                                        }
+                                    ],
+                                    "refresh_interval": 0,
+                                    "hours_to_show": 240
+                                }
+                            ]
+                        },
+                        {
+                            "type": "horizontal-stack",
+                            "title": "HP Color Printer",
+                            "cards": [
+                                {
+                                    "type": "gauge",
+                                    "entity": "sensor.hp_laserjet_400_color_m451nw_black_cartridge_hp_ce410x",
+                                    "min": 0,
+                                    "max": 100,
+                                    "needle": true,
+                                    "severity": {
+                                        "green": 5,
+                                        "yellow": 2,
+                                        "red": 0
+                                    }
+                                },
+                                {
+                                    "type": "gauge",
+                                    "entity": "sensor.hp_laserjet_400_color_m451nw_cyan_cartridge_hp_ce411a",
+                                    "min": 0,
+                                    "max": 100,
+                                    "needle": true,
+                                    "severity": {
+                                        "green": 5,
+                                        "yellow": 2,
+                                        "red": 0
+                                    }
+                                },
+                                {
+                                    "type": "gauge",
+                                    "entity": "sensor.hp_laserjet_400_color_m451nw_yellow_cartridge_hp_ce412a",
+                                    "min": 0,
+                                    "max": 100,
+                                    "needle": true,
+                                    "severity": {
+                                        "green": 5,
+                                        "yellow": 2,
+                                        "red": 0
+                                    }
+                                },
+                                {
+                                    "type": "gauge",
+                                    "entity": "sensor.hp_laserjet_400_color_m451nw_magenta_cartridge_hp_ce413a",
+                                    "min": 0,
+                                    "max": 100,
+                                    "needle": true,
+                                    "severity": {
+                                        "green": 5,
+                                        "yellow": 2,
+                                        "red": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "vertical-stack",
+                            "title": "Phone Location",
+                            "cards": [
+                                {
+                                    "type": "entities",
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.iphone_12_pro_geocoded_location"
+                                        },
+                                        {
+                                            "entity": "sensor.iphone_geocoded_location"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "horizontal-stack",
+                                    "title": "Batteries",
+                                    "cards": [
+                                        {
+                                            "type": "vertical-stack",
+                                            "cards": [
+                                                {
+                                                    "type": "gauge",
+                                                    "entity": "sensor.andres_iphone_2_battery_level",
+                                                    "min": 0,
+                                                    "max": 100,
+                                                    "needle": true,
+                                                    "severity": {
+                                                        "green": 15,
+                                                        "yellow": 5,
+                                                        "red": 0
+                                                    }
+                                                },
+                                                {
+                                                    "type": "entity",
+                                                    "entity": "sensor.andres_iphone_2_connection_type",
+                                                    "state_color": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "vertical-stack",
+                                            "cards": [
+                                                {
+                                                    "type": "gauge",
+                                                    "entity": "sensor.iphone_12_pro_battery_level",
+                                                    "min": 0,
+                                                    "max": 100,
+                                                    "needle": true,
+                                                    "severity": {
+                                                        "green": 15,
+                                                        "yellow": 5,
+                                                        "red": 0
+                                                    }
+                                                },
+                                                {
+                                                    "type": "entity",
+                                                    "entity": "sensor.iphone_12_pro_connection_type",
+                                                    "state_color": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "vertical-stack",
+                                            "cards": [
+                                                {
+                                                    "type": "gauge",
+                                                    "entity": "sensor.iphone_battery_level",
+                                                    "min": 0,
+                                                    "max": 100,
+                                                    "needle": true,
+                                                    "severity": {
+                                                        "green": 15,
+                                                        "yellow": 5,
+                                                        "red": 0
+                                                    }
+                                                },
+                                                {
+                                                    "type": "entity",
+                                                    "entity": "sensor.iphone_connection_type",
+                                                    "state_color": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "sensor.collection_gatineau_compostage",
+                                    "name": "Compost"
+                                },
+                                {
+                                    "entity": "sensor.collection_gatineau_recyclage",
+                                    "name": "Recycling"
+                                },
+                                {
+                                    "entity": "sensor.collection_gatineau_ordures",
+                                    "name": "Waste"
+                                },
+                                {
+                                    "entity": "sensor.collection_gatineau_holiday",
+                                    "name": "Close for Holiday"
+                                },
+                                {
+                                    "entity": "sensor.collection_gatineau_arbresnoel",
+                                    "name": "Christmas Tree"
+                                },
+                                {
+                                    "entity": "sensor.collection_gatineau_construction",
+                                    "name": "Waste Wood & Metal"
+                                },
+                                {
+                                    "entity": "sensor.collection_gatineau_encombrant",
+                                    "name": "Bulky Waste"
+                                }
+                            ],
+                            "title": "Bin Collection"
+                        },
+                        {
+                            "type": "horizontal-stack",
+                            "title": "Plex",
+                            "cards": [
+                                {
+                                    "type": "entity",
+                                    "entity": "sensor.sb_nas_upload_throughput",
+                                    "min": 0,
+                                    "max": 100,
+                                    "needle": true,
+                                    "severity": {
+                                        "green": 5,
+                                        "yellow": 2,
+                                        "red": 0
+                                    }
+                                },
+                                {
+                                    "type": "entity",
+                                    "entity": "sensor.sb_nas_download_throughput",
+                                    "min": 0,
+                                    "max": 100,
+                                    "needle": true,
+                                    "severity": {
+                                        "green": 5,
+                                        "yellow": 2,
+                                        "red": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "picture-entity",
+                            "entity": "camera.doorbird_last_ring"
+                        },
+                        {
+                            "type": "history-graph",
+                            "entities": [
+                                {
+                                    "entity": "sensor.canada_coronavirus_current"
+                                },
+                                {
+                                    "entity": "sensor.canada_coronavirus_deaths"
+                                }
+                            ],
+                            "hours_to_show": 2400,
+                            "refresh_interval": 0
+                        }
+                    ]
+                },
+                {
+                    "title": "VIDEO",
+                    "path": "video",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "picture-glance",
+                            "entities": [
+                                {
+                                    "entity": "light.front_yard_light"
+                                }
+                            ],
+                            "image": "http://10.0.0.248:8892/",
+                            "title": "GARAGE DOOR"
+                        },
+                        {
+                            "type": "picture-glance",
+                            "title": "FRONT DOOR",
+                            "entities": [
+                                {
+                                    "entity": "light.front_yard_light"
+                                }
+                            ],
+                            "image": "http://10.0.0.248:8891/"
+                        },
+                        {
+                            "type": "picture-glance",
+                            "entities": [
+                                {
+                                    "entity": "switch.backyard"
+                                }
+                            ],
+                            "image": "http://10.0.0.248:8893/",
+                            "title": "BACKYARD"
+                        },
+                        {
+                            "type": "picture-glance",
+                            "entities": [
+                                {
+                                    "entity": "light.front_yard_light"
+                                }
+                            ],
+                            "image": "http://10.0.0.248:8894/",
+                            "title": "?"
+                        },
+                        {
+                            "type": "picture-glance",
+                            "entities": [
+                                {
+                                    "entity": "light.front_yard_light"
+                                }
+                            ],
+                            "image": "http://10.0.0.248:8895/",
+                            "title": "?"
+                        }
+                    ]
+                },
+                {
+                    "title": "Aquarium",
+                    "path": "aquarium",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "switch.aquarium_5"
+                                },
+                                {
+                                    "entity": "switch.aquarium_4"
+                                },
+                                {
+                                    "entity": "switch.aquarium_3"
+                                },
+                                {
+                                    "entity": "switch.aquarium_2"
+                                },
+                                {
+                                    "entity": "switch.aquarium_1"
+                                }
+                            ],
+                            "title": "Aquarium"
+                        }
+                    ]
+                },
+                {
+                    "title": "Control",
+                    "path": "control",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "switch.kitchen_sink",
+                                    "name": "Sink"
+                                },
+                                {
+                                    "entity": "light.entrance_light"
+                                },
+                                {
+                                    "entity": "light.kitchen_ceilling"
+                                },
+                                {
+                                    "entity": "light.patio_door_ceiling"
+                                }
+                            ],
+                            "title": "Kitchen"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "switch.master_bathroom_light"
+                                },
+                                {
+                                    "entity": "light.soso"
+                                },
+                                {
+                                    "entity": "light.basement_ceiling"
+                                },
+                                {
+                                    "entity": "light.bed_side_ceiling"
+                                }
+                            ],
+                            "title": "Bedroom"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "light.front_yard_light"
+                                }
+                            ],
+                            "title": "Front Yard"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "switch.backyard"
+                                },
+                                {
+                                    "entity": "light.gazebo"
+                                },
+                                {
+                                    "entity": "switch.smart_plug_1"
+                                },
+                                {
+                                    "entity": "switch.smart_plug_2"
+                                },
+                                {
+                                    "entity": "switch.smart_plug_2_1"
+                                },
+                                {
+                                    "entity": "switch.smart_plug_2_2"
+                                }
+                            ],
+                            "title": "Backyard"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "switch.living_room_plug",
+                                    "name": "Plug"
+                                },
+                                {
+                                    "entity": "light.corner"
+                                },
+                                {
+                                    "entity": "light.piano"
+                                }
+                            ],
+                            "title": "Living Room"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "switch.venmar",
+                                "switch.vent",
+                                "switch.doorbird_plug"
+                            ],
+                            "title": "Control"
+                        }
+                    ]
+                },
+                {
+                    "title": "NAS",
+                    "path": "nas",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "glance",
+                            "entities": [
+                                {
+                                    "entity": "sensor.sb_nas_average_disk_temp"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_average_disk_temp_2"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_average_disk_temp_3"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_volume_used"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_volume_used_2"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_volume_used_3"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_status"
+                                },
+                                {
+                                    "entity": "binary_sensor.sb_nas_security_status"
+                                },
+                                {
+                                    "entity": "binary_sensor.sb_nas_update_available"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "My Devices",
+                    "path": "my-devices",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.sonoff_a440003243"
+                                },
+                                {
+                                    "entity": "binary_sensor.sonoff_a440003245"
+                                },
+                                {
+                                    "entity": "binary_sensor.sonoff_a440003246"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "DEVICE",
+                    "path": "device",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.backyard_speaker"
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.bedroom_speaker"
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.living_room"
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.living_room_mini"
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.office_display"
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.living_room"
+                        }
+                    ]
+                },
+                {
+                    "title": "SENSORS",
+                    "path": "sensors",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "sensor.canada_coronavirus_confirmed",
+                                "sensor.canada_coronavirus_current",
+                                "sensor.canada_coronavirus_deaths",
+                                "sensor.canada_coronavirus_recovered",
+                                "sensor.hp_laserjet_400_color_m451nw",
+                                "sensor.hp_laserjet_400_color_m451nw_black_cartridge_hp_ce410x",
+                                "sensor.hp_laserjet_400_color_m451nw_cyan_cartridge_hp_ce411a",
+                                "sensor.hp_laserjet_400_color_m451nw_magenta_cartridge_hp_ce413a",
+                                "sensor.hp_laserjet_400_color_m451nw_yellow_cartridge_hp_ce412a",
+                                "sensor.us_coronavirus_confirmed",
+                                "sensor.us_coronavirus_current",
+                                "sensor.us_coronavirus_deaths",
+                                "sensor.us_coronavirus_recovered"
+                            ],
+                            "title": "Sensor"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

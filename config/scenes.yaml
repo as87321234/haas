@@ -1,0 +1,15 @@
+- id: '1637541769240'
+  name: Throughout the night
+  entities:
+    light.corner:
+      supported_color_modes:
+      - brightness
+      friendly_name: Corner
+      supported_features: 41
+      state: 'off'
+    light.piano:
+      supported_color_modes:
+      - brightness
+      friendly_name: Piano
+      supported_features: 41
+      state: 'off'

@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "key": "lovelace_resources",
+    "data": {
+        "items": [
+            {
+                "url": "/hacsfiles/home-assistant-sun-card/home-assistant-sun-card.js?hacstag=366482637014",
+                "type": "module",
+                "id": "9bca2611be4043f988ec24bbe1e33145"
+            },
+            {
+                "url": "/hacsfiles/compass-card/compass-card.js?hacstag=286038496140",
+                "type": "module",
+                "id": "e4a118fa561d400d8c11e3541fd377b5"
+            },
+            {
+                "url": "/hacsfiles/bignumber-card/bignumber-card.js?hacstag=187245418004",
+                "type": "module",
+                "id": "257cd37371534550ae4288fc781c7531"
+            }
+        ]
+    }
+}

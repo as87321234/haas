@@ -1,0 +1,684 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "255990f5c3be5363e48317c7cab6078c",
+                "version": 1,
+                "domain": "cast",
+                "title": "Google Cast",
+                "data": {
+                    "ignore_cec": [],
+                    "known_hosts": [],
+                    "uuid": [],
+                    "user_id": "ffe1cd2dea694eedbb429998bdd0a81b"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "cast",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "ce049c3893a88e199abd2aaaf4ad1bc6",
+                "version": 1,
+                "domain": "ipp",
+                "title": "printer-hp-color",
+                "data": {
+                    "host": "10.0.0.20",
+                    "port": 631,
+                    "ssl": false,
+                    "verify_ssl": false,
+                    "base_path": "/ipp/printer",
+                    "name": "printer-hp-color",
+                    "uuid": "434e4447-3136-3738-3033-3ca82af645df"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "434e4447-3136-3738-3033-3ca82af645df",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "02a33e34be6bda8893624f959155c028",
+                "version": 1,
+                "domain": "coronavirus",
+                "title": "Canada",
+                "data": {
+                    "country": "Canada"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "Canada",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "07e9c8f12b88ac09b5b959565073eb6a",
+                "version": 1,
+                "domain": "coronavirus",
+                "title": "US",
+                "data": {
+                    "country": "US"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "US",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "483b24f796cedf6ba8ac5b945ed91c24",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Master Bathroom Light HS200(US)",
+                "data": {
+                    "host": "10.0.1.104"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "0c:80:63:e6:2a:11",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "3324349e8893687e3fd5a5dde2b8475d",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Backyard HS200(US)",
+                "data": {
+                    "host": "10.0.1.102"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "0c:80:63:e6:13:40",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "80c4bdc99a73c3579027afaa4cebbfdb",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Venmar HS105(US)",
+                "data": {
+                    "host": "10.0.1.101"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "b0:4e:26:20:25:bb",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "f40c8ddd003c9bade110d5283fe2b411",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Kitchen Sink HS200(US)",
+                "data": {
+                    "host": "10.0.1.103"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "0c:80:63:e6:16:47",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "b4ef0400881612d7ad5c9d1e09561235",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Vent HS200(US)",
+                "data": {
+                    "host": "10.0.1.105"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "0c:80:63:e6:1a:1b",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "1e14d2fb89bb33942665ed1caa0687ca",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Doorbird plug HS105(US)",
+                "data": {
+                    "host": "10.0.1.100"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "b0:4e:26:17:bd:31",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "f58f98c6de0b8954042a28adb64aef34",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Living Room Plug HS105(US)",
+                "data": {
+                    "host": "10.0.1.114"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "b0:4e:26:17:b1:a0",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "be2bbc1601148ad1bfb6a6b2fb544e14",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Christmas tree HS105(US)",
+                "data": {
+                    "host": "10.0.1.115"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "b0:be:76:29:c6:09",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "8e736703ab05417247435e9bf18b1796",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Exercise Light HS105(US)",
+                "data": {
+                    "host": "10.0.1.112"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "b0:be:76:29:bb:0a",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "d7853e1b6874e3354b825685ea4d8d7f",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Iphone 12 Pro",
+                "data": {
+                    "model": "iPhone13,3",
+                    "app_name": "Home Assistant",
+                    "os_name": "iOS",
+                    "app_version": "2021.11.1 (2021.266)",
+                    "manufacturer": "Apple",
+                    "device_id": "25EDC164-E169-4FC1-BB89-3D7DB04F56B8",
+                    "app_data": {
+                        "push_token": "eSThZn4Ri0_NgE-6m31wes:APA91bFGSU4XJPTXSoBigY7nLBmm9ogPHHjAvRpYE97ha8qU3RvdcQ2TxhOvqI95lRpFcsBcf6KkSld7Q5i6FzanIV29cW8424WMMqQwtsggVNIQPSp5OZwI9pF7A_TS8l347D7O-OJw",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "os_version": "15.0.2",
+                    "device_name": "Iphone 12 Pro",
+                    "supports_encryption": true,
+                    "webhook_id": "00251b28e36063dad620a9e5b75b0db4fb120c7028c54314458df17ae4c1a5eb",
+                    "secret": "3e3528e70187295ddf63386d4a307dc51451807508b8796d742f6b62110019c7",
+                    "user_id": "561bf937ca444e8cb205a917168ee146"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-25EDC164-E169-4FC1-BB89-3D7DB04F56B8",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "93a734419a1039a97b4879e705085606",
+                "version": 1,
+                "domain": "hacs",
+                "title": "",
+                "data": {
+                    "token": "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"
+                },
+                "options": {
+                    "sidepanel_title": "HACS",
+                    "sidepanel_icon": "hacs:hacs",
+                    "release_limit": 5,
+                    "country": "ALL",
+                    "appdaemon": true,
+                    "netdaemon": true,
+                    "debug": false,
+                    "experimental": true
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "25673386dc7afa98b1586ec521d1722e",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "andre\u2019s iPhone (2)",
+                "data": {
+                    "os_version": "15.1",
+                    "app_name": "Home Assistant",
+                    "supports_encryption": true,
+                    "manufacturer": "Apple",
+                    "app_data": {
+                        "push_token": "ftTaUpHnfEW9roIRxPkOkb:APA91bHkt50xjDJLRahWIzQUmT12oNO_i8IaavVdWPxbBzUSdC4wrDBzcNK3XvGYLDfZ7IITsBA_C9c0acWTCkpMtX5DnNwpYAOXGRBbvW96Zx022I-TvHNCSI4ymNpIDRFVyByqgeBZ",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "os_name": "iOS",
+                    "app_version": "2021.11.1 (2021.266)",
+                    "device_id": "46C8B83C-8EF9-4CC8-A740-0958C551BAC4",
+                    "device_name": "andre\u2019s iPhone (2)",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "model": "iPhone12,5",
+                    "webhook_id": "8f5466d9f8d9b66e71522a394d56391ff3c6f24b7ded5b3864df9d45fa26e514",
+                    "secret": "cecee486a293611682a455633925108b9af712267351c3529f314be3e9ad48c5",
+                    "user_id": "561bf937ca444e8cb205a917168ee146"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-46C8B83C-8EF9-4CC8-A740-0958C551BAC4",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "5ba57457dbff905121fd7e9bad6f94d7",
+                "version": 1,
+                "domain": "hue",
+                "title": "Philips hue",
+                "data": {
+                    "host": "10.0.0.211",
+                    "username": "DtDcThZQSDuYct0yUYJDrTz-cnV3woiWHu5HmBl1"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "001788655843",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "50b8cf3c29cc7b02574723b57ae22919",
+                "version": 1,
+                "domain": "homekit",
+                "title": "HASS Bridge:21064",
+                "data": {
+                    "name": "HASS Bridge",
+                    "exclude_accessory_mode": true,
+                    "port": 21064
+                },
+                "options": {
+                    "filter": {
+                        "include_domains": [
+                            "alarm_control_panel",
+                            "climate",
+                            "cover",
+                            "humidifier",
+                            "fan",
+                            "light",
+                            "lock",
+                            "media_player",
+                            "remote",
+                            "switch",
+                            "vacuum",
+                            "water_heater",
+                            "automation",
+                            "binary_sensor",
+                            "demo",
+                            "device_tracker",
+                            "input_boolean",
+                            "input_select",
+                            "person",
+                            "scene",
+                            "script",
+                            "select",
+                            "sensor"
+                        ],
+                        "exclude_domains": [],
+                        "include_entities": [],
+                        "exclude_entities": []
+                    },
+                    "mode": "bridge"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "62b607519bb10c857f1ba6aa5d25e22c",
+                "version": 1,
+                "domain": "homekit",
+                "title": "Doorstation - 1CCAE3711005 Live:21065",
+                "data": {
+                    "port": 21065,
+                    "name": "Doorstation   1CCAE3711005 Live"
+                },
+                "options": {
+                    "filter": {
+                        "include_domains": [],
+                        "exclude_domains": [],
+                        "include_entities": [
+                            "camera.doorstation_1ccae3711005_live"
+                        ],
+                        "exclude_entities": []
+                    },
+                    "entity_config": {
+                        "camera.doorstation_1ccae3711005_live": {
+                            "video_codec": "copy",
+                            "manufacturer": "Bird Home Automation Group",
+                            "model": "DoorBird D101",
+                            "sw_version": "000131 16345668",
+                            "platform": "doorbird"
+                        }
+                    },
+                    "mode": "accessory"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "accessory",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "8abce7ca665283af05e5274cbb06e990",
+                "version": 1,
+                "domain": "homekit",
+                "title": "Doorstation - 1CCAE3711005 Last Ring:21066",
+                "data": {
+                    "port": 21066,
+                    "name": "Doorstation   1CCAE3711005 Last Ring"
+                },
+                "options": {
+                    "filter": {
+                        "include_domains": [],
+                        "exclude_domains": [],
+                        "include_entities": [
+                            "camera.doorstation_1ccae3711005_last_ring"
+                        ],
+                        "exclude_entities": []
+                    },
+                    "entity_config": {
+                        "camera.doorstation_1ccae3711005_last_ring": {
+                            "video_codec": "copy",
+                            "manufacturer": "Bird Home Automation Group",
+                            "model": "DoorBird D101",
+                            "sw_version": "000131 16345668",
+                            "platform": "doorbird"
+                        }
+                    },
+                    "mode": "accessory"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "accessory",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "8dad9abcb7175572d3550b6b78876d55",
+                "version": 1,
+                "domain": "homekit",
+                "title": "Doorstation - 1CCAE3711005 Last Motion:21067",
+                "data": {
+                    "port": 21067,
+                    "name": "Doorstation   1CCAE3711005 Last Motion"
+                },
+                "options": {
+                    "filter": {
+                        "include_domains": [],
+                        "exclude_domains": [],
+                        "include_entities": [
+                            "camera.doorstation_1ccae3711005_last_motion"
+                        ],
+                        "exclude_entities": []
+                    },
+                    "entity_config": {
+                        "camera.doorstation_1ccae3711005_last_motion": {
+                            "video_codec": "copy",
+                            "manufacturer": "Bird Home Automation Group",
+                            "model": "DoorBird D101",
+                            "sw_version": "000131 16345668",
+                            "platform": "doorbird"
+                        }
+                    },
+                    "mode": "accessory"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "accessory",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "64647b57e3beeb417e2c509f4b1eb931",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "iPhone",
+                "data": {
+                    "model": "iPhone13,1",
+                    "device_name": "iPhone",
+                    "device_id": "3B619D1B-E9BA-450B-B604-C701168C915C",
+                    "manufacturer": "Apple",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "os_version": "15.1.1",
+                    "app_data": {
+                        "push_token": "eLU1ZCp1E0hyrXbCenw7bq:APA91bEHZ7jbpbuT4u0JHP_bmSpVwUwjCgXrZIJQslq20jswyylD6x1jg8cGaWi24QXac_1cU_Akd3ZnVwx2gCeJ6eov3GrmID39pgQNH7cFeBguWknNLyjra3pRuWaLw2Kdf2Cis_kd",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "supports_encryption": true,
+                    "app_version": "2021.11.1 (2021.266)",
+                    "app_name": "Home Assistant",
+                    "os_name": "iOS",
+                    "webhook_id": "c730b1337640492628c04134d0471db01d7019d5d60ab7d7e2482a9e195b4ba1",
+                    "secret": "2f3827af9281df5192c95ab8f130b8ceace749677fd8a35322b2eb71d5f82609",
+                    "user_id": "ecf91932d95d424db935bd5b593b62ec"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-3B619D1B-E9BA-450B-B604-C701168C915C",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "aadaae6513623edf1c1f8269553a2e5a",
+                "version": 1,
+                "domain": "synology_dsm",
+                "title": "10.1.0.100",
+                "data": {
+                    "host": "10.1.0.100",
+                    "port": "5000",
+                    "ssl": false,
+                    "verify_ssl": false,
+                    "username": "andre",
+                    "password": "Qaws1234!",
+                    "mac": [
+                        "00-11-32-F7-76-B7",
+                        "00-11-32-F7-76-B8"
+                    ]
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "2150SBR02CRFY",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "dc922acd48c3769e83e27a431c0dea18",
+                "version": 2,
+                "domain": "openweathermap",
+                "title": "OpenWeatherMap",
+                "data": {
+                    "api_key": "3c77812e06949c80f2cbf84891f7414b",
+                    "name": "OpenWeatherMap",
+                    "latitude": 45.39512387127685,
+                    "longitude": -75.82934696227314,
+                    "mode": "onecall_daily",
+                    "language": "en"
+                },
+                "options": {
+                    "mode": "hourly",
+                    "language": "en"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "45.39512387127685--75.82934696227314",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "5036130c88576aea6681087e38baaf9a",
+                "version": 1,
+                "domain": "apple_tv",
+                "title": "Office Apple TV (2)",
+                "data": {
+                    "protocol": 1,
+                    "name": "Office Apple TV (2)",
+                    "credentials": {
+                        "1": "00000000-05d5-aebb-5555-4bbe998c4ee6",
+                        "3": "D64A98EC85EBA49F:6949F05266F0E13DC10E49BF6ABDD59C039255E116B78A7EBEB2A38431DE2A4E"
+                    },
+                    "address": "10.0.0.241"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "8246B166C5805408",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "0a71742af0d4e40f6c7a2189ae5d6437",
+                "version": 1,
+                "domain": "tuya_v2",
+                "title": "as87321234@gmail.com",
+                "data": {
+                    "o0o0o0": "8832607de5e5794d7336bdfdd0617ff8b7534cff76cdf654cebff50095c12c694bf71be1b0007c2b8cd906199c1a4bfc1f50090f42eec81450e7200ac454681324462c799b41ca6d9c84f9d1984145adf1ccd985fd021c1e8d9bbac74340a2b518a8dce84b5a8477811e352c51a12b618e712349eb77ced36d6fcb43e85a11e45f3904ec6b4216fde3e2301a819ad45f05643dc5519d8080be8f30022f7fcd839246b349cb3282bee6f7b170f83aec2f5000cc94835217c6191952cd416456a70fa730f1f83947ce4bf1cd61ad78bf86fae9e90d1fe723d26d4e596cf2a23035977427c2009555fb317b2ff0831b130a8a674f49d7a377d799096f5c1a33e18e427473ff5fbfaac7eb8643f359c9355f",
+                    "00oo00": "AFRXDkVTEEcWUgARZwFMWVppQhIFDAcDAVtYRFQXVEQ=",
+                    "oo00oo": "3a0c6245a48591f3878b1cbe591bd45afff1f452269d93a5d853172f919f5ee0"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "e6744867d9ab5531d0cc7361a79e19c0",
+                "version": 1,
+                "domain": "doorbird",
+                "title": "10.0.0.210",
+                "data": {
+                    "host": "10.0.0.210",
+                    "username": "ghbunl0002",
+                    "password": "rK7kuZZHAr",
+                    "name": "doorbird"
+                },
+                "options": {
+                    "events": [
+                        "doorbird",
+                        "motion"
+                    ]
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "1CCAE3711005",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "c132fc95158b6ba236d878757e8b2f90",
+                "version": 1,
+                "domain": "onvif",
+                "title": "LOREX - 00:40:7f:bf:84:27",
+                "data": {
+                    "name": "LOREX",
+                    "host": "10.0.0.151",
+                    "port": 80,
+                    "username": "admin",
+                    "password": "admin",
+                    "snapshot_auth": "digest"
+                },
+                "options": {
+                    "extra_arguments": "-pred 1",
+                    "rtsp_transport": "tcp"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "00:40:7f:bf:84:27",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "c306115bf5a0720a949f52f3092b3324",
+                "version": 1,
+                "domain": "onvif",
+                "title": "LOREX - 00:40:7f:bf:84:07",
+                "data": {
+                    "name": "LOREX",
+                    "host": "10.0.0.152",
+                    "port": 80,
+                    "username": "admin",
+                    "password": "admin",
+                    "snapshot_auth": "digest"
+                },
+                "options": {
+                    "extra_arguments": "-pred 1",
+                    "rtsp_transport": "tcp"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "00:40:7f:bf:84:07",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "5016ba784c53ff01ec68a4e0b6a3582e",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "iPad (2)",
+                "data": {
+                    "app_version": "2021.11.1 (2021.266)",
+                    "supports_encryption": true,
+                    "device_id": "04A212C5-1552-4AD4-99DE-17D32B3F221E",
+                    "app_name": "Home Assistant",
+                    "app_data": {
+                        "push_token": "d6aUulnc4kTYpucTv_01wn:APA91bH55CvQW6hQEQ-wUS4d4B1QllutYnRRnNpdT10PAkH1UYES7DsnD2e3sjeccl_J27P8kcd6Bej13pCO4b1-TXRIuCb1XLThH4Ns4gZbBWIdd31iInINmHlhWqdzk8ROxkdfkvWN",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "manufacturer": "Apple",
+                    "model": "iPad8,11",
+                    "os_version": "15.1",
+                    "device_name": "iPad (2)",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "os_name": "iPadOS",
+                    "webhook_id": "04cfee3805e418c1f424d958ce1557410e0af5db9c5c2ca61cf6272d9567ad21",
+                    "secret": "e29db890505b09cb1c6fa09abd66073bff87ac3185c206aadf5011d8dae2a949",
+                    "user_id": "561bf937ca444e8cb205a917168ee146"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-04A212C5-1552-4AD4-99DE-17D32B3F221E",
+                "disabled_by": null
+            }
+        ]
+    }
+}

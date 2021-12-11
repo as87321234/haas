@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Andre",
+                "user_id": "561bf937ca444e8cb205a917168ee146",
+                "device_trackers": [
+                    "device_tracker.iphone_12_pro",
+                    "device_tracker.andres_iphone_2",
+                    "device_tracker.ipad_2"
+                ],
+                "id": "andre"
+            },
+            {
+                "name": "Sonia",
+                "device_trackers": [],
+                "user_id": "ecf91932d95d424db935bd5b593b62ec",
+                "picture": null,
+                "id": "sonia"
+            }
+        ]
+    }
+}

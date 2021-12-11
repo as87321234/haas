@@ -1,0 +1,18 @@
+{
+    "version": "6",
+    "key": "hacs.hacs",
+    "data": {
+        "view": "Grid",
+        "compact": false,
+        "onboarding_done": false,
+        "archived_repositories": [
+            "estevez-dev/extended-banner-card",
+            "estevez-dev/extended-banner-card",
+            "ppanagiotis/pymusiccast"
+        ],
+        "renamed_repositories": {
+            "marksie1988/atomic-calendar-revive": "totaldebug/atomic-calendar-revive",
+            "PepegaBruh/CryptoTracker": "BigNocciolino/CryptoTracker"
+        }
+    }
+}

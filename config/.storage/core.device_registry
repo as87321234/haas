@@ -1,0 +1,1503 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "255990f5c3be5363e48317c7cab6078c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "0fca9a32f19c37be38fb277493e03c87"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Bedroom speaker",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c86b16df90bfbf20a0d685495a678460",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "255990f5c3be5363e48317c7cab6078c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "e3a0107d152622865cd88671ab389523"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Nest Hub",
+                "name": "Living room",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "20bd54babb09e5430017f21055af8a36",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "255990f5c3be5363e48317c7cab6078c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "2ce309cf51db8b61aab8f6278dc141f9"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Nest Hub",
+                "name": "Office Display",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "df7c958c1fec8ea6a9f3df382dba0d7c",
+                "via_device_id": null,
+                "area_id": "office",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "255990f5c3be5363e48317c7cab6078c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "2af71788a5a9a2ced935da1d3c01373f"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Living Room - mini",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "1f056bd44dab74489f717736effb28ad",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "255990f5c3be5363e48317c7cab6078c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "95032c21ed47b37ff5fe9aee2cbfaeb4"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Backyard speaker",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "6dbf13a28be12491a0d1506db635b9ee",
+                "via_device_id": null,
+                "area_id": "backyard",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "ce049c3893a88e199abd2aaaf4ad1bc6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "ipp",
+                        "434e4447-3136-3738-3033-3ca82af645df"
+                    ]
+                ],
+                "manufacturer": "Hewlett-Packard",
+                "model": "HP LaserJet 400 color M451nw",
+                "name": "HP LaserJet 400 color M451nw",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "1e3de766273ebf24211ff55e7d69f85b",
+                "via_device_id": null,
+                "area_id": "",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "483b24f796cedf6ba8ac5b945ed91c24"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "0c:80:63:e6:2a:11"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "0C:80:63:E6:2A:11"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS200(US)",
+                "name": "Master Bathroom Light",
+                "sw_version": "1.5.7 Build 191118 Rel.140152",
+                "entry_type": null,
+                "id": "6a7f6cbbdfc5f3ef1a96fc09592e5a2e",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "3324349e8893687e3fd5a5dde2b8475d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "0c:80:63:e6:13:40"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "0C:80:63:E6:13:40"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS200(US)",
+                "name": "Backyard",
+                "sw_version": "1.5.7 Build 191118 Rel.140152",
+                "entry_type": null,
+                "id": "fd07fdb725636d5c39ec696c0000bd77",
+                "via_device_id": null,
+                "area_id": "backyard",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "80c4bdc99a73c3579027afaa4cebbfdb"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:4e:26:20:25:bb"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "B0:4E:26:20:25:BB"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS105(US)",
+                "name": "Venmar",
+                "sw_version": "1.5.6 Build 191114 Rel.104204",
+                "entry_type": null,
+                "id": "82191a8828159f210113b185effc1f28",
+                "via_device_id": null,
+                "area_id": "control",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "f40c8ddd003c9bade110d5283fe2b411"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "0c:80:63:e6:16:47"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "0C:80:63:E6:16:47"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS200(US)",
+                "name": "Kitchen Sink",
+                "sw_version": "1.5.7 Build 191118 Rel.140152",
+                "entry_type": null,
+                "id": "c1d90e1945ba0a71521d07468ab2b242",
+                "via_device_id": null,
+                "area_id": "kitchen",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "b4ef0400881612d7ad5c9d1e09561235"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "0c:80:63:e6:1a:1b"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "0C:80:63:E6:1A:1B"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS200(US)",
+                "name": "Vent",
+                "sw_version": "1.5.7 Build 191118 Rel.140152",
+                "entry_type": null,
+                "id": "c07f9e3728a18afcf35b0e45fe6eabb4",
+                "via_device_id": null,
+                "area_id": "control",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "1e14d2fb89bb33942665ed1caa0687ca"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:4e:26:17:bd:31"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "B0:4E:26:17:BD:31"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS105(US)",
+                "name": "Doorbird plug",
+                "sw_version": "1.5.6 Build 191114 Rel.104204",
+                "entry_type": null,
+                "id": "e3006e678dd2e076adab9d44303f502b",
+                "via_device_id": null,
+                "area_id": "control",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "f58f98c6de0b8954042a28adb64aef34"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:4e:26:17:b1:a0"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "B0:4E:26:17:B1:A0"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS105(US)",
+                "name": "Living Room Plug",
+                "sw_version": "1.5.6 Build 191114 Rel.104204",
+                "entry_type": null,
+                "id": "183b76a12ee761140bb851ba3abaa077",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "be2bbc1601148ad1bfb6a6b2fb544e14"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:29:c6:09"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "B0:BE:76:29:C6:09"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS105(US)",
+                "name": "Christmas tree",
+                "sw_version": "1.5.6 Build 191114 Rel.104204",
+                "entry_type": null,
+                "id": "c5c26c67e1187030b5aa1131fdfe7f01",
+                "via_device_id": null,
+                "area_id": "control",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "8e736703ab05417247435e9bf18b1796"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:29:bb:0a"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "B0:BE:76:29:BB:0A"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS105(US)",
+                "name": "Exercise Light",
+                "sw_version": "1.5.6 Build 191114 Rel.104204",
+                "entry_type": null,
+                "id": "87d74ffcf761f5771dfdbab21e8abdb5",
+                "via_device_id": null,
+                "area_id": "control",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "d7853e1b6874e3354b825685ea4d8d7f"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "25EDC164-E169-4FC1-BB89-3D7DB04F56B8"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone13,3",
+                "name": "Iphone 12 Pro",
+                "sw_version": "15.0.2",
+                "entry_type": null,
+                "id": "25bef45eade0d9f2af64f3b8f852e129",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "93a734419a1039a97b4879e705085606"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.18.0",
+                "entry_type": "service",
+                "id": "69b10203d78c935bf16297e0df8219d2",
+                "via_device_id": null,
+                "area_id": "control",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "homeassistant://hacs"
+            },
+            {
+                "config_entries": [
+                    "25673386dc7afa98b1586ec521d1722e"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "46C8B83C-8EF9-4CC8-A740-0958C551BAC4"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone12,5",
+                "name": "andre\u2019s iPhone (2)",
+                "sw_version": "15.1",
+                "entry_type": null,
+                "id": "51613caecd1e279a8411914fad97f762",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "5ba57457dbff905121fd7e9bad6f94d7"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:65:58:43"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "001788FFFE655843"
+                    ]
+                ],
+                "manufacturer": "Signify",
+                "model": "BSB002",
+                "name": "Philips hue",
+                "sw_version": "1948086000",
+                "entry_type": null,
+                "id": "5d5f2329f8802eb2926f24de8b3c12cb",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "5ba57457dbff905121fd7e9bad6f94d7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:03:bd:3d:a0-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp",
+                "name": "Gazebo",
+                "sw_version": "1.88.1",
+                "entry_type": null,
+                "id": "49f6bdd054dfbcee055619a658723385",
+                "via_device_id": "5d5f2329f8802eb2926f24de8b3c12cb",
+                "area_id": "backyard",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "5ba57457dbff905121fd7e9bad6f94d7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:ed:b9:b4-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue white lamp",
+                "name": "Corner",
+                "sw_version": "1.88.1",
+                "entry_type": null,
+                "id": "84cf756d5f385e9c9e762b8afaf0abc9",
+                "via_device_id": "5d5f2329f8802eb2926f24de8b3c12cb",
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "5ba57457dbff905121fd7e9bad6f94d7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:a0:c1:1e-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue white lamp",
+                "name": "Piano",
+                "sw_version": "1.88.1",
+                "entry_type": null,
+                "id": "4525442a58e7449adec305be7518c711",
+                "via_device_id": "5d5f2329f8802eb2926f24de8b3c12cb",
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "5ba57457dbff905121fd7e9bad6f94d7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:08:78:c7:a9-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue white Lamp",
+                "name": "Soso",
+                "sw_version": "1.76.8",
+                "entry_type": null,
+                "id": "3cc6bee2cb816939f59310c29312b099",
+                "via_device_id": "5d5f2329f8802eb2926f24de8b3c12cb",
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "5ba57457dbff905121fd7e9bad6f94d7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:08:79:b1:0d-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue white Lamp",
+                "name": "Desk Light",
+                "sw_version": "1.76.6",
+                "entry_type": null,
+                "id": "cc6a1a733c47bbc9fd0ea303da62a8ae",
+                "via_device_id": "5d5f2329f8802eb2926f24de8b3c12cb",
+                "area_id": "master_bedroom_hue",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "50b8cf3c29cc7b02574723b57ae22919"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "51:43:00:22:2c:4f"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "homekit",
+                        "50b8cf3c29cc7b02574723b57ae22919",
+                        "homekit.bridge"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "HomeKit Bridge",
+                "name": "HASS Bridge:21064",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "3c158318b168f9e95252f556fe7672ca",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "62b607519bb10c857f1ba6aa5d25e22c"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "a2:e6:4f:56:db:59"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "homekit",
+                        "62b607519bb10c857f1ba6aa5d25e22c",
+                        "homekit.bridge"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "HomeKit Accessory",
+                "name": "Doorstation - 1CCAE3711005 Live:21065",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "44cf4989196432eecacdddff257d58e0",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "8abce7ca665283af05e5274cbb06e990"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "9e:9c:49:c3:bc:c6"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "homekit",
+                        "8abce7ca665283af05e5274cbb06e990",
+                        "homekit.bridge"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "HomeKit Accessory",
+                "name": "Doorstation - 1CCAE3711005 Last Ring:21066",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "0e49d49e5f400296728bc2269d5dfa41",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "8dad9abcb7175572d3550b6b78876d55"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "ca:c0:d1:17:84:d5"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "homekit",
+                        "8dad9abcb7175572d3550b6b78876d55",
+                        "homekit.bridge"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "HomeKit Accessory",
+                "name": "Doorstation - 1CCAE3711005 Last Motion:21067",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "c3752be83d8c2686a32a13d61d139a6a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "64647b57e3beeb417e2c509f4b1eb931"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "3B619D1B-E9BA-450B-B604-C701168C915C"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone13,1",
+                "name": "iPhone",
+                "sw_version": "15.1.1",
+                "entry_type": null,
+                "id": "c7dca4dddb7b23613f2cb93dd57c2eda",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "aadaae6513623edf1c1f8269553a2e5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "synology_dsm",
+                        "2150SBR02CRFY"
+                    ]
+                ],
+                "manufacturer": "Synology",
+                "model": "DS920+",
+                "name": "Synology NAS",
+                "sw_version": "DSM 7.0-41890",
+                "entry_type": null,
+                "id": "62c1cf7b2d7d625cd6afdeafd17bb76a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://10.1.0.100:5000"
+            },
+            {
+                "config_entries": [
+                    "aadaae6513623edf1c1f8269553a2e5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "synology_dsm",
+                        "2150SBR02CRFY_sata1"
+                    ]
+                ],
+                "manufacturer": "Seagate",
+                "model": "ST8000VN0022-2EL112",
+                "name": "Synology NAS (Drive 3 - SATA)",
+                "sw_version": "SC61",
+                "entry_type": null,
+                "id": "c2de138c0a6e5976ef90772f5acb153e",
+                "via_device_id": "62c1cf7b2d7d625cd6afdeafd17bb76a",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://10.1.0.100:5000"
+            },
+            {
+                "config_entries": [
+                    "aadaae6513623edf1c1f8269553a2e5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "synology_dsm",
+                        "2150SBR02CRFY_sata2"
+                    ]
+                ],
+                "manufacturer": "Seagate",
+                "model": "ST8000AS0002-1NA17Z",
+                "name": "Synology NAS (Drive 4 - SATA)",
+                "sw_version": "AR15",
+                "entry_type": null,
+                "id": "39b5cc1fc93b1e2c2ae740f4ba432269",
+                "via_device_id": "62c1cf7b2d7d625cd6afdeafd17bb76a",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://10.1.0.100:5000"
+            },
+            {
+                "config_entries": [
+                    "aadaae6513623edf1c1f8269553a2e5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "synology_dsm",
+                        "2150SBR02CRFY_sata3"
+                    ]
+                ],
+                "manufacturer": "WDC     ",
+                "model": "WD80EFBX-68AZZN0",
+                "name": "Synology NAS (Drive 1 - SATA)",
+                "sw_version": "85.00A85",
+                "entry_type": null,
+                "id": "0f68c4103a2f3eb0b03ef69d26466353",
+                "via_device_id": "62c1cf7b2d7d625cd6afdeafd17bb76a",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://10.1.0.100:5000"
+            },
+            {
+                "config_entries": [
+                    "aadaae6513623edf1c1f8269553a2e5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "synology_dsm",
+                        "2150SBR02CRFY_sata4"
+                    ]
+                ],
+                "manufacturer": "WDC     ",
+                "model": "WD80EFBX-68AZZN0",
+                "name": "Synology NAS (Drive 2 - SATA)",
+                "sw_version": "85.00A85",
+                "entry_type": null,
+                "id": "9d95c02267ca9da782e282fba1f52bae",
+                "via_device_id": "62c1cf7b2d7d625cd6afdeafd17bb76a",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://10.1.0.100:5000"
+            },
+            {
+                "config_entries": [
+                    "aadaae6513623edf1c1f8269553a2e5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "synology_dsm",
+                        "2150SBR02CRFY_nvme0n1"
+                    ]
+                ],
+                "manufacturer": "Unknown",
+                "model": "HP SSD EX920 256GB",
+                "name": "Synology NAS (Cache device 2 - NVMe)",
+                "sw_version": "32A0T2IA",
+                "entry_type": null,
+                "id": "2310d24f63152778fbb4dbf5e0cfc800",
+                "via_device_id": "62c1cf7b2d7d625cd6afdeafd17bb76a",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://10.1.0.100:5000"
+            },
+            {
+                "config_entries": [
+                    "aadaae6513623edf1c1f8269553a2e5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "synology_dsm",
+                        "2150SBR02CRFY_nvme1n1"
+                    ]
+                ],
+                "manufacturer": "Unknown",
+                "model": "HP SSD EX920 256GB",
+                "name": "Synology NAS (Cache device 1 - NVMe)",
+                "sw_version": "32A0T2IA",
+                "entry_type": null,
+                "id": "ce55918405a1c355e60c3948d4db6b9d",
+                "via_device_id": "62c1cf7b2d7d625cd6afdeafd17bb76a",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://10.1.0.100:5000"
+            },
+            {
+                "config_entries": [
+                    "aadaae6513623edf1c1f8269553a2e5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "synology_dsm",
+                        "2150SBR02CRFY_volume_3"
+                    ]
+                ],
+                "manufacturer": "Synology",
+                "model": "DS920+",
+                "name": "Synology NAS (Volume 3 - RAID 0)",
+                "sw_version": "DSM 7.0-41890",
+                "entry_type": null,
+                "id": "a7c0974bdc358ca247fe599cd730d8d4",
+                "via_device_id": "62c1cf7b2d7d625cd6afdeafd17bb76a",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://10.1.0.100:5000"
+            },
+            {
+                "config_entries": [
+                    "aadaae6513623edf1c1f8269553a2e5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "synology_dsm",
+                        "2150SBR02CRFY_volume_1"
+                    ]
+                ],
+                "manufacturer": "Synology",
+                "model": "DS920+",
+                "name": "Synology NAS (Volume 1 - RAID 1)",
+                "sw_version": "DSM 7.0-41890",
+                "entry_type": null,
+                "id": "17adcf23aee0c81cc1902148f535bb29",
+                "via_device_id": "62c1cf7b2d7d625cd6afdeafd17bb76a",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://10.1.0.100:5000"
+            },
+            {
+                "config_entries": [
+                    "aadaae6513623edf1c1f8269553a2e5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "synology_dsm",
+                        "2150SBR02CRFY_volume_2"
+                    ]
+                ],
+                "manufacturer": "Synology",
+                "model": "DS920+",
+                "name": "Synology NAS (Volume 2 - RAID 1)",
+                "sw_version": "DSM 7.0-41890",
+                "entry_type": null,
+                "id": "9de4c18ed13cb5fbe691a4d782ca40d1",
+                "via_device_id": "62c1cf7b2d7d625cd6afdeafd17bb76a",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://10.1.0.100:5000"
+            },
+            {
+                "config_entries": [
+                    "dc922acd48c3769e83e27a431c0dea18"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "openweathermap",
+                        "45.39512387127685-"
+                    ]
+                ],
+                "manufacturer": "OpenWeather",
+                "model": null,
+                "name": "OpenWeatherMap",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "3f95628ea79ac52b31f6be8af3451c01",
+                "via_device_id": null,
+                "area_id": "backyard",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "dc922acd48c3769e83e27a431c0dea18"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "openweathermap",
+                        "45.39512387127685--75.82934696227314"
+                    ]
+                ],
+                "manufacturer": "OpenWeather",
+                "model": null,
+                "name": "OpenWeatherMap",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "a4e7533cb4ab28ed08ed80a68aab55e3",
+                "via_device_id": null,
+                "area_id": "backyard",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "5036130c88576aea6681087e38baaf9a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "apple_tv",
+                        "8246B166C5805408"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "Apple TV Unknown",
+                "name": "Office Apple TV (2)",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "fbdddc1d18d60dadb87e5980f817bf79",
+                "via_device_id": null,
+                "area_id": "office",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "0a71742af0d4e40f6c7a2189ae5d6437"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya_v2",
+                        "07200106bcddc2ef5c0e"
+                    ]
+                ],
+                "manufacturer": "tuya",
+                "model": "Smart Dimmer (Single Pole)",
+                "name": "Kitchen Ceilling",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "9f7e3d801deab3d40e997d83bdeec86a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "0a71742af0d4e40f6c7a2189ae5d6437"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya_v2",
+                        "53365228bcddc28caaa6"
+                    ]
+                ],
+                "manufacturer": "tuya",
+                "model": "Smart Dimmer (Single Pole)",
+                "name": "Front yard Light",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "ea9d41082d5eb432657758587e15dea5",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "0a71742af0d4e40f6c7a2189ae5d6437"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya_v2",
+                        "53365228bcddc28c2a0c"
+                    ]
+                ],
+                "manufacturer": "tuya",
+                "model": "Smart Dimmer (Single Pole)",
+                "name": "Entrance Light",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "9422eb56949e6fca2a5136b68edc67fe",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "0a71742af0d4e40f6c7a2189ae5d6437"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya_v2",
+                        "53365228ecfabc9d07d3"
+                    ]
+                ],
+                "manufacturer": "tuya",
+                "model": "Smart Dimmer (Single Pole)",
+                "name": "Bed side ceiling",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "7830cb0b8e8cfae5d79f76215335cefa",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "0a71742af0d4e40f6c7a2189ae5d6437"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya_v2",
+                        "07200106bcddc2efbc7c"
+                    ]
+                ],
+                "manufacturer": "tuya",
+                "model": "Smart Dimmer (Single Pole)",
+                "name": "Patio Door Ceiling",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "66e94ca373116dd28b943e3741df72ab",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "0a71742af0d4e40f6c7a2189ae5d6437"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya_v2",
+                        "53365228cc50e306af12"
+                    ]
+                ],
+                "manufacturer": "tuya",
+                "model": "Smart Dimmer (Single Pole)",
+                "name": "Basement Ceiling",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "4119d3e5a155bb9407b988324098be3c",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "0a71742af0d4e40f6c7a2189ae5d6437"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya_v2",
+                        "67208617500291151953"
+                    ]
+                ],
+                "manufacturer": "tuya",
+                "model": "Smart Plug",
+                "name": "Smart Plug",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "8df17545594ac7c488149bc22a2c4b7c",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "0a71742af0d4e40f6c7a2189ae5d6437"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya_v2",
+                        "68484884dc4f227178e4"
+                    ]
+                ],
+                "manufacturer": "tuya",
+                "model": "Smart Power Strip",
+                "name": "Aquarium",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "918303de6618ce10fa5ed4cb21efdaaf",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "0a71742af0d4e40f6c7a2189ae5d6437"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya_v2",
+                        "6720861724a16006fe00"
+                    ]
+                ],
+                "manufacturer": "tuya",
+                "model": "Smart Plug",
+                "name": "Smart Plug 2",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "e872a0b45f67d2b7ea122753e9f8a4c4",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "e6744867d9ab5531d0cc7361a79e19c0"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "1c:ca:e3:71:10:05"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Bird Home Automation Group",
+                "model": "DoorBird D101",
+                "name": "doorbird",
+                "sw_version": "000131 16345668",
+                "entry_type": null,
+                "id": "6e88d4e73d0d1473fe42211b396b0bde",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://webadmin.doorbird.com/"
+            },
+            {
+                "config_entries": [
+                    "c132fc95158b6ba236d878757e8b2f90"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:40:7f:bf:84:27"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "onvif",
+                        "00:40:7f:bf:84:27"
+                    ]
+                ],
+                "manufacturer": "LOREX",
+                "model": "LNZ32P4B",
+                "name": "LOREX",
+                "sw_version": "2.400.LOREX 06.6.R.4, build: 2016-03-21",
+                "entry_type": null,
+                "id": "37d02366f1e06ea2468920def1c8a9db",
+                "via_device_id": null,
+                "area_id": "backyard",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "c306115bf5a0720a949f52f3092b3324"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:40:7f:bf:84:07"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "onvif",
+                        "00:40:7f:bf:84:07"
+                    ]
+                ],
+                "manufacturer": "LOREX",
+                "model": "LNZ32P4B",
+                "name": "LOREX",
+                "sw_version": "2.400.LOREX 06.6.R.4, build: 2016-03-21",
+                "entry_type": null,
+                "id": "cb2a0d9859fc68e216d505f8e6e40faf",
+                "via_device_id": null,
+                "area_id": "front_yard",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "5016ba784c53ff01ec68a4e0b6a3582e"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "04A212C5-1552-4AD4-99DE-17D32B3F221E"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPad8,11",
+                "name": "iPad (2)",
+                "sw_version": "15.1",
+                "entry_type": null,
+                "id": "00608d0e94100858f4340751ae499a7a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            }
+        ],
+        "deleted_devices": [
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "weatherapi",
+                        "b20c3b1daeff32e029617961963c94f6_52.3731339,4.8903147"
+                    ]
+                ],
+                "id": "2bd6517bf065884fe45c8c21e185af87",
+                "orphaned_timestamp": 1637458394.9658127
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "weatherapi",
+                        "143093ca2c859ac253b6f5b72107e0e5_52.3731339,4.8903147"
+                    ]
+                ],
+                "id": "95bb314860fead59a0be5d74133f7024",
+                "orphaned_timestamp": 1637459016.1621072
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "68484884dc4f227178e4"
+                    ]
+                ],
+                "id": "47a5f62f9f092e4c1cf74e1236578189",
+                "orphaned_timestamp": 1637716304.7428317
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "53365228bcddc28c2a0c"
+                    ]
+                ],
+                "id": "1b1e74882946cc374d073af87036bbd7",
+                "orphaned_timestamp": 1637716304.7428317
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "07200106bcddc2ef5c0e"
+                    ]
+                ],
+                "id": "45204a283dd9d049c67c76f22d946879",
+                "orphaned_timestamp": 1637716304.7428317
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "53365228cc50e306af12"
+                    ]
+                ],
+                "id": "88df6cc0d19a85212c8ee57b8d8997f2",
+                "orphaned_timestamp": 1637716304.7428317
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "53365228bcddc28caaa6"
+                    ]
+                ],
+                "id": "afa5073bb9d59ae2e9d9b8c34c2acc8a",
+                "orphaned_timestamp": 1637716304.7428317
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "07200106bcddc2efbc7c"
+                    ]
+                ],
+                "id": "b1756956965a585da49234c9150f9675",
+                "orphaned_timestamp": 1637716304.7428317
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "67208617500291151953"
+                    ]
+                ],
+                "id": "513fff6652d005a5825a663a85a9bef5",
+                "orphaned_timestamp": 1637716304.7428317
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "53365228ecfabc9d07d3"
+                    ]
+                ],
+                "id": "17716d10ce45e104e92a883fa9895166",
+                "orphaned_timestamp": 1637716304.7428317
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "6720861724a16006fe00"
+                    ]
+                ],
+                "id": "d3fe668c08118352aeb96cce5cff349c",
+                "orphaned_timestamp": 1637716304.7428317
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "weatherapi",
+                        "24fe0daa18a8a8dfedb303cf81093f51_52.3731339,4.8903147"
+                    ]
+                ],
+                "id": "973fa1cebde928381291b135b6801223",
+                "orphaned_timestamp": 1638017273.418438
+            }
+        ]
+    }
+}

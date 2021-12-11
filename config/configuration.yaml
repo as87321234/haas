@@ -1,0 +1,83 @@
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+        #doorbird:
+        #devices:
+        #- host: 10.0.0.210
+        #username: ghbunl0001
+        #password: ddJ7bpzvUp
+        #token: 4aeab727cb45d6d60e004f30c66a7b35
+        #hass_url_override: 10.0.0.248:8123
+
+homeassistant:
+  allowlist_external_dirs:
+    - /tmp
+
+# Example configuration.yaml entry for Google Mail.
+notify:
+  - name: "DOORBIRD"
+    platform: smtp
+    server: "smtp.gmail.com"
+    port: 587
+    timeout: 15
+    sender: "as87321234@gmail.com"
+    encryption: starttls
+    username: "as87321234@gmail.com"
+    password: "zjoywhmhlpkkwuke"
+    recipient:
+      - "sb87321234@gmail.com"
+      - "as87321234@gmail.com"
+    sender_name: "DOORBIRD"
+
+_alarm_control_panel:
+  - platform: alarmdotcom
+    name: Home
+    username: as87321234@gmail.com
+    password: Plokij1234! 
+    # The below parameters are optional
+    #code: "01234"
+    # force_bypass, no_entry_delay, and silent_arming are not supported on all systems/providers. See the description section below.
+    #force_bypass: "true"
+    #no_entry_delay: "home"
+    #silent_arming: "false"
+    # two_factor_cookie is only used if your portal is forcing 2FA
+    two_factor_cookie: "5848CBA9C53711F4627ADC2880EAD58F729251EF2BEE904DA6CB8A7A67A3C0E6"   
+    #- platform: alarmdotcom
+    #name: Condo
+    #username: as87321234@gmail.com
+    #password: Plokij1234! 
+    # The below parameters are optional
+    ##code: "01234"
+    # force_bypass, no_entry_delay, and silent_arming are not supported on all systems/providers. See the description section below.
+    #force_bypass: "true"
+    #no_entry_delay: "home"
+    #silent_arming: "false"
+    # two_factor_cookie is only used if your portal is forcing 2FA
+    #two_factor_cookie: "5848CBA9C53711F4627ADC2880EAD58F729251EF2BEE904DA6CB8A7A67A3C0E6"   
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+sensor: !include sensor.yaml
+
+# Example configuration.yaml entry
+logger:
+  default: info
+  logs:
+    pyalarmdotcomajax.pyalarmdotcomajax: debug
+
+frontend:
+  # your configuration.
+  themes: !include_dir_merge_named themes
+
+sonoff:
+  username: as87321234@gmail.com
+  password: Qaws1234!
+  mode: cloud
+  reload: always  # update device list every time HA starts
+

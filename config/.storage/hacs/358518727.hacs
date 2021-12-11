@@ -1,0 +1,63 @@
+{
+    "version": "6",
+    "key": "hacs/358518727.hacs",
+    "data": {
+        "archived": false,
+        "authors": [
+            "@Tuya"
+        ],
+        "category": "integration",
+        "content_in_root": false,
+        "country": [],
+        "config_flow": true,
+        "default_branch": "main",
+        "description": "Home Assistant integration for controlling Powered by Tuya (PBT) devices using Tuya Open API, maintained by the Home Assistant Community and Tuya Developer Team.",
+        "domain": "tuya_v2",
+        "domains": [],
+        "downloads": 0,
+        "etag_repository": "W/\"8b9320ba425e913fe488991a4d829b64725f0f12ee4ca4fdbde3dc72bf67fdcb\"",
+        "file_name": "",
+        "filename": "",
+        "first_install": false,
+        "fork": false,
+        "full_name": "tuya/tuya-home-assistant",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": false,
+        "homeassistant": null,
+        "id": "358518727",
+        "iot_class": null,
+        "installed": true,
+        "installed_commit": "5ac795d",
+        "installed_version": "v1.6.0",
+        "open_issues": 378,
+        "last_commit": "c203570",
+        "last_version": "v1.6.0",
+        "last_updated": "2021-11-16T12:49:00Z",
+        "manifest_name": "Tuya v2",
+        "new": false,
+        "persistent_directory": null,
+        "pushed_at": "2021-11-16T12:49:00",
+        "releases": true,
+        "render_readme": false,
+        "published_tags": [
+            "v1.6.0",
+            "v1.5.0",
+            "v1.4.2",
+            "v1.4.1",
+            "v1.4.0"
+        ],
+        "selected_tag": null,
+        "show_beta": false,
+        "stargazers_count": 474,
+        "topics": [
+            "home-assistant",
+            "iot",
+            "mqtt-client",
+            "python",
+            "tuya",
+            "tuya-smart"
+        ],
+        "zip_release": false
+    }
+}

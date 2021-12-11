@@ -1,0 +1,73 @@
+{
+    "version": 1,
+    "key": "core.area_registry",
+    "data": {
+        "areas": [
+            {
+                "name": "Living Room",
+                "id": "living_room",
+                "picture": null
+            },
+            {
+                "name": "Kitchen",
+                "id": "kitchen",
+                "picture": null
+            },
+            {
+                "name": "Bedroom",
+                "id": "bedroom",
+                "picture": null
+            },
+            {
+                "name": "Office",
+                "id": "office",
+                "picture": null
+            },
+            {
+                "name": "Backyard",
+                "id": "backyard",
+                "picture": null
+            },
+            {
+                "name": "Control",
+                "id": "control",
+                "picture": null
+            },
+            {
+                "name": "Gazebo hue",
+                "id": "gazebo_hue",
+                "picture": null
+            },
+            {
+                "name": "Living Room Hue",
+                "id": "living_room_hue",
+                "picture": null
+            },
+            {
+                "name": "Master bedroom hue",
+                "id": "master_bedroom_hue",
+                "picture": null
+            },
+            {
+                "name": "Workshop hue",
+                "id": "workshop_hue",
+                "picture": null
+            },
+            {
+                "name": "Aquarium",
+                "id": "aquarium",
+                "picture": null
+            },
+            {
+                "name": "Front Yard",
+                "id": "front_yard",
+                "picture": null
+            },
+            {
+                "name": "Office Apple TV (2)",
+                "id": "office_apple_tv_2",
+                "picture": null
+            }
+        ]
+    }
+}

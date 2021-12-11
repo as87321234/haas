@@ -1,0 +1,1406 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.andre",
+                "state": "home",
+                "attributes": {
+                    "editable": false,
+                    "id": "andre",
+                    "latitude": 45.395111083984375,
+                    "longitude": -75.82956184989239,
+                    "gps_accuracy": 35,
+                    "source": "device_tracker.andres_iphone_2",
+                    "user_id": "561bf937ca444e8cb205a917168ee146",
+                    "friendly_name": "Andre"
+                },
+                "last_changed": "2021-12-07T02:55:59.064939+00:00",
+                "last_updated": "2021-12-07T02:56:11.201889+00:00",
+                "context": {
+                    "id": "fb0ed99972f698e15ed500b259812583",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "person.sonia",
+                "state": "home",
+                "attributes": {
+                    "editable": false,
+                    "id": "sonia",
+                    "latitude": 45.3951416015625,
+                    "longitude": -75.82929231233506,
+                    "gps_accuracy": 3,
+                    "source": "device_tracker.iphone",
+                    "user_id": "ecf91932d95d424db935bd5b593b62ec",
+                    "friendly_name": "Sonia"
+                },
+                "last_changed": "2021-12-07T02:55:59.065091+00:00",
+                "last_updated": "2021-12-07T02:56:11.201995+00:00",
+                "context": {
+                    "id": "7709ceb40f5bcbcbb19b3de55b0c2c2c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.new_automation",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-12-06T21:20:09.006262+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1636663280639",
+                    "friendly_name": "Turn on leaving room lights at dusk"
+                },
+                "last_changed": "2021-12-07T02:56:04.553160+00:00",
+                "last_updated": "2021-12-07T02:56:04.553160+00:00",
+                "context": {
+                    "id": "be52881bfd4288714a148b278121851c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.turn_off_lights_at_midnight",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-12-06T05:00:00.001679+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1637542004159",
+                    "friendly_name": "Turn off lights at midnight"
+                },
+                "last_changed": "2021-12-07T02:56:04.553398+00:00",
+                "last_updated": "2021-12-07T02:56:04.553398+00:00",
+                "context": {
+                    "id": "dedfee7443945a7fcddd5586697d484a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.turn_on_aquarium_pump_after_n_minutes",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-12-06T14:27:50.260459+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1637542308816",
+                    "friendly_name": "Turn on aquarium pump after 45 minutes"
+                },
+                "last_changed": "2021-12-07T02:56:04.553629+00:00",
+                "last_updated": "2021-12-07T02:56:04.553629+00:00",
+                "context": {
+                    "id": "885013e73ed4a3af22606c27e69a3f9e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.automated_daily_snapshot",
+                "state": "off",
+                "attributes": {
+                    "last_triggered": "2021-12-03T02:13:14.583591+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1637543417974",
+                    "friendly_name": "Automated Daily Snapshot"
+                },
+                "last_changed": "2021-12-07T02:56:04.553841+00:00",
+                "last_updated": "2021-12-07T02:56:04.553841+00:00",
+                "context": {
+                    "id": "c141542f7d5b468c54e3ae0daa1afe90",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.turn_on_soso_light",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-12-07T02:00:00.007156+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1637795217657",
+                    "friendly_name": "Turn on Soso light"
+                },
+                "last_changed": "2021-12-07T02:56:04.554013+00:00",
+                "last_updated": "2021-12-07T02:56:04.554013+00:00",
+                "context": {
+                    "id": "84093625d2a7696b761ac5649f9f26cb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.turn_off_soso_light",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-12-06T05:00:00.001987+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1637795313978",
+                    "friendly_name": "Turn off Soso light"
+                },
+                "last_changed": "2021-12-07T02:56:04.554204+00:00",
+                "last_updated": "2021-12-07T02:56:04.554204+00:00",
+                "context": {
+                    "id": "6af7ba4d53fceae75df49ad1383473db",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.doorbird_front_yard_someone_push_the_button",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-12-06T21:40:35.926777+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1638138381213",
+                    "friendly_name": "Doorbird Front Yard - someone push the button"
+                },
+                "last_changed": "2021-12-07T02:56:04.554377+00:00",
+                "last_updated": "2021-12-07T02:56:04.554377+00:00",
+                "context": {
+                    "id": "56d8afa3eb03461314ac081e39a1ba5b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.dim_living_room",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-12-06T21:20:09.005976+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1638500186557",
+                    "friendly_name": "Dim Living Room"
+                },
+                "last_changed": "2021-12-07T02:56:04.554573+00:00",
+                "last_updated": "2021-12-07T02:56:04.554573+00:00",
+                "context": {
+                    "id": "cfe0dadd4367a53fb40ae8142247899a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_activity",
+                "state": "Unknown",
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Unknown"
+                    ],
+                    "friendly_name": "Iphone 12 Pro Activity",
+                    "icon": "mdi:help-circle"
+                },
+                "last_changed": "2021-12-07T02:56:05.100380+00:00",
+                "last_updated": "2021-12-07T02:56:05.100380+00:00",
+                "context": {
+                    "id": "88a4eecf532db76eafa6d2be579ac4a0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_distance",
+                "state": "251",
+                "attributes": {
+                    "unit_of_measurement": "m",
+                    "friendly_name": "Iphone 12 Pro Distance",
+                    "icon": "mdi:hiking"
+                },
+                "last_changed": "2021-12-07T02:56:05.100523+00:00",
+                "last_updated": "2021-12-07T02:56:05.100523+00:00",
+                "context": {
+                    "id": "0d6514ccf0cf441e1b49c48cc3538c9a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_floors_ascended",
+                "state": "3",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "friendly_name": "Iphone 12 Pro Floors Ascended",
+                    "icon": "mdi:stairs-up"
+                },
+                "last_changed": "2021-12-07T02:56:05.100646+00:00",
+                "last_updated": "2021-12-07T02:56:05.100646+00:00",
+                "context": {
+                    "id": "ae92faea96f6a4a389ba0bcda6a279ad",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_floors_descended",
+                "state": "1",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "friendly_name": "Iphone 12 Pro Floors Descended",
+                    "icon": "mdi:stairs-down"
+                },
+                "last_changed": "2021-12-07T02:56:05.100804+00:00",
+                "last_updated": "2021-12-07T02:56:05.100804+00:00",
+                "context": {
+                    "id": "1d8b3ccf153850bd5e1737b49e55b56a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_steps",
+                "state": "343",
+                "attributes": {
+                    "unit_of_measurement": "steps",
+                    "friendly_name": "Iphone 12 Pro Steps",
+                    "icon": "mdi:walk"
+                },
+                "last_changed": "2021-12-07T02:56:05.100926+00:00",
+                "last_updated": "2021-12-07T02:56:05.100926+00:00",
+                "context": {
+                    "id": "1678ba2e869dec6dc2dd0e386a0c90c2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_battery_level",
+                "state": "76",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Andre 12",
+                    "icon": "mdi:battery-70",
+                    "device_class": "battery"
+                },
+                "last_changed": "2021-12-07T02:56:05.101047+00:00",
+                "last_updated": "2021-12-07T02:56:05.101047+00:00",
+                "context": {
+                    "id": "7b8b31f196f7d1fb2640e352e03cf041",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_average_active_pace",
+                "state": "1",
+                "attributes": {
+                    "unit_of_measurement": "m/s",
+                    "friendly_name": "Iphone 12 Pro Average Active Pace",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2021-12-07T02:56:05.101177+00:00",
+                "last_updated": "2021-12-07T02:56:05.101177+00:00",
+                "context": {
+                    "id": "196319002f859d3595976bb94e1001a4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_battery_state",
+                "state": "Not Charging",
+                "attributes": {
+                    "Low Power Mode": false,
+                    "friendly_name": "Iphone 12 Pro Battery State",
+                    "icon": "mdi:battery-70"
+                },
+                "last_changed": "2021-12-07T02:56:05.101298+00:00",
+                "last_updated": "2021-12-07T02:56:05.101298+00:00",
+                "context": {
+                    "id": "0f6c8ec48514aaebc4e2fb684474af7b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_storage",
+                "state": "47.32",
+                "attributes": {
+                    "Available": "42.29 GB",
+                    "Available (Important)": "139.97 GB",
+                    "Available (Opportunistic)": "60.51 GB",
+                    "Total": "127.88 GB",
+                    "unit_of_measurement": "% available",
+                    "friendly_name": "Iphone 12 Pro Storage",
+                    "icon": "mdi:database"
+                },
+                "last_changed": "2021-12-07T02:56:05.101421+00:00",
+                "last_updated": "2021-12-07T02:56:05.101421+00:00",
+                "context": {
+                    "id": "c9665d074614da7726115dd6598f555a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_ssid",
+                "state": "Tartuffe",
+                "attributes": {
+                    "friendly_name": "Iphone 12 Pro SSID",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-12-07T02:56:05.101540+00:00",
+                "last_updated": "2021-12-07T02:56:05.101540+00:00",
+                "context": {
+                    "id": "5dbab99d8eb80e09ce61d9812958a212",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_bssid",
+                "state": "12:80:63:73:78:4",
+                "attributes": {
+                    "friendly_name": "Iphone 12 Pro BSSID",
+                    "icon": "mdi:wifi-star"
+                },
+                "last_changed": "2021-12-07T02:56:05.101660+00:00",
+                "last_updated": "2021-12-07T02:56:05.101660+00:00",
+                "context": {
+                    "id": "078d044771f56c989267d765faf51f2f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_connection_type",
+                "state": "Wi-Fi",
+                "attributes": {
+                    "friendly_name": "Iphone 12 Pro Connection Type",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-12-07T02:56:05.101781+00:00",
+                "last_updated": "2021-12-07T02:56:05.101781+00:00",
+                "context": {
+                    "id": "bc181ce522fe1fe420be6c8ad8df00df",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_sim_2",
+                "state": "N/A",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000002",
+                    "Carrier Name": "N/A",
+                    "ISO Country Code": "N/A",
+                    "Mobile Country Code": "N/A",
+                    "Mobile Network Code": "N/A",
+                    "friendly_name": "Iphone 12 Pro SIM 2",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2021-12-07T02:56:05.101902+00:00",
+                "last_updated": "2021-12-07T02:56:05.101902+00:00",
+                "context": {
+                    "id": "2e258fadb6b264e125193a81048ffd7f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_sim_1",
+                "state": "Bell",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "Bell",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "ca",
+                    "Mobile Country Code": "302",
+                    "Mobile Network Code": "610",
+                    "friendly_name": "Iphone 12 Pro SIM 1",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2021-12-07T02:56:05.102023+00:00",
+                "last_updated": "2021-12-07T02:56:05.102023+00:00",
+                "context": {
+                    "id": "2bb61d1995046e7ede9137a27706fc19",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_geocoded_location",
+                "state": "9 Rue Chomedey\nGatineau QC J9H 6X2\nCanada",
+                "attributes": {
+                    "Administrative Area": "QC",
+                    "Areas Of Interest": "N/A",
+                    "Country": "Canada",
+                    "Inland Water": "N/A",
+                    "ISO Country Code": "CA",
+                    "Locality": "Gatineau",
+                    "Location": [
+                        45.39512628506814,
+                        -75.82935050517925
+                    ],
+                    "Name": "9 Rue Chomedey",
+                    "Ocean": "N/A",
+                    "Postal Code": "J9H 6X2",
+                    "Sub Administrative Area": "Gatineau",
+                    "Sub Locality": "La Seigneurie-Glenwood",
+                    "Sub Thoroughfare": "9",
+                    "Thoroughfare": "Rue Chomedey",
+                    "Time Zone": "America/Toronto",
+                    "Zones": [
+                        "Home"
+                    ],
+                    "friendly_name": "Andre",
+                    "icon": "mdi:map"
+                },
+                "last_changed": "2021-12-07T02:56:05.102156+00:00",
+                "last_updated": "2021-12-07T02:56:05.102156+00:00",
+                "context": {
+                    "id": "ec25fd33463e26e3fd0769b82224f41a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_12_pro_last_update_trigger",
+                "state": "Launch",
+                "attributes": {
+                    "friendly_name": "Iphone 12 Pro Last Update Trigger",
+                    "icon": "mdi:cellphone-wireless"
+                },
+                "last_changed": "2021-12-07T02:56:05.102276+00:00",
+                "last_updated": "2021-12-07T02:56:05.102276+00:00",
+                "context": {
+                    "id": "782506009a93eed3d30c6b27a551f20c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.iphone_12_pro_focus",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Iphone 12 Pro Focus",
+                    "icon": "mdi:moon-waning-crescent"
+                },
+                "last_changed": "2021-12-07T02:56:05.102408+00:00",
+                "last_updated": "2021-12-07T02:56:05.102408+00:00",
+                "context": {
+                    "id": "3c0b5a65c8f296e0a6b527b1d1a47734",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_distance",
+                "state": "0",
+                "attributes": {
+                    "unit_of_measurement": "m",
+                    "friendly_name": "andre\u2019s iPhone (2) Distance",
+                    "icon": "mdi:hiking"
+                },
+                "last_changed": "2021-12-07T02:56:05.102530+00:00",
+                "last_updated": "2021-12-07T02:56:05.102530+00:00",
+                "context": {
+                    "id": "1bf3514b97ce50666900feeb3bc4c03e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_floors_ascended",
+                "state": "0",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "friendly_name": "andre\u2019s iPhone (2) Floors Ascended",
+                    "icon": "mdi:stairs-up"
+                },
+                "last_changed": "2021-12-07T02:56:05.102657+00:00",
+                "last_updated": "2021-12-07T02:56:05.102657+00:00",
+                "context": {
+                    "id": "8f13ea4721fa6693ed80d644b60514a5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_activity",
+                "state": "Stationary",
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Stationary"
+                    ],
+                    "friendly_name": "andre\u2019s iPhone (2) Activity",
+                    "icon": "mdi:human-male"
+                },
+                "last_changed": "2021-12-07T02:56:05.102783+00:00",
+                "last_updated": "2021-12-07T02:56:05.102783+00:00",
+                "context": {
+                    "id": "9cb34564a8e15efeec250ab4174f81d1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_battery_state",
+                "state": "Full",
+                "attributes": {
+                    "Low Power Mode": false,
+                    "friendly_name": "iPhone 11 Battery State",
+                    "icon": "mdi:battery"
+                },
+                "last_changed": "2021-12-07T02:56:05.102902+00:00",
+                "last_updated": "2021-12-07T02:56:05.102902+00:00",
+                "context": {
+                    "id": "6dfe0ef1cc4ed49eab5a601e043ca903",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_storage",
+                "state": "75.88",
+                "attributes": {
+                    "Available": "361.47 GB",
+                    "Available (Important)": "437.39 GB",
+                    "Available (Opportunistic)": "388.39 GB",
+                    "Total": "511.87 GB",
+                    "unit_of_measurement": "% available",
+                    "friendly_name": "andre\u2019s iPhone (2) Storage",
+                    "icon": "mdi:database"
+                },
+                "last_changed": "2021-12-07T02:56:05.103023+00:00",
+                "last_updated": "2021-12-07T02:56:05.103023+00:00",
+                "context": {
+                    "id": "7f7632f24af4c335cab99faefa39697f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_steps",
+                "state": "0",
+                "attributes": {
+                    "unit_of_measurement": "steps",
+                    "friendly_name": "andre\u2019s iPhone (2) Steps",
+                    "icon": "mdi:walk"
+                },
+                "last_changed": "2021-12-07T02:56:05.103143+00:00",
+                "last_updated": "2021-12-07T02:56:05.103143+00:00",
+                "context": {
+                    "id": "388fee31718040d26410c28f93d350bb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_ssid",
+                "state": "Not Connected",
+                "attributes": {
+                    "friendly_name": "andre\u2019s iPhone (2) SSID",
+                    "icon": "mdi:wifi-off"
+                },
+                "last_changed": "2021-12-07T02:56:05.103261+00:00",
+                "last_updated": "2021-12-07T02:56:05.103261+00:00",
+                "context": {
+                    "id": "bb59343b95adf0157ae36afc7d7af54b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_bssid",
+                "state": "Not Connected",
+                "attributes": {
+                    "friendly_name": "andre\u2019s iPhone (2) BSSID",
+                    "icon": "mdi:wifi-off"
+                },
+                "last_changed": "2021-12-07T02:56:05.103380+00:00",
+                "last_updated": "2021-12-07T02:56:05.103380+00:00",
+                "context": {
+                    "id": "d916936ec2727090b1b5e9588be25a37",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_connection_type",
+                "state": "Wi-Fi",
+                "attributes": {
+                    "friendly_name": "andre\u2019s iPhone (2) Connection Type",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-12-07T02:56:05.103499+00:00",
+                "last_updated": "2021-12-07T02:56:05.103499+00:00",
+                "context": {
+                    "id": "5139e534da2cd6d28f30f3ada108457e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_floors_descended",
+                "state": "0",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "friendly_name": "andre\u2019s iPhone (2) Floors Descended",
+                    "icon": "mdi:stairs-down"
+                },
+                "last_changed": "2021-12-07T02:56:05.103619+00:00",
+                "last_updated": "2021-12-07T02:56:05.103619+00:00",
+                "context": {
+                    "id": "600624007136a219e9c3b2f859a4107d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_battery_level",
+                "state": "100",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Andre 11",
+                    "icon": "mdi:battery",
+                    "device_class": "battery"
+                },
+                "last_changed": "2021-12-07T02:56:05.103748+00:00",
+                "last_updated": "2021-12-07T02:56:05.103748+00:00",
+                "context": {
+                    "id": "1d624a1a1657d5a4e4d8431dd7745da6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_sim_1",
+                "state": "Bell",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "Bell",
+                    "ISO Country Code": "ca",
+                    "Mobile Country Code": "302",
+                    "Mobile Network Code": "610",
+                    "friendly_name": "andre\u2019s iPhone (2) SIM 1",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2021-12-07T02:56:05.103869+00:00",
+                "last_updated": "2021-12-07T02:56:05.103869+00:00",
+                "context": {
+                    "id": "5b0635548829756aa7ad60cbf9165a1a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_sim_2",
+                "state": "N/A",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000002",
+                    "Carrier Name": "N/A",
+                    "ISO Country Code": "N/A",
+                    "Mobile Country Code": "N/A",
+                    "Mobile Network Code": "N/A",
+                    "friendly_name": "andre\u2019s iPhone (2) SIM 2",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2021-12-07T02:56:05.103989+00:00",
+                "last_updated": "2021-12-07T02:56:05.103989+00:00",
+                "context": {
+                    "id": "e77e5893fdc31ab35f5abdd7e3bf3077",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_geocoded_location",
+                "state": "9 Rue Chomedey\nGatineau QC J9H 6X2\nCanada",
+                "attributes": {
+                    "Administrative Area": "QC",
+                    "Areas Of Interest": "N/A",
+                    "Country": "Canada",
+                    "Inland Water": "N/A",
+                    "ISO Country Code": "CA",
+                    "Locality": "Gatineau",
+                    "Location": [
+                        45.395111083984375,
+                        -75.82956184989239
+                    ],
+                    "Name": "9 Rue Chomedey",
+                    "Ocean": "N/A",
+                    "Postal Code": "J9H 6X2",
+                    "Sub Administrative Area": "Gatineau",
+                    "Sub Locality": "La Seigneurie-Glenwood",
+                    "Sub Thoroughfare": "9",
+                    "Thoroughfare": "Rue Chomedey",
+                    "Time Zone": "America/Toronto",
+                    "Zones": [],
+                    "friendly_name": "andre\u2019s iPhone (2) Geocoded Location",
+                    "icon": "mdi:map"
+                },
+                "last_changed": "2021-12-07T02:56:05.104126+00:00",
+                "last_updated": "2021-12-07T02:56:05.104126+00:00",
+                "context": {
+                    "id": "d393e57d8e92b5d7cbf87bf3b89832e2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_last_update_trigger",
+                "state": "Siri",
+                "attributes": {
+                    "friendly_name": "andre\u2019s iPhone (2) Last Update Trigger",
+                    "icon": "mdi:cellphone-wireless"
+                },
+                "last_changed": "2021-12-07T02:56:05.104247+00:00",
+                "last_updated": "2021-12-07T02:56:05.104247+00:00",
+                "context": {
+                    "id": "25f3a1b98672de58688aea5e17151f2d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.andres_iphone_2_average_active_pace",
+                "state": "6",
+                "attributes": {
+                    "unit_of_measurement": "m/s",
+                    "friendly_name": "andre\u2019s iPhone (2) Average Active Pace",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2021-12-07T02:56:05.104366+00:00",
+                "last_updated": "2021-12-07T02:56:05.104366+00:00",
+                "context": {
+                    "id": "20b425ff6dd5a9606af081e8beb36eaa",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.andres_iphone_2_focus",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "andre\u2019s iPhone (2) Focus",
+                    "icon": "mdi:moon-waning-crescent"
+                },
+                "last_changed": "2021-12-07T02:56:05.104484+00:00",
+                "last_updated": "2021-12-07T02:56:05.104484+00:00",
+                "context": {
+                    "id": "e6f0c57fd6e1023d9c7deda77ed1696f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_activity",
+                "state": "Stationary",
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Stationary"
+                    ],
+                    "friendly_name": "iPhone Activity",
+                    "icon": "mdi:human-male"
+                },
+                "last_changed": "2021-12-07T02:56:05.104604+00:00",
+                "last_updated": "2021-12-07T02:56:05.104604+00:00",
+                "context": {
+                    "id": "798d52a81fbdcb437924fdc0edc39d92",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_distance",
+                "state": "13",
+                "attributes": {
+                    "unit_of_measurement": "m",
+                    "friendly_name": "iPhone Distance",
+                    "icon": "mdi:hiking"
+                },
+                "last_changed": "2021-12-07T02:56:05.104797+00:00",
+                "last_updated": "2021-12-07T02:56:05.104797+00:00",
+                "context": {
+                    "id": "5a3943d34a6f4cd975140dc8f9baa039",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_floors_ascended",
+                "state": "1",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "friendly_name": "iPhone Floors Ascended",
+                    "icon": "mdi:stairs-up"
+                },
+                "last_changed": "2021-12-07T02:56:05.104927+00:00",
+                "last_updated": "2021-12-07T02:56:05.104927+00:00",
+                "context": {
+                    "id": "bc55c5f554d2304817e4e3e25550eeea",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_floors_descended",
+                "state": "1",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "friendly_name": "iPhone Floors Descended",
+                    "icon": "mdi:stairs-down"
+                },
+                "last_changed": "2021-12-07T02:56:05.105047+00:00",
+                "last_updated": "2021-12-07T02:56:05.105047+00:00",
+                "context": {
+                    "id": "9ab002667a14bdf14be36130c714b8d8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_steps",
+                "state": "23",
+                "attributes": {
+                    "unit_of_measurement": "steps",
+                    "friendly_name": "iPhone Steps",
+                    "icon": "mdi:walk"
+                },
+                "last_changed": "2021-12-07T02:56:05.105166+00:00",
+                "last_updated": "2021-12-07T02:56:05.105166+00:00",
+                "context": {
+                    "id": "aa5614bbc475d233f0225fe2870b96a7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_average_active_pace",
+                "state": "1",
+                "attributes": {
+                    "unit_of_measurement": "m/s",
+                    "friendly_name": "iPhone Average Active Pace",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2021-12-07T02:56:05.105283+00:00",
+                "last_updated": "2021-12-07T02:56:05.105283+00:00",
+                "context": {
+                    "id": "dff040fde088d964ca36181932c4c950",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_battery_level",
+                "state": "53",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Sonia",
+                    "icon": "mdi:battery-50",
+                    "device_class": "battery"
+                },
+                "last_changed": "2021-12-07T02:56:05.105403+00:00",
+                "last_updated": "2021-12-07T02:56:05.105403+00:00",
+                "context": {
+                    "id": "be5465320e307f5766b7995c62d9595a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_battery_state",
+                "state": "Not Charging",
+                "attributes": {
+                    "Low Power Mode": false,
+                    "friendly_name": "iPhone Battery State",
+                    "icon": "mdi:battery-50"
+                },
+                "last_changed": "2021-12-07T02:56:05.105522+00:00",
+                "last_updated": "2021-12-07T02:56:05.105522+00:00",
+                "context": {
+                    "id": "52c03720f10a1b12bd0358747c5d4ace",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_storage",
+                "state": "45.66",
+                "attributes": {
+                    "Available": "47.47 GB",
+                    "Available (Important)": "61.75 GB",
+                    "Available (Opportunistic)": "58.39 GB",
+                    "Total": "127.87 GB",
+                    "unit_of_measurement": "% available",
+                    "friendly_name": "iPhone Storage",
+                    "icon": "mdi:database"
+                },
+                "last_changed": "2021-12-07T02:56:05.105642+00:00",
+                "last_updated": "2021-12-07T02:56:05.105642+00:00",
+                "context": {
+                    "id": "cf24d348faa700184f8152b674ebe2dc",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_ssid",
+                "state": "Not Connected",
+                "attributes": {
+                    "friendly_name": "iPhone SSID",
+                    "icon": "mdi:wifi-off"
+                },
+                "last_changed": "2021-12-07T02:56:05.105784+00:00",
+                "last_updated": "2021-12-07T02:56:05.105784+00:00",
+                "context": {
+                    "id": "e0565f4d5baea1fd084ccb336b16ede1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_bssid",
+                "state": "Not Connected",
+                "attributes": {
+                    "friendly_name": "iPhone BSSID",
+                    "icon": "mdi:wifi-off"
+                },
+                "last_changed": "2021-12-07T02:56:05.105920+00:00",
+                "last_updated": "2021-12-07T02:56:05.105920+00:00",
+                "context": {
+                    "id": "b48daf14a04616642542408ce0e431bf",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_connection_type",
+                "state": "Wi-Fi",
+                "attributes": {
+                    "friendly_name": "iPhone Connection Type",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-12-07T02:56:05.106039+00:00",
+                "last_updated": "2021-12-07T02:56:05.106039+00:00",
+                "context": {
+                    "id": "a582b8b0d186bfe21c896374b610bc0a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_sim_2",
+                "state": "N/A",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000002",
+                    "Carrier Name": "N/A",
+                    "ISO Country Code": "N/A",
+                    "Mobile Country Code": "N/A",
+                    "Mobile Network Code": "N/A",
+                    "friendly_name": "iPhone SIM 2",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2021-12-07T02:56:05.106261+00:00",
+                "last_updated": "2021-12-07T02:56:05.106261+00:00",
+                "context": {
+                    "id": "26cd893100ccb3d6eeadcd482e394cc3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_sim_1",
+                "state": "Bell",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "Bell",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "ca",
+                    "Mobile Country Code": "302",
+                    "Mobile Network Code": "610",
+                    "friendly_name": "iPhone SIM 1",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2021-12-07T02:56:05.106456+00:00",
+                "last_updated": "2021-12-07T02:56:05.106456+00:00",
+                "context": {
+                    "id": "43b1459e9d31a91947de41e7a49ad150",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_geocoded_location",
+                "state": "9 Rue Chomedey\nGatineau QC J9H 6X2\nCanada",
+                "attributes": {
+                    "Administrative Area": "QC",
+                    "Areas Of Interest": "N/A",
+                    "Country": "Canada",
+                    "Inland Water": "N/A",
+                    "ISO Country Code": "CA",
+                    "Locality": "Gatineau",
+                    "Location": [
+                        45.3951416015625,
+                        -75.82929231233506
+                    ],
+                    "Name": "9 Rue Chomedey",
+                    "Ocean": "N/A",
+                    "Postal Code": "J9H 6X2",
+                    "Sub Administrative Area": "Gatineau",
+                    "Sub Locality": "La Seigneurie-Glenwood",
+                    "Sub Thoroughfare": "9",
+                    "Thoroughfare": "Rue Chomedey",
+                    "Time Zone": "America/Toronto",
+                    "Zones": [
+                        "Home"
+                    ],
+                    "friendly_name": "Sonia",
+                    "icon": "mdi:map"
+                },
+                "last_changed": "2021-12-07T02:56:05.106934+00:00",
+                "last_updated": "2021-12-07T02:56:05.106934+00:00",
+                "context": {
+                    "id": "8ba7b5ba5a5c915c35c18ca910529c9d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_last_update_trigger",
+                "state": "Launch",
+                "attributes": {
+                    "friendly_name": "iPhone Last Update Trigger",
+                    "icon": "mdi:cellphone-wireless"
+                },
+                "last_changed": "2021-12-07T02:56:05.107056+00:00",
+                "last_updated": "2021-12-07T02:56:05.107056+00:00",
+                "context": {
+                    "id": "3b9ef989c67d3bef233ea67457b6dc59",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.iphone_focus",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "iPhone Focus",
+                    "icon": "mdi:moon-waning-crescent"
+                },
+                "last_changed": "2021-12-07T02:56:05.107175+00:00",
+                "last_updated": "2021-12-07T02:56:05.107175+00:00",
+                "context": {
+                    "id": "180b8f741c4f64d932ed814fe71995fb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.iphone_12_pro",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "battery_level": 51,
+                    "latitude": 45.39512628506814,
+                    "longitude": -75.82935050517925,
+                    "gps_accuracy": 14,
+                    "altitude": 84.06122970581055,
+                    "vertical_accuracy": 34,
+                    "friendly_name": "AS"
+                },
+                "last_changed": "2021-12-07T02:56:05.183516+00:00",
+                "last_updated": "2021-12-07T02:56:05.183516+00:00",
+                "context": {
+                    "id": "d71fa33ef383b4b474530d532fccba1a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.andres_iphone_2",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "battery_level": 100,
+                    "latitude": 45.395111083984375,
+                    "longitude": -75.82956184989239,
+                    "gps_accuracy": 35,
+                    "altitude": 84.21206665039062,
+                    "vertical_accuracy": 17,
+                    "friendly_name": "andre\u2019s iPhone (2)"
+                },
+                "last_changed": "2021-12-07T02:56:05.183884+00:00",
+                "last_updated": "2021-12-07T02:56:05.183884+00:00",
+                "context": {
+                    "id": "ffc878800260366219d61b195d1aa3d2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.iphone",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "battery_level": 100,
+                    "latitude": 45.3951416015625,
+                    "longitude": -75.82929231233506,
+                    "gps_accuracy": 3,
+                    "altitude": 84.42379379272461,
+                    "course": 324,
+                    "speed": 0,
+                    "vertical_accuracy": 4,
+                    "friendly_name": "iPhone"
+                },
+                "last_changed": "2021-12-07T02:56:05.184208+00:00",
+                "last_updated": "2021-12-07T02:56:05.184208+00:00",
+                "context": {
+                    "id": "bb6439f1d027294ad7ca643adb9e9b91",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-07T02:57:56.509814+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.automated_daily_snapshot_2",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-12-03T02:08:51.738546+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1638497297371",
+                    "friendly_name": "Automated Daily Snapshot"
+                },
+                "last_changed": "2021-12-03T02:12:24.416094+00:00",
+                "last_updated": "2021-12-03T02:12:24.416094+00:00",
+                "context": {
+                    "id": "11288c1e05731b3e5594147a0d7c4621",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-03T02:13:03.936137+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.automated_daily_snapshot_3",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1638497543521",
+                    "friendly_name": "Automated Daily Snapshot"
+                },
+                "last_changed": "2021-12-03T02:13:04.786259+00:00",
+                "last_updated": "2021-12-03T02:13:04.786259+00:00",
+                "context": {
+                    "id": "2f2385dcf058c434b6ffad946898e634",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-03T02:13:11.658806+00:00"
+        }
+    ]
+}

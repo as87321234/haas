@@ -1,0 +1,161 @@
+- id: '1636663280639'
+  alias: Turn on leaving room lights at dusk
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunset
+  condition: []
+  action:
+  - type: turn_on
+    device_id: 84cf756d5f385e9c9e762b8afaf0abc9
+    entity_id: light.corner
+    domain: light
+    brightness_pct: 50
+  - type: turn_on
+    device_id: 4525442a58e7449adec305be7518c711
+    entity_id: light.piano
+    domain: light
+    brightness_pct: 50
+  mode: single
+  max: 10
+- id: '1637542004159'
+  alias: Turn off lights at midnight
+  description: ''
+  trigger:
+  - platform: time
+    at: 00:00:00
+  condition: []
+  action:
+  - scene: scene.throughout_the_night
+  mode: single
+- id: '1637542308816'
+  alias: Turn on aquarium pump after 45 minutes
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: switch.aquarium_3
+    for:
+      hours: 0
+      minutes: 45
+      seconds: 0
+      milliseconds: 0
+    from: 'on'
+    to: 'off'
+  - platform: state
+    entity_id: switch.aquarium_4
+  condition: []
+  action:
+  - type: turn_on
+    device_id: 918303de6618ce10fa5ed4cb21efdaaf
+    entity_id: switch.aquarium_2
+    domain: switch
+  - type: turn_on
+    device_id: 918303de6618ce10fa5ed4cb21efdaaf
+    entity_id: switch.aquarium_3
+    domain: switch
+  mode: single
+- id: '1637543417974'
+  alias: Automated Daily Snapshot
+  description: ''
+  use_blueprint:
+    path: vorion/create-automated-backups-every-day.yaml
+    input:
+      trigger_time: '20:12:00'
+      send_notification: true
+      notify_device: 25bef45eade0d9f2af64f3b8f852e129
+- id: '1637795217657'
+  alias: Turn on Soso light
+  description: ''
+  trigger:
+  - platform: time
+    at: '21:00:00'
+  condition: []
+  action:
+  - type: turn_on
+    device_id: 3cc6bee2cb816939f59310c29312b099
+    entity_id: light.soso
+    domain: light
+    brightness_pct: 15
+  mode: single
+- id: '1637795313978'
+  alias: Turn off Soso light
+  description: ''
+  trigger:
+  - platform: time
+    at: 00:00:00
+  condition: []
+  action:
+  - type: turn_off
+    device_id: 3cc6bee2cb816939f59310c29312b099
+    entity_id: light.soso
+    domain: light
+  mode: single
+- id: '1638138381213'
+  alias: Doorbird Front Yard - someone push the button
+  description: ''
+  trigger:
+  - platform: event
+    event_type: doorbird_doorbird_doorbird
+  condition: []
+  action:
+  - service: media_player.play_media
+    data:
+      media_content_type: music
+      media_content_id: https://has.pointtomap.com/sound/Westminster-chimes.mp3
+    target:
+      device_id:
+      - c86b16df90bfbf20a0d685495a678460
+      - 1f056bd44dab74489f717736effb28ad
+      - 20bd54babb09e5430017f21055af8a36
+  - service: camera.snapshot
+    data:
+      filename: /tmp/garagedoor.jpg
+    target:
+      entity_id: camera.lorex_mediaprofile_channel1_mainstream
+  - service: camera.snapshot
+    data:
+      filename: /tmp/frontdoor.jpg
+    target:
+      entity_id: camera.doorbird_live
+  - service: notify.doorbird
+    data:
+      message: Someone at the door
+      title: DOORBIRD - Front Door
+      data:
+        images:
+        - /tmp/frontdoor.jpg
+        - /tmp/garagedoor.jpg
+  mode: single
+- id: '1638500186557'
+  alias: Dim Living Room
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunset
+    offset: '0'
+  condition: []
+  action:
+  - service: light.turn_off
+    data:
+      transition: 3600
+  mode: single
+- id: '1639178759894'
+  alias: Turn off bathroom lights after 15 minutes
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: automation.turn_off_bathroom_lights_after_15_minutes
+    from: 'off'
+    to: 'on'
+    for:
+      hours: 0
+      minutes: 15
+      seconds: 0
+      milliseconds: 0
+  condition: []
+  action:
+  - type: turn_off
+    device_id: 6a7f6cbbdfc5f3ef1a96fc09592e5a2e
+    entity_id: switch.master_bathroom_light
+    domain: switch
+  mode: single
