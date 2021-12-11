@@ -16,15 +16,15 @@
                     "user_id": "561bf937ca444e8cb205a917168ee146",
                     "friendly_name": "Andre"
                 },
-                "last_changed": "2021-12-07T03:29:52.011618+00:00",
-                "last_updated": "2021-12-07T05:04:41.306801+00:00",
+                "last_changed": "2021-12-11T22:47:45.254981+00:00",
+                "last_updated": "2021-12-11T22:57:46.527009+00:00",
                 "context": {
-                    "id": "867eb928ab636028503309cc67ef0be3",
+                    "id": "7c9d5ee402b54516f84edb52bcb2da05",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -36,36 +36,36 @@
                     "user_id": "ecf91932d95d424db935bd5b593b62ec",
                     "friendly_name": "Sonia"
                 },
-                "last_changed": "2021-12-10T23:36:04.635237+00:00",
-                "last_updated": "2021-12-10T23:36:04.635237+00:00",
+                "last_changed": "2021-12-11T22:47:45.255134+00:00",
+                "last_updated": "2021-12-11T22:57:46.527112+00:00",
                 "context": {
-                    "id": "16cbbbadd2af2ed76570e082892f41ac",
+                    "id": "7176291a74335a75a23ea7a6048ad724",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.new_automation",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-12-10T21:19:53.223113+00:00",
+                    "last_triggered": "2021-12-11T21:19:55.993794+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1636663280639",
                     "friendly_name": "Turn on leaving room lights at dusk"
                 },
-                "last_changed": "2021-12-10T23:27:13.435935+00:00",
-                "last_updated": "2021-12-10T23:27:13.435935+00:00",
+                "last_changed": "2021-12-11T22:47:54.661783+00:00",
+                "last_updated": "2021-12-11T22:47:54.661783+00:00",
                 "context": {
-                    "id": "467edd122fa7bbdaa71d6c5783182d6f",
+                    "id": "b52a43f0f6cbd15f10434dd4d0521792",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -78,15 +78,15 @@
                     "id": "1637542004159",
                     "friendly_name": "Turn off lights at midnight"
                 },
-                "last_changed": "2021-12-10T23:27:13.436225+00:00",
-                "last_updated": "2021-12-11T05:00:00.438102+00:00",
+                "last_changed": "2021-12-11T22:47:54.662016+00:00",
+                "last_updated": "2021-12-11T22:47:54.662016+00:00",
                 "context": {
-                    "id": "5375f15a7436faefd991c400707d12f1",
+                    "id": "714af3cfcdd7500cbd0079b25d479ea3",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -99,15 +99,15 @@
                     "id": "1637542308816",
                     "friendly_name": "Turn on aquarium pump after 45 minutes"
                 },
-                "last_changed": "2021-12-11T04:17:41.339389+00:00",
-                "last_updated": "2021-12-11T04:17:41.339389+00:00",
+                "last_changed": "2021-12-11T22:47:54.662181+00:00",
+                "last_updated": "2021-12-11T22:47:54.662181+00:00",
                 "context": {
-                    "id": "35b59a19f02c418ef53440e7e2db198f",
+                    "id": "e2ca1369ca9fa7bdbb332efb53deed27",
                     "parent_id": null,
-                    "user_id": "561bf937ca444e8cb205a917168ee146"
+                    "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -120,15 +120,15 @@
                     "id": "1637543417974",
                     "friendly_name": "Automated Daily Snapshot"
                 },
-                "last_changed": "2021-12-10T23:27:13.436673+00:00",
-                "last_updated": "2021-12-10T23:27:13.436673+00:00",
+                "last_changed": "2021-12-11T22:47:54.662317+00:00",
+                "last_updated": "2021-12-11T22:47:54.662317+00:00",
                 "context": {
-                    "id": "b7507397192849572b590a932305a4d0",
+                    "id": "c2b56dbb69c6f7ca35498896ae0f7c0a",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -141,15 +141,15 @@
                     "id": "1637795217657",
                     "friendly_name": "Turn on Soso light"
                 },
-                "last_changed": "2021-12-10T23:27:13.436865+00:00",
-                "last_updated": "2021-12-11T02:00:00.179887+00:00",
+                "last_changed": "2021-12-11T22:47:54.662474+00:00",
+                "last_updated": "2021-12-11T22:47:54.662474+00:00",
                 "context": {
-                    "id": "026a2dbf8a4e1905395b18081a75104c",
+                    "id": "002d4b6e909af1cb462bbd38e3f6f3cc",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -162,15 +162,15 @@
                     "id": "1637795313978",
                     "friendly_name": "Turn off Soso light"
                 },
-                "last_changed": "2021-12-10T23:27:13.437101+00:00",
-                "last_updated": "2021-12-11T05:00:00.467872+00:00",
+                "last_changed": "2021-12-11T22:47:54.662694+00:00",
+                "last_updated": "2021-12-11T22:47:54.662694+00:00",
                 "context": {
-                    "id": "1954ea9cb494f17f4fd473df5a8c03bd",
+                    "id": "b56e5f89a3e02c47b5ec543007053628",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -183,36 +183,57 @@
                     "id": "1638138381213",
                     "friendly_name": "Doorbird Front Yard - someone push the button"
                 },
-                "last_changed": "2021-12-10T23:27:13.437957+00:00",
-                "last_updated": "2021-12-10T23:27:13.437957+00:00",
+                "last_changed": "2021-12-11T22:47:54.662878+00:00",
+                "last_updated": "2021-12-11T22:47:54.662878+00:00",
                 "context": {
-                    "id": "f70ed24052c30bd72cb3fd5f9676163f",
+                    "id": "0f13f187e729a9917b8e5bd5529f638d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.dim_living_room",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-12-10T21:19:53.222720+00:00",
+                    "last_triggered": "2021-12-11T21:19:55.993398+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1638500186557",
                     "friendly_name": "Dim Living Room"
                 },
-                "last_changed": "2021-12-10T23:27:13.438151+00:00",
-                "last_updated": "2021-12-10T23:27:13.438151+00:00",
+                "last_changed": "2021-12-11T22:47:54.663098+00:00",
+                "last_updated": "2021-12-11T22:47:54.663098+00:00",
                 "context": {
-                    "id": "818af0a9f0b57b9d834187e709fc4e00",
+                    "id": "ac5045141f1c9e3660ac1832b7a1644c",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.turn_off_bathroom_lights_after_15_minutes",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-12-10T23:32:33.594799+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1639178759894",
+                    "friendly_name": "Turn off bathroom lights after 15 minutes"
+                },
+                "last_changed": "2021-12-11T22:47:54.663292+00:00",
+                "last_updated": "2021-12-11T22:47:54.663292+00:00",
+                "context": {
+                    "id": "b6773b6fd8be9559a8f014ad21bf888f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -226,15 +247,15 @@
                     "friendly_name": "Iphone 12 Pro Activity",
                     "icon": "mdi:help-circle"
                 },
-                "last_changed": "2021-12-07T03:30:00.966906+00:00",
-                "last_updated": "2021-12-07T03:30:00.966906+00:00",
+                "last_changed": "2021-12-11T22:47:55.476095+00:00",
+                "last_updated": "2021-12-11T22:47:55.476095+00:00",
                 "context": {
-                    "id": "3fe9c08aeac8e69dd0a94f9d4d25d9cb",
+                    "id": "ea077f80c1e9722ad05c38c9369397f4",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -245,15 +266,15 @@
                     "friendly_name": "Iphone 12 Pro Distance",
                     "icon": "mdi:hiking"
                 },
-                "last_changed": "2021-12-07T03:30:00.967081+00:00",
-                "last_updated": "2021-12-07T03:30:00.967081+00:00",
+                "last_changed": "2021-12-11T22:47:55.476248+00:00",
+                "last_updated": "2021-12-11T22:47:55.476248+00:00",
                 "context": {
-                    "id": "256099b6c6509015118ebfdd154ce99c",
+                    "id": "3281e9b2fd0f4ae53b0b75d245b8cc3c",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -264,15 +285,15 @@
                     "friendly_name": "Iphone 12 Pro Floors Ascended",
                     "icon": "mdi:stairs-up"
                 },
-                "last_changed": "2021-12-07T03:30:00.967221+00:00",
-                "last_updated": "2021-12-07T03:30:00.967221+00:00",
+                "last_changed": "2021-12-11T22:47:55.476376+00:00",
+                "last_updated": "2021-12-11T22:47:55.476376+00:00",
                 "context": {
-                    "id": "a607eb31904faa32392b1ade02d8ae8d",
+                    "id": "353941804a0d7e424fdcd6511665314b",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -283,15 +304,15 @@
                     "friendly_name": "Iphone 12 Pro Floors Descended",
                     "icon": "mdi:stairs-down"
                 },
-                "last_changed": "2021-12-07T03:30:00.967356+00:00",
-                "last_updated": "2021-12-07T03:30:00.967356+00:00",
+                "last_changed": "2021-12-11T22:47:55.476503+00:00",
+                "last_updated": "2021-12-11T22:47:55.476503+00:00",
                 "context": {
-                    "id": "93a6aab0467eb3bd879c96ea87ac2cb0",
+                    "id": "a2ef5954f8c6b5cf414ad684e2af2ab9",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -302,15 +323,15 @@
                     "friendly_name": "Iphone 12 Pro Steps",
                     "icon": "mdi:walk"
                 },
-                "last_changed": "2021-12-07T03:30:00.967483+00:00",
-                "last_updated": "2021-12-07T03:30:00.967483+00:00",
+                "last_changed": "2021-12-11T22:47:55.476632+00:00",
+                "last_updated": "2021-12-11T22:47:55.476632+00:00",
                 "context": {
-                    "id": "daf8c051ab7f01a5b22bf6138269ef15",
+                    "id": "d1e7f6ce600311d6452cca577164bf0d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -322,15 +343,15 @@
                     "icon": "mdi:battery-70",
                     "device_class": "battery"
                 },
-                "last_changed": "2021-12-07T03:30:00.967609+00:00",
-                "last_updated": "2021-12-07T03:30:00.967609+00:00",
+                "last_changed": "2021-12-11T22:47:55.476790+00:00",
+                "last_updated": "2021-12-11T22:47:55.476790+00:00",
                 "context": {
-                    "id": "34e7732ab58e01559c3c23eaf571474b",
+                    "id": "b6893c2cc85f58b86ac6ed8d3089453e",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -341,15 +362,15 @@
                     "friendly_name": "Iphone 12 Pro Average Active Pace",
                     "icon": "mdi:speedometer"
                 },
-                "last_changed": "2021-12-07T03:30:00.967742+00:00",
-                "last_updated": "2021-12-07T03:30:00.967742+00:00",
+                "last_changed": "2021-12-11T22:47:55.476928+00:00",
+                "last_updated": "2021-12-11T22:47:55.476928+00:00",
                 "context": {
-                    "id": "8a9b03ff27e03b6566d2cbca5a3672b7",
+                    "id": "e12d98b52fdb5b219550ff8450a9bc9f",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -360,15 +381,15 @@
                     "friendly_name": "Iphone 12 Pro Battery State",
                     "icon": "mdi:battery-70"
                 },
-                "last_changed": "2021-12-07T03:30:00.967869+00:00",
-                "last_updated": "2021-12-07T03:30:00.967869+00:00",
+                "last_changed": "2021-12-11T22:47:55.477059+00:00",
+                "last_updated": "2021-12-11T22:47:55.477059+00:00",
                 "context": {
-                    "id": "24724c42bd352e080ad5c8b5a5c63e8f",
+                    "id": "8872d5d460a88981219b796d706a0db5",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -383,15 +404,15 @@
                     "friendly_name": "Iphone 12 Pro Storage",
                     "icon": "mdi:database"
                 },
-                "last_changed": "2021-12-07T03:30:00.967999+00:00",
-                "last_updated": "2021-12-07T03:30:00.967999+00:00",
+                "last_changed": "2021-12-11T22:47:55.477188+00:00",
+                "last_updated": "2021-12-11T22:47:55.477188+00:00",
                 "context": {
-                    "id": "5e426a1d959d173b1fb7de0673cb0105",
+                    "id": "8a13d2377da4543ef539c9544f422108",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -401,15 +422,15 @@
                     "friendly_name": "Iphone 12 Pro SSID",
                     "icon": "mdi:wifi"
                 },
-                "last_changed": "2021-12-07T03:30:00.968122+00:00",
-                "last_updated": "2021-12-07T03:30:00.968122+00:00",
+                "last_changed": "2021-12-11T22:47:55.477315+00:00",
+                "last_updated": "2021-12-11T22:47:55.477315+00:00",
                 "context": {
-                    "id": "d288c9267654d9b83921c0e3e5598a12",
+                    "id": "a448810dc8a8b39aa2dc4a83dd39df47",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -419,15 +440,15 @@
                     "friendly_name": "Iphone 12 Pro BSSID",
                     "icon": "mdi:wifi-star"
                 },
-                "last_changed": "2021-12-07T03:30:00.968398+00:00",
-                "last_updated": "2021-12-07T03:30:00.968398+00:00",
+                "last_changed": "2021-12-11T22:47:55.477440+00:00",
+                "last_updated": "2021-12-11T22:47:55.477440+00:00",
                 "context": {
-                    "id": "2fbcaf5128bc66e4d0c5f57d0af25f8e",
+                    "id": "22e3addfd3e54d06531046bd71acdcf4",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -437,15 +458,15 @@
                     "friendly_name": "Iphone 12 Pro Connection Type",
                     "icon": "mdi:wifi"
                 },
-                "last_changed": "2021-12-07T03:30:00.968560+00:00",
-                "last_updated": "2021-12-07T03:30:00.968560+00:00",
+                "last_changed": "2021-12-11T22:47:55.477565+00:00",
+                "last_updated": "2021-12-11T22:47:55.477565+00:00",
                 "context": {
-                    "id": "935aabe02c705b2b5295c42e49b95ebd",
+                    "id": "d93f84a0e85119856cbab05fc39ba203",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -461,15 +482,15 @@
                     "friendly_name": "Iphone 12 Pro SIM 2",
                     "icon": "mdi:sim"
                 },
-                "last_changed": "2021-12-07T03:30:00.968778+00:00",
-                "last_updated": "2021-12-07T03:30:00.968778+00:00",
+                "last_changed": "2021-12-11T22:47:55.477699+00:00",
+                "last_updated": "2021-12-11T22:47:55.477699+00:00",
                 "context": {
-                    "id": "f81bc09457756c40c06289b894f58c4b",
+                    "id": "7370a221221ff7071cbe7a34af77a401",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -486,15 +507,15 @@
                     "friendly_name": "Iphone 12 Pro SIM 1",
                     "icon": "mdi:sim"
                 },
-                "last_changed": "2021-12-07T03:30:00.968938+00:00",
-                "last_updated": "2021-12-07T03:30:00.968938+00:00",
+                "last_changed": "2021-12-11T22:47:55.477827+00:00",
+                "last_updated": "2021-12-11T22:47:55.477827+00:00",
                 "context": {
-                    "id": "c5b8b49da1590899f6449d74d5ab69d4",
+                    "id": "51889d930815d3f4f7ce73b374bc7ef3",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -525,15 +546,15 @@
                     "friendly_name": "Andre",
                     "icon": "mdi:map"
                 },
-                "last_changed": "2021-12-07T03:30:00.969079+00:00",
-                "last_updated": "2021-12-07T03:30:00.969079+00:00",
+                "last_changed": "2021-12-11T22:47:55.477966+00:00",
+                "last_updated": "2021-12-11T22:47:55.477966+00:00",
                 "context": {
-                    "id": "5091eec3f3e723a94540b29cd85e1352",
+                    "id": "66a65622f5111f54e0b365a599fd74b7",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -543,15 +564,15 @@
                     "friendly_name": "Iphone 12 Pro Last Update Trigger",
                     "icon": "mdi:cellphone-wireless"
                 },
-                "last_changed": "2021-12-07T03:30:00.969248+00:00",
-                "last_updated": "2021-12-07T03:30:00.969248+00:00",
+                "last_changed": "2021-12-11T22:47:55.478102+00:00",
+                "last_updated": "2021-12-11T22:47:55.478102+00:00",
                 "context": {
-                    "id": "654bbc132840810b014d8ce6b24f124e",
+                    "id": "b7316a5d89bcc171144d0a58b1592865",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -561,15 +582,15 @@
                     "friendly_name": "Iphone 12 Pro Focus",
                     "icon": "mdi:moon-waning-crescent"
                 },
-                "last_changed": "2021-12-07T03:30:00.969466+00:00",
-                "last_updated": "2021-12-07T03:30:00.969466+00:00",
+                "last_changed": "2021-12-11T22:47:55.478241+00:00",
+                "last_updated": "2021-12-11T22:47:55.478241+00:00",
                 "context": {
-                    "id": "458a515188e4fa39b79a42dd556b4c73",
+                    "id": "8d2266019c2abc18d79f221c467f0e59",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -580,15 +601,15 @@
                     "friendly_name": "andre\u2019s iPhone (2) Distance",
                     "icon": "mdi:hiking"
                 },
-                "last_changed": "2021-12-10T09:09:53.695518+00:00",
-                "last_updated": "2021-12-10T09:09:53.695518+00:00",
+                "last_changed": "2021-12-11T22:47:55.478368+00:00",
+                "last_updated": "2021-12-11T22:47:55.478368+00:00",
                 "context": {
-                    "id": "671d5869ef47b64569ffc44b6fc5945f",
+                    "id": "6fb63f79da8cb103d7c091ba43936908",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -599,15 +620,15 @@
                     "friendly_name": "andre\u2019s iPhone (2) Floors Ascended",
                     "icon": "mdi:stairs-up"
                 },
-                "last_changed": "2021-12-07T03:30:00.969724+00:00",
-                "last_updated": "2021-12-07T03:30:00.969724+00:00",
+                "last_changed": "2021-12-11T22:47:55.478495+00:00",
+                "last_updated": "2021-12-11T22:47:55.478495+00:00",
                 "context": {
-                    "id": "cfc717ff4f4bcb552285d241858c1c15",
+                    "id": "8f216d995115311ddc33dc8052d8038a",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -621,15 +642,15 @@
                     "friendly_name": "andre\u2019s iPhone (2) Activity",
                     "icon": "mdi:human-male"
                 },
-                "last_changed": "2021-12-11T08:58:59.536414+00:00",
-                "last_updated": "2021-12-11T08:58:59.536414+00:00",
+                "last_changed": "2021-12-11T22:47:55.478621+00:00",
+                "last_updated": "2021-12-11T22:47:55.478621+00:00",
                 "context": {
-                    "id": "875d81aab5340d221f1c23dfe39d4056",
+                    "id": "02d0b964357a67e84c8352b06461138d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -640,15 +661,15 @@
                     "friendly_name": "iPhone 11 Battery State",
                     "icon": "mdi:battery"
                 },
-                "last_changed": "2021-12-11T12:00:03.489932+00:00",
-                "last_updated": "2021-12-11T12:00:03.489932+00:00",
+                "last_changed": "2021-12-11T22:47:55.478746+00:00",
+                "last_updated": "2021-12-11T22:47:55.478746+00:00",
                 "context": {
-                    "id": "c03956a406c85c305cf96f0da551d393",
+                    "id": "3f64fb4066e639473a576146c87fc685",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -663,15 +684,15 @@
                     "friendly_name": "andre\u2019s iPhone (2) Storage",
                     "icon": "mdi:database"
                 },
-                "last_changed": "2021-12-11T12:00:03.490181+00:00",
-                "last_updated": "2021-12-11T12:00:03.490181+00:00",
+                "last_changed": "2021-12-11T22:47:55.478871+00:00",
+                "last_updated": "2021-12-11T22:47:55.478871+00:00",
                 "context": {
-                    "id": "ff781240a47980e58339c22cfb8fba4c",
+                    "id": "e0d06ea9298eb668de404e8f6e026d0f",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -682,15 +703,15 @@
                     "friendly_name": "andre\u2019s iPhone (2) Steps",
                     "icon": "mdi:walk"
                 },
-                "last_changed": "2021-12-10T09:09:53.695769+00:00",
-                "last_updated": "2021-12-10T09:09:53.695769+00:00",
+                "last_changed": "2021-12-11T22:47:55.478996+00:00",
+                "last_updated": "2021-12-11T22:47:55.478996+00:00",
                 "context": {
-                    "id": "eb37aa25064d42bc6df48c372631fd92",
+                    "id": "049ca9091b1b0e21da1348d3ecc81f9a",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -700,15 +721,15 @@
                     "friendly_name": "andre\u2019s iPhone (2) SSID",
                     "icon": "mdi:wifi-off"
                 },
-                "last_changed": "2021-12-11T04:17:10.640142+00:00",
-                "last_updated": "2021-12-11T04:17:10.640142+00:00",
+                "last_changed": "2021-12-11T22:47:55.479121+00:00",
+                "last_updated": "2021-12-11T22:47:55.479121+00:00",
                 "context": {
-                    "id": "1b4ae71dbb9f082d6605b8857707d200",
+                    "id": "7ec2d5061d825a9326c7ce4e3afa8f23",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -718,15 +739,15 @@
                     "friendly_name": "andre\u2019s iPhone (2) BSSID",
                     "icon": "mdi:wifi-off"
                 },
-                "last_changed": "2021-12-11T04:17:10.640356+00:00",
-                "last_updated": "2021-12-11T04:17:10.640356+00:00",
+                "last_changed": "2021-12-11T22:47:55.479246+00:00",
+                "last_updated": "2021-12-11T22:47:55.479246+00:00",
                 "context": {
-                    "id": "1a2e4205d78e5fec4e911d99528c8036",
+                    "id": "a1a7b92c24d8eb2a1e05bb97fdcf17e5",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -736,15 +757,15 @@
                     "friendly_name": "andre\u2019s iPhone (2) Connection Type",
                     "icon": "mdi:wifi"
                 },
-                "last_changed": "2021-12-11T04:44:28.379817+00:00",
-                "last_updated": "2021-12-11T04:44:28.379817+00:00",
+                "last_changed": "2021-12-11T22:47:55.479371+00:00",
+                "last_updated": "2021-12-11T22:47:55.479371+00:00",
                 "context": {
-                    "id": "02d75c5c2fefd2506711ce08befd8bb0",
+                    "id": "fe3cb7f8c7fca3926e8ddb9ba0bf2232",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -755,15 +776,15 @@
                     "friendly_name": "andre\u2019s iPhone (2) Floors Descended",
                     "icon": "mdi:stairs-down"
                 },
-                "last_changed": "2021-12-07T03:30:00.970781+00:00",
-                "last_updated": "2021-12-07T03:30:00.970781+00:00",
+                "last_changed": "2021-12-11T22:47:55.479496+00:00",
+                "last_updated": "2021-12-11T22:47:55.479496+00:00",
                 "context": {
-                    "id": "e3a290c1e1d2cf192dce19a07df91599",
+                    "id": "a587fe6f64d2ddc03b2de82790fa01bd",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -775,15 +796,15 @@
                     "icon": "mdi:battery",
                     "device_class": "battery"
                 },
-                "last_changed": "2021-12-11T12:00:03.489640+00:00",
-                "last_updated": "2021-12-11T12:00:03.489640+00:00",
+                "last_changed": "2021-12-11T22:47:55.479622+00:00",
+                "last_updated": "2021-12-11T22:47:55.479622+00:00",
                 "context": {
-                    "id": "39bd6289c9cd8c139ca4b9a1661ccf4c",
+                    "id": "7019edebe3102a43c11027d03be37a97",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -799,15 +820,15 @@
                     "friendly_name": "andre\u2019s iPhone (2) SIM 1",
                     "icon": "mdi:sim"
                 },
-                "last_changed": "2021-12-07T03:30:00.971039+00:00",
-                "last_updated": "2021-12-07T03:30:00.971039+00:00",
+                "last_changed": "2021-12-11T22:47:55.479747+00:00",
+                "last_updated": "2021-12-11T22:47:55.479747+00:00",
                 "context": {
-                    "id": "71c490ea445af174f63e104953afb03a",
+                    "id": "e741388e4335730b7efddeafd0a06a82",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -823,15 +844,15 @@
                     "friendly_name": "andre\u2019s iPhone (2) SIM 2",
                     "icon": "mdi:sim"
                 },
-                "last_changed": "2021-12-07T03:30:00.971166+00:00",
-                "last_updated": "2021-12-07T03:30:00.971166+00:00",
+                "last_changed": "2021-12-11T22:47:55.479873+00:00",
+                "last_updated": "2021-12-11T22:47:55.479873+00:00",
                 "context": {
-                    "id": "124fe89d084f49bace9dbf0e265c83eb",
+                    "id": "7146a08edfe61003cbfd62b4e19a3d1e",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -862,15 +883,15 @@
                     "friendly_name": "andre\u2019s iPhone (2) Geocoded Location",
                     "icon": "mdi:map"
                 },
-                "last_changed": "2021-12-07T05:04:41.714403+00:00",
-                "last_updated": "2021-12-07T05:04:41.714403+00:00",
+                "last_changed": "2021-12-11T22:47:55.480014+00:00",
+                "last_updated": "2021-12-11T22:47:55.480014+00:00",
                 "context": {
-                    "id": "53ea220be38fc76365da293b19f84355",
+                    "id": "8580ad5f0537adcd51764140ec75eacd",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -880,15 +901,15 @@
                     "friendly_name": "andre\u2019s iPhone (2) Last Update Trigger",
                     "icon": "mdi:cellphone-wireless"
                 },
-                "last_changed": "2021-12-11T12:00:03.491649+00:00",
-                "last_updated": "2021-12-11T12:00:03.491649+00:00",
+                "last_changed": "2021-12-11T22:47:55.480141+00:00",
+                "last_updated": "2021-12-11T22:47:55.480141+00:00",
                 "context": {
-                    "id": "f2933a851c414995e11fd89ce45f4eda",
+                    "id": "496df7b972e91c6e2ed80b78561b6c8b",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -899,15 +920,15 @@
                     "friendly_name": "andre\u2019s iPhone (2) Average Active Pace",
                     "icon": "mdi:speedometer"
                 },
-                "last_changed": "2021-12-07T12:00:01.344934+00:00",
-                "last_updated": "2021-12-07T12:00:01.344934+00:00",
+                "last_changed": "2021-12-11T22:47:55.480267+00:00",
+                "last_updated": "2021-12-11T22:47:55.480267+00:00",
                 "context": {
-                    "id": "fd1050c9fb2806297ddca729f014feab",
+                    "id": "f40723aba3e4d60960e6fc527d4b6adc",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -917,152 +938,152 @@
                     "friendly_name": "andre\u2019s iPhone (2) Focus",
                     "icon": "mdi:moon-waning-crescent"
                 },
-                "last_changed": "2021-12-11T12:00:03.491415+00:00",
-                "last_updated": "2021-12-11T12:00:03.491415+00:00",
+                "last_changed": "2021-12-11T22:47:55.480392+00:00",
+                "last_updated": "2021-12-11T22:47:55.480392+00:00",
                 "context": {
-                    "id": "cac5e5adfff8d0cdc9d731c198ede68a",
+                    "id": "faa3a705517ddc177aac0409bcfa763e",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.iphone_activity",
-                "state": "Unknown",
+                "state": "Stationary",
                 "attributes": {
                     "Confidence": "High",
                     "Types": [
-                        "Unknown"
+                        "Stationary"
                     ],
                     "friendly_name": "iPhone Activity",
-                    "icon": "mdi:help-circle"
+                    "icon": "mdi:human-male"
                 },
-                "last_changed": "2021-12-08T12:47:12.265713+00:00",
-                "last_updated": "2021-12-08T12:47:12.265713+00:00",
+                "last_changed": "2021-12-11T22:54:34.902088+00:00",
+                "last_updated": "2021-12-11T22:54:34.902088+00:00",
                 "context": {
-                    "id": "f81164686ec99795ca3fd937c0ca3147",
+                    "id": "6f9e9e868c82e5d89796bd0a400bf790",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.iphone_distance",
-                "state": "6",
+                "state": "57",
                 "attributes": {
                     "unit_of_measurement": "m",
                     "friendly_name": "iPhone Distance",
                     "icon": "mdi:hiking"
                 },
-                "last_changed": "2021-12-08T12:47:12.265969+00:00",
-                "last_updated": "2021-12-08T12:47:12.265969+00:00",
+                "last_changed": "2021-12-11T22:54:34.902338+00:00",
+                "last_updated": "2021-12-11T22:54:34.902338+00:00",
                 "context": {
-                    "id": "ef21978633f62e828ba33763f7302c64",
+                    "id": "a55efff9a34db41120d3c62aad34320e",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.iphone_floors_ascended",
-                "state": "0",
+                "state": "1",
                 "attributes": {
                     "unit_of_measurement": "floors",
                     "friendly_name": "iPhone Floors Ascended",
                     "icon": "mdi:stairs-up"
                 },
-                "last_changed": "2021-12-08T12:47:12.266155+00:00",
-                "last_updated": "2021-12-08T12:47:12.266155+00:00",
+                "last_changed": "2021-12-11T22:54:34.902527+00:00",
+                "last_updated": "2021-12-11T22:54:34.902527+00:00",
                 "context": {
-                    "id": "ed619c1f3d7d3aeddbe2f58d36c50ed1",
+                    "id": "65c99563b325a5aa4ced416ff5a434a7",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.iphone_floors_descended",
-                "state": "1",
+                "state": "0",
                 "attributes": {
                     "unit_of_measurement": "floors",
                     "friendly_name": "iPhone Floors Descended",
                     "icon": "mdi:stairs-down"
                 },
-                "last_changed": "2021-12-08T02:48:17.875360+00:00",
-                "last_updated": "2021-12-08T02:48:17.875360+00:00",
+                "last_changed": "2021-12-11T22:54:34.902706+00:00",
+                "last_updated": "2021-12-11T22:54:34.902706+00:00",
                 "context": {
-                    "id": "8033b841a5592cb4226dde273315e722",
+                    "id": "9d91edbfee32e6a74dc97a63d1959546",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.iphone_steps",
-                "state": "11",
+                "state": "92",
                 "attributes": {
                     "unit_of_measurement": "steps",
                     "friendly_name": "iPhone Steps",
                     "icon": "mdi:walk"
                 },
-                "last_changed": "2021-12-08T12:47:12.266387+00:00",
-                "last_updated": "2021-12-08T12:47:12.266387+00:00",
+                "last_changed": "2021-12-11T22:54:34.902894+00:00",
+                "last_updated": "2021-12-11T22:54:34.902894+00:00",
                 "context": {
-                    "id": "857dca966b06ff7f9fed47bfbf2c28d7",
+                    "id": "d79122ca7d7469203079fab687a76f0b",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.iphone_average_active_pace",
-                "state": "4",
+                "state": "1",
                 "attributes": {
                     "unit_of_measurement": "m/s",
                     "friendly_name": "iPhone Average Active Pace",
                     "icon": "mdi:speedometer"
                 },
-                "last_changed": "2021-12-08T12:47:12.266582+00:00",
-                "last_updated": "2021-12-08T12:47:12.266582+00:00",
+                "last_changed": "2021-12-11T22:54:34.903075+00:00",
+                "last_updated": "2021-12-11T22:54:34.903075+00:00",
                 "context": {
-                    "id": "a4b25eb723b1377f35ef7ef307f333af",
+                    "id": "67f1e56f8c67eee850d49842fef11710",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.iphone_battery_level",
-                "state": "89",
+                "state": "100",
                 "attributes": {
                     "unit_of_measurement": "%",
                     "friendly_name": "Sonia",
-                    "icon": "mdi:battery-80",
+                    "icon": "mdi:battery",
                     "device_class": "battery"
                 },
-                "last_changed": "2021-12-08T12:54:15.924044+00:00",
-                "last_updated": "2021-12-08T12:54:15.924044+00:00",
+                "last_changed": "2021-12-11T23:05:49.802508+00:00",
+                "last_updated": "2021-12-11T23:05:49.802508+00:00",
                 "context": {
-                    "id": "61b35eeedd444dfdf387c8a55cb44351",
+                    "id": "f45b87ee8270a77eecd178b24311b7e8",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -1071,40 +1092,40 @@
                 "attributes": {
                     "Low Power Mode": false,
                     "friendly_name": "iPhone Battery State",
-                    "icon": "mdi:battery-80"
+                    "icon": "mdi:battery"
                 },
-                "last_changed": "2021-12-07T03:30:00.973104+00:00",
-                "last_updated": "2021-12-08T12:54:15.924253+00:00",
+                "last_changed": "2021-12-11T22:47:55.481660+00:00",
+                "last_updated": "2021-12-11T23:05:49.802902+00:00",
                 "context": {
-                    "id": "3854d8896f98cc5f5bc9591433a1cf0c",
+                    "id": "f59865cca987229d1b6362066f4786de",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.iphone_storage",
-                "state": "44.70",
+                "state": "44.45",
                 "attributes": {
-                    "Available": "46.24 GB",
-                    "Available (Important)": "63.23 GB",
-                    "Available (Opportunistic)": "57.15 GB",
+                    "Available": "45.92 GB",
+                    "Available (Important)": "61.82 GB",
+                    "Available (Opportunistic)": "56.84 GB",
                     "Total": "127.87 GB",
                     "unit_of_measurement": "% available",
                     "friendly_name": "iPhone Storage",
                     "icon": "mdi:database"
                 },
-                "last_changed": "2021-12-08T12:54:15.924442+00:00",
-                "last_updated": "2021-12-08T12:54:15.924442+00:00",
+                "last_changed": "2021-12-11T22:54:34.903700+00:00",
+                "last_updated": "2021-12-11T23:05:49.803203+00:00",
                 "context": {
-                    "id": "9e4fb68bd5d73825412f78aeb9392ff9",
+                    "id": "8a9fd02b53cd365823b893768441ceec",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -1114,15 +1135,15 @@
                     "friendly_name": "iPhone SSID",
                     "icon": "mdi:wifi-off"
                 },
-                "last_changed": "2021-12-08T12:54:15.924633+00:00",
-                "last_updated": "2021-12-08T12:54:15.924633+00:00",
+                "last_changed": "2021-12-11T22:47:55.481910+00:00",
+                "last_updated": "2021-12-11T22:47:55.481910+00:00",
                 "context": {
-                    "id": "ba63bb5b5199027ef3bb1c3f59d8869d",
+                    "id": "d0d59c4cd85c6a333d6072b336314756",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -1132,15 +1153,15 @@
                     "friendly_name": "iPhone BSSID",
                     "icon": "mdi:wifi-off"
                 },
-                "last_changed": "2021-12-08T12:54:15.924839+00:00",
-                "last_updated": "2021-12-08T12:54:15.924839+00:00",
+                "last_changed": "2021-12-11T22:47:55.482070+00:00",
+                "last_updated": "2021-12-11T22:47:55.482070+00:00",
                 "context": {
-                    "id": "c94fedefd4633e26e7ea134ebbc54759",
+                    "id": "35de0d5acb19313c7f73f0137848ca42",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -1150,15 +1171,15 @@
                     "friendly_name": "iPhone Connection Type",
                     "icon": "mdi:wifi"
                 },
-                "last_changed": "2021-12-07T03:30:00.973597+00:00",
-                "last_updated": "2021-12-07T03:30:00.973597+00:00",
+                "last_changed": "2021-12-11T22:47:55.482212+00:00",
+                "last_updated": "2021-12-11T22:47:55.482212+00:00",
                 "context": {
-                    "id": "e84a1b19ac4373fe3f5c8f4000e6ce59",
+                    "id": "13acd42c166f77c6ccde93c1526dabc9",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -1174,15 +1195,15 @@
                     "friendly_name": "iPhone SIM 2",
                     "icon": "mdi:sim"
                 },
-                "last_changed": "2021-12-07T03:30:00.973722+00:00",
-                "last_updated": "2021-12-07T03:30:00.973722+00:00",
+                "last_changed": "2021-12-11T22:47:55.482340+00:00",
+                "last_updated": "2021-12-11T22:47:55.482340+00:00",
                 "context": {
-                    "id": "cfaa4e5f63b6cef947d24c6ef21c5f76",
+                    "id": "52c5a8fa87d8c421a29c3613a4562418",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -1199,15 +1220,15 @@
                     "friendly_name": "iPhone SIM 1",
                     "icon": "mdi:sim"
                 },
-                "last_changed": "2021-12-07T03:30:00.973847+00:00",
-                "last_updated": "2021-12-07T03:30:00.973847+00:00",
+                "last_changed": "2021-12-11T22:47:55.482474+00:00",
+                "last_updated": "2021-12-11T22:47:55.482474+00:00",
                 "context": {
-                    "id": "ae29af8b9542dffc2deefb6d55ecf194",
+                    "id": "f65be5b822f7b4044f92c92cb1980ac1",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -1238,33 +1259,33 @@
                     "friendly_name": "Sonia",
                     "icon": "mdi:map"
                 },
-                "last_changed": "2021-12-07T03:30:00.973985+00:00",
-                "last_updated": "2021-12-07T03:30:00.973985+00:00",
+                "last_changed": "2021-12-11T22:47:55.482612+00:00",
+                "last_updated": "2021-12-11T22:47:55.482612+00:00",
                 "context": {
-                    "id": "9417d8d65b83069b6c6aa70bdb4d9385",
+                    "id": "f62cdcd2df44cd06e25d471a28039552",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.iphone_last_update_trigger",
-                "state": "Launch",
+                "state": "Background Fetch",
                 "attributes": {
                     "friendly_name": "iPhone Last Update Trigger",
                     "icon": "mdi:cellphone-wireless"
                 },
-                "last_changed": "2021-12-08T12:47:12.267624+00:00",
-                "last_updated": "2021-12-08T12:47:12.267624+00:00",
+                "last_changed": "2021-12-11T22:54:34.903933+00:00",
+                "last_updated": "2021-12-11T22:54:34.903933+00:00",
                 "context": {
-                    "id": "fad05cee1080b4ff59ceb70414b77f0f",
+                    "id": "1e96f02e023c68583f33482add7c24bd",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -1274,15 +1295,207 @@
                     "friendly_name": "iPhone Focus",
                     "icon": "mdi:moon-waning-crescent"
                 },
-                "last_changed": "2021-12-07T03:30:00.974252+00:00",
-                "last_updated": "2021-12-07T03:30:00.974252+00:00",
+                "last_changed": "2021-12-11T22:47:55.482865+00:00",
+                "last_updated": "2021-12-11T22:47:55.482865+00:00",
                 "context": {
-                    "id": "c001f31d65fbb7e27b82719c1a83bddc",
+                    "id": "71e4b2a5b3212693f2fb7c9795399415",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_2_battery_level",
+                "state": "100",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "iPad (2) Battery Level",
+                    "icon": "mdi:battery",
+                    "device_class": "battery"
+                },
+                "last_changed": "2021-12-11T22:47:55.482993+00:00",
+                "last_updated": "2021-12-11T22:47:55.482993+00:00",
+                "context": {
+                    "id": "60b50a39f2caeae767b4e704d954f335",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_2_activity",
+                "state": "Unknown",
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Unknown"
+                    ],
+                    "friendly_name": "iPad (2) Activity",
+                    "icon": "mdi:help-circle"
+                },
+                "last_changed": "2021-12-11T22:47:55.483148+00:00",
+                "last_updated": "2021-12-11T22:47:55.483148+00:00",
+                "context": {
+                    "id": "425c201b77c5b573a5f43833fed627af",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_2_connection_type",
+                "state": "Wi-Fi",
+                "attributes": {
+                    "friendly_name": "iPad (2) Connection Type",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-12-11T22:47:55.483275+00:00",
+                "last_updated": "2021-12-11T22:47:55.483275+00:00",
+                "context": {
+                    "id": "811d2f440581b1e74485a00a529adfc1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_2_geocoded_location",
+                "state": "Unknown",
+                "attributes": {
+                    "friendly_name": "iPad (2) Geocoded Location",
+                    "icon": "mdi:map"
+                },
+                "last_changed": "2021-12-11T22:47:55.483399+00:00",
+                "last_updated": "2021-12-11T22:47:55.483399+00:00",
+                "context": {
+                    "id": "95d9ce9568b638d1fecbee3ea3171ca1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_2_last_update_trigger",
+                "state": "Periodic",
+                "attributes": {
+                    "friendly_name": "iPad (2) Last Update Trigger",
+                    "icon": "mdi:cellphone-wireless"
+                },
+                "last_changed": "2021-12-11T22:47:55.483528+00:00",
+                "last_updated": "2021-12-11T22:47:55.483528+00:00",
+                "context": {
+                    "id": "3c66499d38211301e466613fca54695d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_2_storage",
+                "state": "161.40",
+                "attributes": {
+                    "Available": "418.03 GB",
+                    "Available (Important)": "453.90 GB",
+                    "Available (Opportunistic)": "826.30 GB",
+                    "Total": "511.95 GB",
+                    "unit_of_measurement": "% available",
+                    "friendly_name": "iPad (2) Storage",
+                    "icon": "mdi:database"
+                },
+                "last_changed": "2021-12-11T22:47:55.483655+00:00",
+                "last_updated": "2021-12-11T22:47:55.483655+00:00",
+                "context": {
+                    "id": "f4682cab7737dfb05d36f7ca2af791c2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_2_battery_state",
+                "state": "Full",
+                "attributes": {
+                    "Low Power Mode": false,
+                    "friendly_name": "iPad (2) Battery State",
+                    "icon": "mdi:battery"
+                },
+                "last_changed": "2021-12-11T22:47:55.483780+00:00",
+                "last_updated": "2021-12-11T22:47:55.483780+00:00",
+                "context": {
+                    "id": "a9edd5933522e75c0f2b42657dfea95d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_2_ssid",
+                "state": "Tartuffe",
+                "attributes": {
+                    "friendly_name": "iPad (2) SSID",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2021-12-11T22:47:55.483905+00:00",
+                "last_updated": "2021-12-11T22:47:55.483905+00:00",
+                "context": {
+                    "id": "12bce8145edc667715b944f95be76599",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.ipad_2_bssid",
+                "state": "16:80:63:73:78:5",
+                "attributes": {
+                    "friendly_name": "iPad (2) BSSID",
+                    "icon": "mdi:wifi-star"
+                },
+                "last_changed": "2021-12-11T22:47:55.484029+00:00",
+                "last_updated": "2021-12-11T22:47:55.484029+00:00",
+                "context": {
+                    "id": "1d1a58f718374139ca9158b486b968ee",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.ipad_2_focus",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "iPad (2) Focus",
+                    "icon": "mdi:moon-waning-crescent"
+                },
+                "last_changed": "2021-12-11T22:47:55.484153+00:00",
+                "last_updated": "2021-12-11T22:47:55.484153+00:00",
+                "context": {
+                    "id": "fc5ee7eef867de6e99f2f6e85f6ce352",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -1298,15 +1511,15 @@
                     "vertical_accuracy": 34,
                     "friendly_name": "AS"
                 },
-                "last_changed": "2021-12-07T03:30:01.009118+00:00",
-                "last_updated": "2021-12-07T03:30:01.009118+00:00",
+                "last_changed": "2021-12-11T22:47:55.634264+00:00",
+                "last_updated": "2021-12-11T22:47:55.634264+00:00",
                 "context": {
-                    "id": "a427c7aef9dd0d30cd10b867ff0e5765",
+                    "id": "7ce7edeb628612ec5f9a8d1ce4756a37",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -1322,15 +1535,15 @@
                     "vertical_accuracy": 23,
                     "friendly_name": "andre\u2019s iPhone (2)"
                 },
-                "last_changed": "2021-12-07T05:04:41.306549+00:00",
-                "last_updated": "2021-12-07T05:04:41.306549+00:00",
+                "last_changed": "2021-12-11T22:47:55.634490+00:00",
+                "last_updated": "2021-12-11T22:47:55.634490+00:00",
                 "context": {
-                    "id": "c117fd6701336ee749988de74930b4d7",
+                    "id": "3c0cdf4eb7c9216636a19246b0047f2d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -1348,15 +1561,15 @@
                     "vertical_accuracy": 4,
                     "friendly_name": "iPhone"
                 },
-                "last_changed": "2021-12-07T03:30:01.009581+00:00",
-                "last_updated": "2021-12-07T03:30:01.009581+00:00",
+                "last_changed": "2021-12-11T22:47:55.634694+00:00",
+                "last_updated": "2021-12-11T22:47:55.634694+00:00",
                 "context": {
-                    "id": "f0a8fe23b202e1b303412a4c088a82d7",
+                    "id": "4cb4ee91ac9d90906a2757698569cad1",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
@@ -1366,228 +1579,15 @@
                     "source_type": "gps",
                     "friendly_name": "iPad (2)"
                 },
-                "last_changed": "2021-12-08T12:55:27.546130+00:00",
-                "last_updated": "2021-12-08T12:55:27.546130+00:00",
+                "last_changed": "2021-12-11T22:47:55.634862+00:00",
+                "last_updated": "2021-12-11T22:47:55.634862+00:00",
                 "context": {
-                    "id": "87a88fb12b54cf48321fdc3462025d87",
+                    "id": "92d11bb1e0f36040d9044aba547d2e18",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.ipad_2_battery_level",
-                "state": "100",
-                "attributes": {
-                    "unit_of_measurement": "%",
-                    "friendly_name": "iPad (2) Battery Level",
-                    "icon": "mdi:battery",
-                    "device_class": "battery"
-                },
-                "last_changed": "2021-12-08T12:55:27.743159+00:00",
-                "last_updated": "2021-12-08T12:55:27.743159+00:00",
-                "context": {
-                    "id": "e018f462be46fa4248fa4b0430720190",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.ipad_2_activity",
-                "state": "Unknown",
-                "attributes": {
-                    "Confidence": "High",
-                    "Types": [
-                        "Unknown"
-                    ],
-                    "friendly_name": "iPad (2) Activity",
-                    "icon": "mdi:help-circle"
-                },
-                "last_changed": "2021-12-08T12:58:03.588713+00:00",
-                "last_updated": "2021-12-08T12:58:03.588713+00:00",
-                "context": {
-                    "id": "adea28b6763be8ed706dd4ba6accc750",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.ipad_2_connection_type",
-                "state": "Wi-Fi",
-                "attributes": {
-                    "friendly_name": "iPad (2) Connection Type",
-                    "icon": "mdi:wifi"
-                },
-                "last_changed": "2021-12-08T12:55:27.753770+00:00",
-                "last_updated": "2021-12-08T12:55:27.753770+00:00",
-                "context": {
-                    "id": "228aba316c4a5c87a590be0a20ebc913",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.ipad_2_geocoded_location",
-                "state": "Unknown",
-                "attributes": {
-                    "friendly_name": "iPad (2) Geocoded Location",
-                    "icon": "mdi:map"
-                },
-                "last_changed": "2021-12-08T12:55:27.753921+00:00",
-                "last_updated": "2021-12-08T12:55:27.753921+00:00",
-                "context": {
-                    "id": "31b14ecc78b85ca6e362d0f253375043",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.ipad_2_last_update_trigger",
-                "state": "Periodic",
-                "attributes": {
-                    "friendly_name": "iPad (2) Last Update Trigger",
-                    "icon": "mdi:cellphone-wireless"
-                },
-                "last_changed": "2021-12-08T12:56:03.288962+00:00",
-                "last_updated": "2021-12-08T12:56:03.288962+00:00",
-                "context": {
-                    "id": "0c4791f9993061b485cf841017561913",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.ipad_2_storage",
-                "state": "161.40",
-                "attributes": {
-                    "Available": "418.03 GB",
-                    "Available (Important)": "453.90 GB",
-                    "Available (Opportunistic)": "826.30 GB",
-                    "Total": "511.95 GB",
-                    "unit_of_measurement": "% available",
-                    "friendly_name": "iPad (2) Storage",
-                    "icon": "mdi:database"
-                },
-                "last_changed": "2021-12-08T12:56:03.287984+00:00",
-                "last_updated": "2021-12-08T12:58:03.589148+00:00",
-                "context": {
-                    "id": "8ad68171d84b8635c0ae9b8b0a2983cc",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.ipad_2_battery_state",
-                "state": "Full",
-                "attributes": {
-                    "Low Power Mode": false,
-                    "friendly_name": "iPad (2) Battery State",
-                    "icon": "mdi:battery"
-                },
-                "last_changed": "2021-12-08T12:55:27.762715+00:00",
-                "last_updated": "2021-12-08T12:55:27.762715+00:00",
-                "context": {
-                    "id": "fc952cac7ef79d4d03a5bb8793c82e6e",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.ipad_2_ssid",
-                "state": "Tartuffe",
-                "attributes": {
-                    "friendly_name": "iPad (2) SSID",
-                    "icon": "mdi:wifi"
-                },
-                "last_changed": "2021-12-08T12:55:27.765112+00:00",
-                "last_updated": "2021-12-08T12:55:27.765112+00:00",
-                "context": {
-                    "id": "e267a0505f5ac43b1044840c3f496782",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.ipad_2_bssid",
-                "state": "16:80:63:73:78:5",
-                "attributes": {
-                    "friendly_name": "iPad (2) BSSID",
-                    "icon": "mdi:wifi-star"
-                },
-                "last_changed": "2021-12-08T12:55:27.767519+00:00",
-                "last_updated": "2021-12-08T12:55:27.767519+00:00",
-                "context": {
-                    "id": "d57398b686a619884fed377659f39bc1",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "binary_sensor.ipad_2_focus",
-                "state": "off",
-                "attributes": {
-                    "friendly_name": "iPad (2) Focus",
-                    "icon": "mdi:moon-waning-crescent"
-                },
-                "last_changed": "2021-12-08T12:56:03.374438+00:00",
-                "last_updated": "2021-12-08T12:56:03.374438+00:00",
-                "context": {
-                    "id": "9c8bb1c32927c5e28b32f390fbc05ce3",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "automation.turn_off_bathroom_lights_after_15_minutes",
-                "state": "on",
-                "attributes": {
-                    "last_triggered": "2021-12-10T23:32:33.594799+00:00",
-                    "mode": "single",
-                    "current": 0,
-                    "id": "1639178759894",
-                    "friendly_name": "Turn off bathroom lights after 15 minutes"
-                },
-                "last_changed": "2021-12-10T23:27:13.438338+00:00",
-                "last_updated": "2021-12-10T23:32:33.604226+00:00",
-                "context": {
-                    "id": "574844a3974cfa1e3ddf66323dbe3ac7",
-                    "parent_id": "e96a342cb7a4ff7ce054fed36fbe773b",
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-12-11T17:15:08.213214+00:00"
+            "last_seen": "2021-12-11T23:12:46.528300+00:00"
         },
         {
             "state": {
