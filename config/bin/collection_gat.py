@@ -8,7 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 
 CURRENT_TIME: datetime = datetime.now()
-YEAR_INT = str(int(CURRENT_TIME.year) + 1)
+YEAR_INT = str(int(CURRENT_TIME.year) + 2)
 
 URL = f'https://api.recollect.net/api/places/B7CACAE0-E7D7-11E8-98AA-1DCEB33ECFC0/services/' \
       f'798/events?nomerge=1&hide=reminder_only&after=' \
@@ -64,4 +64,4 @@ for e in out:
             data=PAYLOAD
             )
     # print(req.content)
-#print(json.dumps(out))
+print(json.dumps(out))
