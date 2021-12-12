@@ -36,11 +36,11 @@
 
 
 
-- platform: command_line
-  name: "bin alarmdotcom"
-  command: "python3 /config/bin/alarmdotcom.py"
-  scan_interval: 60
-  command_timeout: 60
+        #- platform: command_line
+        #name: "bin alarmdotcom"
+        #command: "python3 /config/bin/alarmdotcom.py"
+        #scan_interval: 60
+        #command_timeout: 60
 
 
 

@@ -48,7 +48,7 @@ class AlarmDotCom:
         #     json.loads(serialized_cookie_dict))  # --- Successful!
 
     def login(self):
-        print("Login to alarm.com")s
+        print("Login to alarm.com")
 
         # GET /login?m=logout HTTP/1.1
 

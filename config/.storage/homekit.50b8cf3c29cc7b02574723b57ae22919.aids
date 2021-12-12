@@ -243,7 +243,20 @@
             "template.sensor.collect_gatineau_gray_bin": 767804346,
             "template.sensor.collect_gatineau_bulky_waste": 3984942771,
             "template.sensor.collect_gatineau_bulky_wood_metal_waste": 2833084111,
-            "template.sensor.collect_gatineau_tree_bin": 3824719781
+            "template.sensor.collect_gatineau_tree_bin": 3824719781,
+            "automation.automation.1639178759894": 3196677060,
+            "mobile_app.sensor.04cfee3805e418c1f424d958ce1557410e0af5db9c5c2ca61cf6272d9567ad21_battery_level": 597988157,
+            "mobile_app.sensor.04cfee3805e418c1f424d958ce1557410e0af5db9c5c2ca61cf6272d9567ad21_activity": 2538645482,
+            "mobile_app.sensor.04cfee3805e418c1f424d958ce1557410e0af5db9c5c2ca61cf6272d9567ad21_connectivity_connection_type": 39580362,
+            "mobile_app.sensor.04cfee3805e418c1f424d958ce1557410e0af5db9c5c2ca61cf6272d9567ad21_geocoded_location": 3305306143,
+            "mobile_app.sensor.04cfee3805e418c1f424d958ce1557410e0af5db9c5c2ca61cf6272d9567ad21_last_update_trigger": 729947670,
+            "mobile_app.sensor.04cfee3805e418c1f424d958ce1557410e0af5db9c5c2ca61cf6272d9567ad21_storage": 917763392,
+            "mobile_app.sensor.04cfee3805e418c1f424d958ce1557410e0af5db9c5c2ca61cf6272d9567ad21_battery_state": 4257210966,
+            "mobile_app.sensor.04cfee3805e418c1f424d958ce1557410e0af5db9c5c2ca61cf6272d9567ad21_connectivity_ssid": 3113886102,
+            "mobile_app.sensor.04cfee3805e418c1f424d958ce1557410e0af5db9c5c2ca61cf6272d9567ad21_connectivity_bssid": 1481063206,
+            "mobile_app.binary_sensor.04cfee3805e418c1f424d958ce1557410e0af5db9c5c2ca61cf6272d9567ad21_focus": 397405501,
+            "mobile_app.device_tracker.04A212C5-1552-4AD4-99DE-17D32B3F221E": 2022201109,
+            "sensor.bin_collections_gatineau": 1796752391
         }
     }
 }
