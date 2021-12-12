@@ -9,12 +9,12 @@ from bs4 import BeautifulSoup
 
 CURRENT_TIME: datetime = datetime.now()
 YEAR_INT = str(int(CURRENT_TIME.year) + 2)
+YEAR_START=str(CURRENT_TIME.year - 1)
 
 URL = f'https://api.recollect.net/api/places/B7CACAE0-E7D7-11E8-98AA-1DCEB33ECFC0/services/' \
       f'798/events?nomerge=1&hide=reminder_only&after=' \
-      f'{CURRENT_TIME.year}-{CURRENT_TIME.month}-{CURRENT_TIME.day}&before={YEAR_INT}-01-01' \
+      f'{YEAR_START}-{CURRENT_TIME.month}-{CURRENT_TIME.day}&before={YEAR_INT}-01-01' \
       f'&locale=en&include_message=email&_=1638837220'
-
 
 BEARER = "bearer eyJ1eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJmYzZmY2M4Y2M0MjY0MDZlODA0Z" \
          "TkzYjE5MmI3MTVjNCIsImlhdCI6MTYzODg0ODc3MCwiZXhwIjoxOTU0MjA4NzcwfQ.ee0px9b4bnU1QTInWdto" \
@@ -64,4 +64,6 @@ for e in out:
             data=PAYLOAD
             )
     # print(req.content)
+
+print(URL)
 print(json.dumps(out))
