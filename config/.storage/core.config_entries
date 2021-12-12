@@ -511,7 +511,10 @@
                         "00-11-32-F7-76-B8"
                     ]
                 },
-                "options": {},
+                "options": {
+                    "scan_interval": 15,
+                    "timeout": 10
+                },
                 "pref_disable_new_entities": false,
                 "pref_disable_polling": false,
                 "source": "user",
