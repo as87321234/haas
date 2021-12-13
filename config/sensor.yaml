@@ -34,15 +34,11 @@
         unit_of_measurement: 'km'
         value_template: "{{ (float(states('sensor.openweathermap_wind_speed')) * 3.6 ) }}"
 
-
-
         #- platform: command_line
         #name: "bin alarmdotcom"
         #command: "python3 /config/bin/alarmdotcom.py"
         #scan_interval: 60
         #command_timeout: 60
-
-
 
 - platform: command_line
   name: "bin collections gatineau"
@@ -54,31 +50,31 @@
   sensors:
     collection_gatineau_blue_bin:
       device_class: timestamp
-      value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["Blue bin"] }}'
-      unique_id: "collect_gatineau_blue_bin"
+      value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["recyclage"] }}'
+      unique_id: "collection_gatineau_recyclage"
 
     collection_gatineau_brown_bin:
       device_class: timestamp
-      value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["Brown bin"] }}'
-      unique_id: "collect_gatineau_brown_bin"
+      value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["compostage"] }}'
+      unique_id: "collection_gatineau_compostage"
 
     collection_gatineau_gray_bin:
       device_class: timestamp
-      value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["Gray bin"] }}'
-      unique_id: "collect_gatineau_gray_bin"
+      value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["ordures"] }}'
+      unique_id: "collection_gatineau_ordures"
+
+    collection_gatineau_tree_bin:
+      device_class: timestamp
+      value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["arbresnoel"] }}'
+      unique_id: "collection_gatineau_arbresnoel"
 
       #collection_gatineau_bulky_waste:
       #device_class: timestamp
       #value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["Bulky-waste"] }}'
-      #unique_id: "collect_gatineau_bulky_waste"
+      #unique_id: "collection_gatineau_bulky_waste"
 
       #collection_gatineau_bulky_wood_metal_waste:
       #device_class: timestamp
       #value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["Bulky wood and metal articles"] }}'
-      #unique_id: "collect_gatineau_bulky_wood_metal_waste"
-
-      #collection_gatineau_tree_bin:
-      #device_class: timestamp
-      #value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["Christmas Tree collection"] }}'
-      #unique_id: "collect_gatineau_tree_bin"
+      #unique_id: "collection_gatineau_bulky_wood_metal_waste"
 
