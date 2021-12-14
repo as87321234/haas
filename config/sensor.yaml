@@ -10,27 +10,27 @@
   sensors:
      outdoor_humidity:
         friendly_name: "Outdoor Humidity"
-        entity_id: weather.weatherapi_home
+        #unique_id: weather.weatherapi_home
         unit_of_measurement: '%'
         value_template: "{{ state_attr('weather.weatherapi_home', 'humidity') }}"
      outdoor_temperature:
         friendly_name: "Outdoor Temperature"
-        entity_id: weather.weatherapi_home
+        #unique_id: weather.weatherapi_home
         unit_of_measurement: '°C'
         value_template: "{{ state_attr('weather.weatherapi_home', 'temperature') }}"
      outdoor_wind:
         friendly_name: "Wind"
-        entity_id: weather.weatherapi_home
+        #unique_id: weather.weatherapi_home
         unit_of_measurement: 'km'
         value_template: "{{ state_attr('weather.weatherapi_home', 'wind_speed') }}"
      outdoor_pressure:
         friendly_name: "Pressure"
-        entity_id: weather.weatherapi_home
+        #unique_id: weather.weatherapi_home
         unit_of_measurement: 'p'
         value_template: "{{ state_attr('weather.weatherapi_home', 'pressure') }}"
      outdoor_windspeed_km:
         friendly_name: "Wind Speed (km)"
-        entity_id: sensor.openweathermap_wind_speed_km
+        #unique_id: unique_id.openweathermap_wind_speed_km
         unit_of_measurement: 'km'
         value_template: "{{ (float(states('sensor.openweathermap_wind_speed')) * 3.6 ) }}"
 
@@ -48,33 +48,33 @@
 
 - platform: template
   sensors:
-    collection_gatineau_blue_bin:
+    collection_gatineau_recyclage:
       device_class: timestamp
-      value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["recyclage"] }}'
+      value_template: '{{ (states("sensor.collections_gatineau")|from_json())["recyclage"] }}'
       unique_id: "collection_gatineau_recyclage"
 
-    collection_gatineau_brown_bin:
+    collection_gatineau_compostage:
       device_class: timestamp
-      value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["compostage"] }}'
+      value_template: '{{ (states("sensor.collections_gatineau")|from_json())["compostage"] }}'
       unique_id: "collection_gatineau_compostage"
 
-    collection_gatineau_gray_bin:
+    collection_gatineau_ordures:
       device_class: timestamp
-      value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["ordures"] }}'
+      value_template: '{{ (states("sensor.collections_gatineau")|from_json())["ordures"] }}'
       unique_id: "collection_gatineau_ordures"
 
-    collection_gatineau_tree_bin:
+    collection_gatineau_arbresnoel:
       device_class: timestamp
-      value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["arbresnoel"] }}'
+      value_template: '{{ (states("sensor.collections_gatineau")|from_json())["arbresnoel"] }}'
       unique_id: "collection_gatineau_arbresnoel"
 
       #collection_gatineau_bulky_waste:
       #device_class: timestamp
-      #value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["Bulky-waste"] }}'
+      #value_template: '{{ (states("sensor.collections_gatineau")|from_json())["Bulky-waste"] }}'
       #unique_id: "collection_gatineau_bulky_waste"
 
       #collection_gatineau_bulky_wood_metal_waste:
       #device_class: timestamp
-      #value_template: '{{ (states("sensor.bin_collections_gatineau")|from_json())["Bulky wood and metal articles"] }}'
+      #value_template: '{{ (states("sensor.collections_gatineau")|from_json())["Bulky wood and metal articles"] }}'
       #unique_id: "collection_gatineau_bulky_wood_metal_waste"
 

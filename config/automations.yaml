@@ -159,3 +159,14 @@
     entity_id: switch.master_bathroom_light
     domain: switch
   mode: single
+- id: '1639443980900'
+  alias: Reduce intensity on Piano light
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunset
+    offset: '2'
+  condition: []
+  action:
+  - scene: scene.throughout_the_night
+  mode: single

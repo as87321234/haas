@@ -41,7 +41,7 @@ sensor: !include sensor.yaml
 
 # Example configuration.yaml entry
 logger:
-  default: info
+  default: debug
   logs:
     pyalarmdotcomajax.pyalarmdotcomajax: debug
 
