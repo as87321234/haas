@@ -35,3 +35,5 @@ config/www/community/home-assistant-sun-card/
 
 config/home-assistant.*
 config/home-assistant_v2.*
+
+*.pyc
