@@ -40,7 +40,6 @@
             "sensor.outdoor_temperature": 4076158316,
             "sensor.outdoor_wind": 3859585324,
             "sensor.outdoor_pressure": 995725129,
-            "sensor.outdoor_windspeed_km_2": 3632023377,
             "apple_tv.media_player.8246B166C5805408": 3098860394,
             "apple_tv.remote.8246B166C5805408": 3832270812,
             "doorbird.switch.1CCAE3711005_1": 2023331732,
