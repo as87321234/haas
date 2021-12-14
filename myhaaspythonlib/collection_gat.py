@@ -73,10 +73,10 @@ for e, value in out.items():
                             " AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0" \
                             ".4664.93 Safari/537.36"
 
-    print(URL)
-    print(json.dumps(headers, indent=2))
-    print(json.dumps(PAYLOAD, indent=2))
+    #print(URL)
+    #print(json.dumps(headers, indent=2))
+    #print(json.dumps(PAYLOAD, indent=2))
     req = requests.post(URL, headers=headers, data= PAYLOAD  )
-    print(req.content)
+    #print(req.content)
 
 print(json.dumps(out))
