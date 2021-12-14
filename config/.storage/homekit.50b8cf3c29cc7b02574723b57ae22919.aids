@@ -256,7 +256,13 @@
             "mobile_app.sensor.04cfee3805e418c1f424d958ce1557410e0af5db9c5c2ca61cf6272d9567ad21_connectivity_bssid": 1481063206,
             "mobile_app.binary_sensor.04cfee3805e418c1f424d958ce1557410e0af5db9c5c2ca61cf6272d9567ad21_focus": 397405501,
             "mobile_app.device_tracker.04A212C5-1552-4AD4-99DE-17D32B3F221E": 2022201109,
-            "sensor.bin_collections_gatineau": 1796752391
+            "sensor.bin_collections_gatineau": 1796752391,
+            "template.sensor.collection_gatineau_recyclage": 3691544172,
+            "template.sensor.collection_gatineau_compostage": 3233760425,
+            "template.sensor.collection_gatineau_ordures": 192575157,
+            "template.sensor.collection_gatineau_arbresnoel": 4017758062,
+            "sensor.outdoor_humidity_2": 3938449554,
+            "sensor.outdoor_windspeed_km_2": 3632023377
         }
     }
 }
