@@ -262,7 +262,8 @@
             "template.sensor.collection_gatineau_ordures": 192575157,
             "template.sensor.collection_gatineau_arbresnoel": 4017758062,
             "sensor.outdoor_humidity_2": 3938449554,
-            "sensor.outdoor_windspeed_km_2": 3632023377
+            "sensor.outdoor_windspeed_km_2": 3632023377,
+            "automation.automation.1639443980900": 1656702871
         }
     }
 }

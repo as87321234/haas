@@ -138,7 +138,7 @@
                 "platform": "ipp",
                 "name": null,
                 "icon": null,
-                "disabled_by": "integration",
+                "disabled_by": null,
                 "capabilities": {},
                 "supported_features": 0,
                 "device_class": "timestamp",
