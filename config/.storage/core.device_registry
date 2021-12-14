@@ -607,35 +607,6 @@
             },
             {
                 "config_entries": [
-                    "50b8cf3c29cc7b02574723b57ae22919"
-                ],
-                "connections": [
-                    [
-                        "mac",
-                        "51:43:00:22:2c:4f"
-                    ]
-                ],
-                "identifiers": [
-                    [
-                        "homekit",
-                        "50b8cf3c29cc7b02574723b57ae22919",
-                        "homekit.bridge"
-                    ]
-                ],
-                "manufacturer": "Home Assistant",
-                "model": "HomeKit Bridge",
-                "name": "HASS Bridge:21064",
-                "sw_version": null,
-                "entry_type": "service",
-                "id": "3c158318b168f9e95252f556fe7672ca",
-                "via_device_id": null,
-                "area_id": "living_room",
-                "name_by_user": null,
-                "disabled_by": null,
-                "configuration_url": null
-            },
-            {
-                "config_entries": [
                     "62b607519bb10c857f1ba6aa5d25e22c"
                 ],
                 "connections": [
@@ -657,64 +628,6 @@
                 "sw_version": null,
                 "entry_type": "service",
                 "id": "44cf4989196432eecacdddff257d58e0",
-                "via_device_id": null,
-                "area_id": null,
-                "name_by_user": null,
-                "disabled_by": null,
-                "configuration_url": null
-            },
-            {
-                "config_entries": [
-                    "8abce7ca665283af05e5274cbb06e990"
-                ],
-                "connections": [
-                    [
-                        "mac",
-                        "9e:9c:49:c3:bc:c6"
-                    ]
-                ],
-                "identifiers": [
-                    [
-                        "homekit",
-                        "8abce7ca665283af05e5274cbb06e990",
-                        "homekit.bridge"
-                    ]
-                ],
-                "manufacturer": "Home Assistant",
-                "model": "HomeKit Accessory",
-                "name": "Doorstation - 1CCAE3711005 Last Ring:21066",
-                "sw_version": null,
-                "entry_type": "service",
-                "id": "0e49d49e5f400296728bc2269d5dfa41",
-                "via_device_id": null,
-                "area_id": null,
-                "name_by_user": null,
-                "disabled_by": null,
-                "configuration_url": null
-            },
-            {
-                "config_entries": [
-                    "8dad9abcb7175572d3550b6b78876d55"
-                ],
-                "connections": [
-                    [
-                        "mac",
-                        "ca:c0:d1:17:84:d5"
-                    ]
-                ],
-                "identifiers": [
-                    [
-                        "homekit",
-                        "8dad9abcb7175572d3550b6b78876d55",
-                        "homekit.bridge"
-                    ]
-                ],
-                "manufacturer": "Home Assistant",
-                "model": "HomeKit Accessory",
-                "name": "Doorstation - 1CCAE3711005 Last Motion:21067",
-                "sw_version": null,
-                "entry_type": "service",
-                "id": "c3752be83d8c2686a32a13d61d139a6a",
                 "via_device_id": null,
                 "area_id": null,
                 "name_by_user": null,
@@ -1351,6 +1264,35 @@
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "50b8cf3c29cc7b02574723b57ae22919"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "7c:68:83:3f:b4:7d"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "homekit",
+                        "50b8cf3c29cc7b02574723b57ae22919",
+                        "homekit.bridge"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "HomeKit Bridge",
+                "name": "HASS Bridge:21064",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "3c158318b168f9e95252f556fe7672ca",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
             }
         ],
         "deleted_devices": [
@@ -1497,6 +1439,42 @@
                 ],
                 "id": "973fa1cebde928381291b135b6801223",
                 "orphaned_timestamp": 1638017273.418438
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "9e:9c:49:c3:bc:c6"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "homekit",
+                        "8abce7ca665283af05e5274cbb06e990",
+                        "homekit.bridge"
+                    ]
+                ],
+                "id": "0e49d49e5f400296728bc2269d5dfa41",
+                "orphaned_timestamp": 1639448918.6256661
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "ca:c0:d1:17:84:d5"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "homekit",
+                        "8dad9abcb7175572d3550b6b78876d55",
+                        "homekit.bridge"
+                    ]
+                ],
+                "id": "c3752be83d8c2686a32a13d61d139a6a",
+                "orphaned_timestamp": 1639448937.5859077
             }
         ]
     }
