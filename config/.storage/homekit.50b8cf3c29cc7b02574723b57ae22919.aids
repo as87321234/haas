@@ -251,7 +251,7 @@
             "template.sensor.tree_bin": 1124561299,
             "template.sensor.all_bin": 766535954,
             "template.sensor.weather.weatherapi_home": 1372444259,
-            "template.sensor.unique_id.openweathermap_wind_speed_km": 1664692390
+            "template.sensor.unique_id.openweathermap_wind_speed_km": 1664692390,
         }
     }
 }
