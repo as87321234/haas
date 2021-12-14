@@ -1,4 +1,5 @@
 ''' COLLECTION GATINEAU '''
+
 import sys
 from datetime import datetime
 
@@ -6,6 +7,8 @@ import json
 import requests
 
 from bs4 import BeautifulSoup
+
+from utility_lib import UtilityLib
 
 CURRENT_TIME: datetime = datetime.now()
 YEAR_INT = str(int(CURRENT_TIME.year) + 2)
@@ -45,31 +48,35 @@ for e in site_json["events"]:
         except KeyError:
             out[name] = a_date
 
-BEARER = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIzOWI5NjFkNTY1MTg0OGUyODM5MzUzMDJiYWQzNmY0MiIsImlhdCI6MTYzOTM2MDg3NiwiZXhwIjoxOTU0NzIwODc2fQ.IfHKyk5gAtPN8jlpxKebs9i8L-4zv7xbqLEFiti5yc8"
+BEARER = UtilityLib.get_secret_password('rest_api_bearer')
 
 # Process collect events
-for e in out:
+for e, value in out.items():
 
-    a_state = out[e]
+    a_state = e
 
-
-    #payload = {"state":f"{out[e]}","attributes":{"friendly_name":f"sensor.collection_gatineau_{e}","device_class":"timestamp"}} 
-    payload = '{ "state": "#", "attributes": {"endity_id": "sensor.collection_gatineau_##", "device_class":"timestamp"}}'
-    payload = payload.replace("##",e)
-    payload = payload.replace("#",out[e])
-
-    print(json.dumps(payload, indent=2))
+    PAYLOAD = '{"state":"##",' \
+              '"attributes": { "friendly_name": "collection_gatineau_#",' \
+              '"device_class":"timestamp" } }'
+    PAYLOAD = PAYLOAD.replace("##", value)
+    PAYLOAD = PAYLOAD.replace("#", e)
 
     URL = f"http://10.0.0.248:8123/api/states/sensor.collection_gatineau_{e}"
 
-    headers = {} 
+    headers = {}
+    headers["Accept"] = "*/*"
     headers["authorization"] = BEARER
-    headers["content-type"] = 'application/json'
+    headers["content-type"] = 'application/json;charset=UTF-8'
+    headers["host"] = "10.0.0.248:8123"
+    headers["Origin"] = "10.0.0.248:8123"
+    headers["User-Agent"] = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" \
+                            " AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0" \
+                            ".4664.93 Safari/537.36"
 
-    req = requests.get(URL,
-            headers=headers,
-            data=payload
-          )
+    print(URL)
+    print(json.dumps(headers, indent=2))
+    print(json.dumps(PAYLOAD, indent=2))
+    req = requests.post(URL, headers=headers, data= PAYLOAD  )
     print(req.content)
 
 print(json.dumps(out))
