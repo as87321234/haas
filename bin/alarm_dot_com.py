@@ -1,3 +1,4 @@
+''' ALARM DOT COM '''
 import json
 import requests
 from requests import Response
@@ -6,14 +7,14 @@ from requests.sessions import Session
 
 from bs4 import BeautifulSoup
 
-
 class AlarmDotCom:
+    """ AlarmDotCom """
 
     def __init__(self):
         self.two_factor_authentication_id = ''
         self.big_ip = ''
         self.cookie_jar = ''
-        self.BIGipServer_AlarmApplication_Alarm_WEBADC_Alarm_HTTPS = ''
+        self.bigip = ''
         self.headers = None
         self.cookies = None
         self.session = requests.Session()
@@ -21,8 +22,8 @@ class AlarmDotCom:
     def __str__(self):
         return self.two_factor_authentication_id
 
-    @staticmethod
-    def dump_response(ses: Session, res: Response):
+    def dump_response(self, ses: Session, res: Response):
+        """ dump response """
         print('--------------------------------------')
         print(ses.params)
         print(res.cookies)
@@ -32,22 +33,22 @@ class AlarmDotCom:
         # soup = BeautifulSoup(res.content, 'html.parser')
         # print(soup.prettify())
 
-    @staticmethod
-    def dump_json(o: object, msg: str):
+    def dump_json(self, obj_to_serialize: object, msg: str):
+        """ dump_json """
         print(msg)
-        print(json.dumps(o, indent=4, sort_keys=True))
+        print(json.dumps(obj_to_serialize, indent=4, sort_keys=True))
 
-# 
-    @staticmethod
-    def dump_cookie_jar(cookie_jar: RequestsCookieJar, msg: str):
+    def dump_cookie_jar(self, cookie_jar: RequestsCookieJar, msg: str):
+        """ dump_cookie_jar """
         print(msg)
         serialized_cookie_dict = ""
         serialized_cookie_dict = json.dumps(dict(cookie_jar))
-        dump_json(serialized_cookie_dict, ms)  # --- Correctly serialized CookieJar
+        self.dump_json(serialized_cookie_dict, msg)  # --- Correctly serialized CookieJar
         # deserialized_cookie_dict = requests.cookies.cookiejar_from_dict(
         #     json.loads(serialized_cookie_dict))  # --- Successful!
 
     def login(self):
+        """ Login """
         print("Login to alarm.com")
 
         # GET /login?m=logout HTTP/1.1
@@ -60,8 +61,10 @@ class AlarmDotCom:
             'sec-ch-ua-mobile': '?0',
             'sec-ch-ua-platform': '"macOS"',
             'Upgrade-Insecure-Requests': '1',
-            'User-Agent': "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36",
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'User-Agent': "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/" \
+                "537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36",
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif," \
+                "image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'Sec-Fetch-Site': 'same-origin',
             'Sec-Fetch-Mode': 'navigate',
             'Sec-Fetch-User': '?1',
@@ -73,8 +76,8 @@ class AlarmDotCom:
 
         self.headers = header
 
-        with self.session as s:
-            res = s.get("https://www.alarm.com/login.aspx",
+        with self.session as a_session:
+            res = a_session.get("https://www.alarm.com/login.aspx",
                         headers=header,
                         cookies={},
                         auth=(),
@@ -86,7 +89,7 @@ class AlarmDotCom:
             self.dump_json(self.headers, "login: dump headers")
             self.dump_cookie_jar(self.cookies, "login: dump cookies")
 
-            AlarmDotCom.dump_response(s, res)
+            AlarmDotCom.dump_response(a_session, res)
 
             soup = BeautifulSoup(res.content, 'html.parser')
             viewstate = soup.select('input#__VIEWSTATE')[0].get('value')
@@ -102,7 +105,7 @@ class AlarmDotCom:
                 'loginFolder': ''
             }
 
-            res = s.post("https://www.alarm.com/web/Default.aspx",
+            res = a_session.post("https://www.alarm.com/web/Default.aspx",
                          data=payload,
                          cookies=self.cookies,
                          headers={
@@ -120,26 +123,33 @@ class AlarmDotCom:
             print(self.headers)
             print(self.cookies)
 
-            AlarmDotCom.dump_response(s, res)
+            AlarmDotCom.dump_response(a_session, res)
 
-    def select_system(self, system):
+    def select_system(self):
+        """ select_system """
         header = {
             'Referer': 'https://www.alarm.com/web/system/home',
             'SourcePath': '/web/system/home',
             'Host': 'www.alarm.com',
             'cookieTest': '1',
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:94.0) Gecko/20100101 Firefox/94.0',
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:94.0)" \
+                " Gecko/20100101 Firefox/94.0',
             'IsFromNewSite': '1',
             'adc_e_loggedInAsSubscriber': '1',
             'login': 'as87321234@gmail.com',
-            'auth_CustomerDotNet': '4F65454965BEE59D14BAF8EA434D431B22676797AB9F34237F6F3EEE7BB44D4A9E1E658F4E9AD0B4737E4337B37465F91AE5949EFC58397BCDB29DDDB2F7EAB068929CB1427155CC7CA0C00A48B07FFF'
+            'auth_CustomerDotNet': '4F65454965BEE59D14BAF8EA434D431B22676797AB9F34237F" \
+                "6F3EEE7BB44D4A9E1E658F4E9AD0B4737E4337B37465F91AE5949EFC58397BCDB29DD" \
+                "DB2F7EAB068929CB1427155CC7CA0C00A48B07FFF'
         }
 
         self.headers.update(header)
 
-        with self.session as s:
-            res = s.get(
-                "https://www.alarm.com/web/api/devices/sensors?ids%5B%5D=97140300-5&ids%5B%5D=97140300-1&ids%5B%5D=97140300-6&ids%5B%5D=97140300-4&ids%5B%5D=97140300-3&ids%5B%5D=97140300-229&ids%5B%5D=97140300-2&ids%5B%5D=97140300-8",
+        with self.session as a_session:
+            res = a_session.get(
+                "https://www.alarm.com/web/api/devices/sensors?ids%5B%5D=97140300" \
+                    "-5&ids%5B%5D=97140300-1&ids%5B%5D=97140300-6&ids%5B%5D=97140300" \
+                    "-4&ids%5B%5D=97140300-3&ids%5B%5D=97140300-229&ids%5B%5D=" \
+                    "97140300-2&ids%5B%5D=97140300-8",
                 headers=self.headers,
                 cookies=self.cookies,
                 params={},
@@ -153,6 +163,7 @@ class AlarmDotCom:
         print(soup.prettify())
 
     def get_sensor(self):
+        """ get_sensor """
         header = {
             'Host': 'www.alarm.com',
             'Connection': 'keep-alive',
@@ -161,8 +172,12 @@ class AlarmDotCom:
             'sec-ch-ua-mobile': '?0',
             'sec-ch-ua-platform': '"macOS"',
             'Upgrade-Insecure-Requests': '1',
-            'User-Agent': "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36",
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'User-Agent': "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" \
+                " AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55" \
+                " Safari/537.36",
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9," \
+                "image/avif,image/webp,image/apng,*/*;q=0.8,application/" \
+                "signed-exchange;v=b3;q=0.9',
             'Sec-Fetch-Site': 'same-origin',
             'Sec-Fetch-Mode': 'navigate',
             'Sec-Fetch-User': '?1',
@@ -172,8 +187,8 @@ class AlarmDotCom:
             'Accept-Language': 'en-US,en;q=0.9'
         }
 
-        with self.session as s:
-            res = s.get("https://www.alarm.com/web/Security/Sensors.aspx",
+        with self.session as a_session:
+            res = a_session.get("https://www.alarm.com/web/Security/Sensors.aspx",
                         headers=header,
                         cookies={},
                         auth=(),
