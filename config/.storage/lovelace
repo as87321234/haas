@@ -47,7 +47,7 @@
                                         {
                                             "type": "gauge",
                                             "min": 0,
-                                            "entity": "sensor.outdoor_windspeed_km",
+                                            "entity": "sensor.outdoor_windspeed_km_2",
                                             "name": "Wind",
                                             "needle": true,
                                             "severity": {
