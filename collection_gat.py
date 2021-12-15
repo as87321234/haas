@@ -8,7 +8,7 @@ import requests
 
 from bs4 import BeautifulSoup
 
-from utility_lib import UtilityLib
+from config.myhaaspythonlib.utility_lib import UtilityLib
 
 CURRENT_TIME: datetime = datetime.now()
 YEAR_INT = str(int(CURRENT_TIME.year) + 2)

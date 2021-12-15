@@ -15,7 +15,7 @@ class UtilityLib:
 
         """ getSecretPassword """
 
-        with open('secrets.yaml', encoding='utf-8') as file:
+        with open('config/secrets.yaml', encoding='utf-8') as file:
             credentials = yaml.full_load(file)
 
             try:
