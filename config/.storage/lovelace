@@ -29,7 +29,7 @@
                             ],
                             "value_sensors": [
                                 {
-                                    "sensor": "sensor.outdoor_windspeed_km"
+                                    "sensor": "sensor.outdoor_windspeed_km_2"
                                 }
                             ],
                             "language": "en"

@@ -182,13 +182,6 @@
                                     "aspect_ratio": "1",
                                     "show_name": false,
                                     "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 50' width='50' height='50' style='background-color:%23b3e5fC'%3E%3Cg%3E%3Ctext font-family='roboto' x='50%25' y='50%25' text-anchor='middle' stroke='%23212121' font-size='1.3em' dy='.3em'%3ES%3C/text%3E%3C/g%3E%3C/svg%3E"
-                                },
-                                {
-                                    "type": "picture-entity",
-                                    "entity": "person.sylvain",
-                                    "aspect_ratio": "1",
-                                    "show_name": false,
-                                    "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 50' width='50' height='50' style='background-color:%23b3e5fC'%3E%3Cg%3E%3Ctext font-family='roboto' x='50%25' y='50%25' text-anchor='middle' stroke='%23212121' font-size='1.3em' dy='.3em'%3ES%3C/text%3E%3C/g%3E%3C/svg%3E"
                                 }
                             ]
                         },
@@ -219,88 +212,195 @@
                         {
                             "type": "entities",
                             "entities": [
-                                "scene.throughout_the_night"
+                                {
+                                    "entity": "automation.dim_living_room"
+                                }
                             ],
                             "title": "Scene"
                         },
                         {
                             "type": "entities",
                             "entities": [
-                                "sensor.hp_laserjet_400_color_m451nw_black_cartridge_hp_ce410x",
-                                "sensor.hp_laserjet_400_color_m451nw_cyan_cartridge_hp_ce411a",
-                                "sensor.canada_coronavirus_confirmed",
-                                "sensor.canada_coronavirus_current",
-                                "sensor.canada_coronavirus_deaths",
-                                "sensor.canada_coronavirus_recovered",
-                                "sensor.tree_bin",
-                                "sensor.brown_bin",
-                                "sensor.disk_use_percent",
-                                "sensor.hp_laserjet_400_color_m451nw",
-                                "sensor.sonoff_a4400031b7_humidity",
-                                "sensor.sonoff_a4400031b7_temperature",
-                                "sensor.sonoff_a440003248_humidity",
-                                "sensor.sonoff_a440003248_temperature",
-                                "sensor.memory_free",
-                                "sensor.memory_use",
-                                "sensor.sonoff_a4400031e5_humidity",
-                                "sensor.sonoff_a4400031e5_temperature",
-                                "sensor.sonoff_a4400031ed_humidity",
-                                "sensor.sonoff_a4400031ed_temperature",
-                                "sensor.outdoor_humidity",
-                                "sensor.outdoor_temperature",
-                                "sensor.outdoor_pressure",
-                                "sensor.processor_use",
-                                "sensor.hp_laserjet_400_color_m451nw_magenta_cartridge_hp_ce413a",
-                                "sensor.blue_bin",
-                                "sensor.sb_nas_cpu_load_average_15_min",
-                                "sensor.sb_nas_cpu_load_average_5_min",
-                                "sensor.sb_nas_cpu_utilization_total",
-                                "sensor.sb_nas_cpu_utilization_user",
-                                "sensor.sb_nas_download_throughput",
-                                "sensor.sb_nas_memory_available_real",
-                                "sensor.sb_nas_memory_available_swap",
-                                "sensor.sb_nas_memory_total_real",
-                                "sensor.sb_nas_memory_total_swap",
-                                "sensor.sb_nas_memory_usage_real",
-                                "sensor.sb_nas_status",
-                                "sensor.sb_nas_status_2",
-                                "sensor.sb_nas_status_3",
-                                "sensor.sb_nas_upload_throughput",
-                                "sensor.sb_nas_used_space",
-                                "sensor.sb_nas_used_space_2",
-                                "sensor.sb_nas_used_space_3",
-                                "sensor.sb_nas_volume_used",
-                                "sensor.sb_nas_volume_used_2",
-                                "sensor.sb_nas_volume_used_3",
-                                "sensor.us_coronavirus_confirmed",
-                                "sensor.us_coronavirus_current",
-                                "sensor.us_coronavirus_deaths",
-                                "sensor.us_coronavirus_recovered",
-                                "sensor.gray_bin",
-                                "sensor.outdoor_wind",
-                                "sensor.outdoor_windspeed_km",
-                                "sensor.hp_laserjet_400_color_m451nw_yellow_cartridge_hp_ce412a",
-                                "sensor.all",
-                                "sensor.bin_alarmdotcom",
-                                "sensor.black_bin",
-                                "sensor.andre",
-                                "sensor.andre2",
-                                "sensor.collection_gatineau_brown_bin",
-                                "sensor.collection_gatineau_bulky_waste",
-                                "sensor.collection_gatineau_bulky_wood_metal_waste",
-                                "sensor.collection_gatineau_gray_bin",
-                                "sensor.collection_gatineau_tree_bin",
-                                "sensor.collection_gatineau_blue_bin",
-                                "sensor.collection_gatineau_arbresnoel",
-                                "sensor.collection_gatineau_compostage",
-                                "sensor.collection_gatineau_construction",
-                                "sensor.collection_gatineau_ecocentre",
-                                "sensor.collection_gatineau_encombrant",
-                                "sensor.collection_gatineau_holiday",
-                                "sensor.collection_gatineau_ordures",
-                                "sensor.collection_gatineau_recyclage",
-                                "sensor.sonoff_a440003247_humidity",
-                                "sensor.sonoff_a440003247_temperature"
+                                {
+                                    "entity": "sensor.all"
+                                },
+                                {
+                                    "entity": "sensor.andre"
+                                },
+                                {
+                                    "entity": "sensor.andre2"
+                                },
+                                {
+                                    "entity": "sensor.canada_coronavirus_confirmed"
+                                },
+                                {
+                                    "entity": "sensor.canada_coronavirus_current"
+                                },
+                                {
+                                    "entity": "sensor.canada_coronavirus_deaths"
+                                },
+                                {
+                                    "entity": "sensor.canada_coronavirus_recovered"
+                                },
+                                {
+                                    "entity": "sensor.collection_gatineau_arbresnoel"
+                                },
+                                {
+                                    "entity": "sensor.collection_gatineau_compostage"
+                                },
+                                {
+                                    "entity": "sensor.collection_gatineau_construction"
+                                },
+                                {
+                                    "entity": "sensor.collection_gatineau_ecocentre"
+                                },
+                                {
+                                    "entity": "sensor.collection_gatineau_encombrant"
+                                },
+                                {
+                                    "entity": "sensor.collection_gatineau_holiday"
+                                },
+                                {
+                                    "entity": "sensor.collection_gatineau_ordures"
+                                },
+                                {
+                                    "entity": "sensor.collection_gatineau_recyclage"
+                                },
+                                {
+                                    "entity": "sensor.disk_use_percent"
+                                },
+                                {
+                                    "entity": "sensor.hp_laserjet_400_color_m451nw"
+                                },
+                                {
+                                    "entity": "sensor.hp_laserjet_400_color_m451nw_black_cartridge_hp_ce410x"
+                                },
+                                {
+                                    "entity": "sensor.hp_laserjet_400_color_m451nw_cyan_cartridge_hp_ce411a"
+                                },
+                                {
+                                    "entity": "sensor.hp_laserjet_400_color_m451nw_magenta_cartridge_hp_ce413a"
+                                },
+                                {
+                                    "entity": "sensor.hp_laserjet_400_color_m451nw_yellow_cartridge_hp_ce412a"
+                                },
+                                {
+                                    "entity": "sensor.memory_free"
+                                },
+                                {
+                                    "entity": "sensor.memory_use"
+                                },
+                                {
+                                    "entity": "sensor.outdoor_humidity"
+                                },
+                                {
+                                    "entity": "sensor.outdoor_pressure"
+                                },
+                                {
+                                    "entity": "sensor.outdoor_temperature"
+                                },
+                                {
+                                    "entity": "sensor.outdoor_wind"
+                                },
+                                {
+                                    "entity": "sensor.outdoor_windspeed_km"
+                                },
+                                {
+                                    "entity": "sensor.processor_use"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_cpu_load_average_15_min"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_cpu_load_average_5_min"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_cpu_utilization_total"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_cpu_utilization_user"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_download_throughput"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_memory_available_real"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_memory_available_swap"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_memory_total_real"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_memory_total_swap"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_status_2"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_status_3"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_upload_throughput"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_used_space"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_used_space_2"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_used_space_3"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_volume_used"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_volume_used_2"
+                                },
+                                {
+                                    "entity": "sensor.sb_nas_volume_used_3"
+                                },
+                                {
+                                    "entity": "sensor.sonoff_a4400031b7_humidity"
+                                },
+                                {
+                                    "entity": "sensor.sonoff_a4400031b7_temperature"
+                                },
+                                {
+                                    "entity": "sensor.sonoff_a4400031e5_humidity"
+                                },
+                                {
+                                    "entity": "sensor.sonoff_a4400031e5_temperature"
+                                },
+                                {
+                                    "entity": "sensor.sonoff_a4400031ed_humidity"
+                                },
+                                {
+                                    "entity": "sensor.sonoff_a4400031ed_temperature"
+                                },
+                                {
+                                    "entity": "sensor.sonoff_a440003247_humidity"
+                                },
+                                {
+                                    "entity": "sensor.sonoff_a440003248_humidity"
+                                },
+                                {
+                                    "entity": "sensor.sonoff_a440003248_temperature"
+                                },
+                                {
+                                    "entity": "sensor.us_coronavirus_confirmed"
+                                },
+                                {
+                                    "entity": "sensor.us_coronavirus_current"
+                                },
+                                {
+                                    "entity": "sensor.us_coronavirus_deaths"
+                                },
+                                {
+                                    "entity": "sensor.us_coronavirus_recovered"
+                                }
                             ],
                             "title": "Sensor"
                         },

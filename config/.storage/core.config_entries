@@ -224,7 +224,7 @@
                         "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
                     },
                     "app_id": "io.robbie.HomeAssistant",
-                    "os_version": "15.0.2",
+                    "os_version": "15.2",
                     "device_name": "Iphone 12 Pro",
                     "supports_encryption": true,
                     "webhook_id": "00251b28e36063dad620a9e5b75b0db4fb120c7028c54314458df17ae4c1a5eb",

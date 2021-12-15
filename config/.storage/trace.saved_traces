@@ -1,5 +1,577 @@
 {
     "version": 1,
     "key": "trace.saved_traces",
-    "data": {}
+    "data": {
+        "automation.1637795313978": [
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "2baaa326376808da1a3df18eb2c38b8e",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2021-12-14T05:00:00.003000+00:00",
+                        "finish": "2021-12-14T05:00:00.063506+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1637795313978",
+                    "trigger": "time",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2021-12-14T05:00:00.003163+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.turn_off_soso_light",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2021-12-13T05:00:00.003197+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1637795313978",
+                                            "friendly_name": "Turn off Soso light"
+                                        },
+                                        "last_changed": "2021-12-14T03:34:43.520518+00:00",
+                                        "last_updated": "2021-12-14T03:34:43.520518+00:00",
+                                        "context": {
+                                            "id": "f296ebdc79fb2c0977d71cd7669fefdb",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "time",
+                                        "now": "2021-12-14T00:00:00.000778-05:00",
+                                        "description": "time",
+                                        "entity_id": null
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2021-12-14T05:00:00.005707+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "d0bdf86dd770bf23ab5f518e3ac037fa",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1637795313978",
+                        "alias": "Turn off Soso light",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "time",
+                                "at": "00:00:00"
+                            }
+                        ],
+                        "condition": [],
+                        "action": [
+                            {
+                                "type": "turn_off",
+                                "device_id": "3cc6bee2cb816939f59310c29312b099",
+                                "entity_id": "light.soso",
+                                "domain": "light"
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "d0bdf86dd770bf23ab5f518e3ac037fa",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "2baaa326376808da1a3df18eb2c38b8e",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2021-12-14T05:00:00.003000+00:00",
+                        "finish": "2021-12-14T05:00:00.063506+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1637795313978",
+                    "trigger": "time"
+                }
+            }
+        ],
+        "automation.1637542004159": [
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "69cd18b6f441df9515da002c13416caa",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2021-12-14T05:00:00.003858+00:00",
+                        "finish": "2021-12-14T05:00:00.255881+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1637542004159",
+                    "trigger": "time",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2021-12-14T05:00:00.003909+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.turn_off_lights_at_midnight",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2021-12-13T05:00:00.002151+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1637542004159",
+                                            "friendly_name": "Turn off lights at midnight"
+                                        },
+                                        "last_changed": "2021-12-14T03:34:43.519732+00:00",
+                                        "last_updated": "2021-12-14T03:34:43.519732+00:00",
+                                        "context": {
+                                            "id": "9fffd997e88f03f326c4e31cc71f0661",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "time",
+                                        "now": "2021-12-14T00:00:00.001294-05:00",
+                                        "description": "time",
+                                        "entity_id": null
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2021-12-14T05:00:00.008806+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "66180f2d15c1a87b424355e48bef5471",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "scene": "scene.throughout_the_night"
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1637542004159",
+                        "alias": "Turn off lights at midnight",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "time",
+                                "at": "00:00:00"
+                            }
+                        ],
+                        "condition": [],
+                        "action": [
+                            {
+                                "scene": "scene.throughout_the_night"
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "66180f2d15c1a87b424355e48bef5471",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "69cd18b6f441df9515da002c13416caa",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2021-12-14T05:00:00.003858+00:00",
+                        "finish": "2021-12-14T05:00:00.255881+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1637542004159",
+                    "trigger": "time"
+                }
+            }
+        ],
+        "automation.1638500186557": [
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "ef66cb25a2b0cc9de201255c1b4560eb",
+                    "state": "stopped",
+                    "script_execution": "error",
+                    "timestamp": {
+                        "start": "2021-12-14T21:20:20.407529+00:00",
+                        "finish": "2021-12-14T21:20:20.420887+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1638500186557",
+                    "error": "must contain at least one of entity_id, device_id, area_id.",
+                    "trigger": "sunset",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2021-12-14T21:20:20.407730+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.dim_living_room",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2021-12-13T21:20:09.596221+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1638500186557",
+                                            "friendly_name": "Dim Living Room"
+                                        },
+                                        "last_changed": "2021-12-14T03:34:43.520955+00:00",
+                                        "last_updated": "2021-12-14T03:34:43.520955+00:00",
+                                        "context": {
+                                            "id": "0e2be4409dbd16bfc816cf80f62e21e5",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "sun",
+                                        "event": "sunset",
+                                        "offset": {
+                                            "__type": "<class 'datetime.timedelta'>",
+                                            "total_seconds": 0.0
+                                        },
+                                        "description": "sunset"
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2021-12-14T21:20:20.409163+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "670dc49f4597c2ce2866b77d2b7a93de",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                },
+                                "error": "must contain at least one of entity_id, device_id, area_id.",
+                                "result": {
+                                    "params": {
+                                        "domain": "light",
+                                        "service": "turn_off",
+                                        "service_data": {
+                                            "transition": 3600
+                                        },
+                                        "target": {}
+                                    },
+                                    "running_script": false,
+                                    "limit": 10
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1638500186557",
+                        "alias": "Dim Living Room",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "sun",
+                                "event": "sunset",
+                                "offset": "0"
+                            }
+                        ],
+                        "condition": [],
+                        "action": [
+                            {
+                                "service": "light.turn_off",
+                                "data": {
+                                    "transition": 3600
+                                }
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "670dc49f4597c2ce2866b77d2b7a93de",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "ef66cb25a2b0cc9de201255c1b4560eb",
+                    "state": "stopped",
+                    "script_execution": "error",
+                    "timestamp": {
+                        "start": "2021-12-14T21:20:20.407529+00:00",
+                        "finish": "2021-12-14T21:20:20.420887+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1638500186557",
+                    "error": "must contain at least one of entity_id, device_id, area_id.",
+                    "trigger": "sunset"
+                }
+            }
+        ],
+        "automation.1636663280639": [
+            {
+                "extended_dict": {
+                    "last_step": "action/1",
+                    "run_id": "f6757aff4cba27557a31606a996b084c",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2021-12-14T21:20:20.408337+00:00",
+                        "finish": "2021-12-14T21:20:20.563428+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1636663280639",
+                    "trigger": "sunset",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2021-12-14T21:20:20.408388+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.new_automation",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2021-12-13T21:20:09.595254+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1636663280639",
+                                            "friendly_name": "Turn on leaving room lights at dusk"
+                                        },
+                                        "last_changed": "2021-12-14T03:34:43.519420+00:00",
+                                        "last_updated": "2021-12-14T03:34:43.519420+00:00",
+                                        "context": {
+                                            "id": "70c1b6096a398534876b74b0df6a5f30",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "sun",
+                                        "event": "sunset",
+                                        "offset": {
+                                            "__type": "<class 'datetime.timedelta'>",
+                                            "total_seconds": 0.0
+                                        },
+                                        "description": "sunset"
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2021-12-14T21:20:20.412962+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "c97c591257f269911c92c7c456f612cc",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                }
+                            }
+                        ],
+                        "action/1": [
+                            {
+                                "path": "action/1",
+                                "timestamp": "2021-12-14T21:20:20.514479+00:00"
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1636663280639",
+                        "alias": "Turn on leaving room lights at dusk",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "sun",
+                                "event": "sunset"
+                            }
+                        ],
+                        "condition": [],
+                        "action": [
+                            {
+                                "type": "turn_on",
+                                "device_id": "84cf756d5f385e9c9e762b8afaf0abc9",
+                                "entity_id": "light.corner",
+                                "domain": "light",
+                                "brightness_pct": 50
+                            },
+                            {
+                                "type": "turn_on",
+                                "device_id": "4525442a58e7449adec305be7518c711",
+                                "entity_id": "light.piano",
+                                "domain": "light",
+                                "brightness_pct": 50
+                            }
+                        ],
+                        "mode": "single",
+                        "max": 10
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "c97c591257f269911c92c7c456f612cc",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/1",
+                    "run_id": "f6757aff4cba27557a31606a996b084c",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2021-12-14T21:20:20.408337+00:00",
+                        "finish": "2021-12-14T21:20:20.563428+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1636663280639",
+                    "trigger": "sunset"
+                }
+            }
+        ],
+        "automation.1639443980900": [
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "197708a64d659af79996af556ae941c0",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2021-12-14T21:20:22.402508+00:00",
+                        "finish": "2021-12-14T21:20:22.606004+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1639443980900",
+                    "trigger": "sunset with offset",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2021-12-14T21:20:22.402603+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.reduce_intensity_on_piano_light",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2021-12-14T01:07:56.099244+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1639443980900",
+                                            "friendly_name": "Reduce intensity on Piano light"
+                                        },
+                                        "last_changed": "2021-12-14T03:34:43.521370+00:00",
+                                        "last_updated": "2021-12-14T03:34:43.521370+00:00",
+                                        "context": {
+                                            "id": "d9f57ea812022a8942439b3db197dbee",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "sun",
+                                        "event": "sunset",
+                                        "offset": {
+                                            "__type": "<class 'datetime.timedelta'>",
+                                            "total_seconds": 2.0
+                                        },
+                                        "description": "sunset with offset"
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2021-12-14T21:20:22.403372+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "e3cfb669bb34a51f43b4290c59b15e7e",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "scene": "scene.throughout_the_night"
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1639443980900",
+                        "alias": "Reduce intensity on Piano light",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "sun",
+                                "event": "sunset",
+                                "offset": "2"
+                            }
+                        ],
+                        "condition": [],
+                        "action": [
+                            {
+                                "scene": "scene.throughout_the_night"
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "e3cfb669bb34a51f43b4290c59b15e7e",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "197708a64d659af79996af556ae941c0",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2021-12-14T21:20:22.402508+00:00",
+                        "finish": "2021-12-14T21:20:22.606004+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1639443980900",
+                    "trigger": "sunset with offset"
+                }
+            }
+        ]
+    }
 }
