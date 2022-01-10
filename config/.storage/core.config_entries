@@ -216,7 +216,7 @@
                     "model": "iPhone13,3",
                     "app_name": "Home Assistant",
                     "os_name": "iOS",
-                    "app_version": "2021.11.1 (2021.266)",
+                    "app_version": "2021.12.1 (2021.327)",
                     "manufacturer": "Apple",
                     "device_id": "25EDC164-E169-4FC1-BB89-3D7DB04F56B8",
                     "app_data": {
@@ -239,30 +239,6 @@
                 "disabled_by": null
             },
             {
-                "entry_id": "93a734419a1039a97b4879e705085606",
-                "version": 1,
-                "domain": "hacs",
-                "title": "",
-                "data": {
-                    "token": "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"
-                },
-                "options": {
-                    "sidepanel_title": "HACS",
-                    "sidepanel_icon": "hacs:hacs",
-                    "release_limit": 5,
-                    "country": "ALL",
-                    "appdaemon": true,
-                    "netdaemon": true,
-                    "debug": false,
-                    "experimental": true
-                },
-                "pref_disable_new_entities": false,
-                "pref_disable_polling": false,
-                "source": "user",
-                "unique_id": null,
-                "disabled_by": null
-            },
-            {
                 "entry_id": "25673386dc7afa98b1586ec521d1722e",
                 "version": 1,
                 "domain": "mobile_app",
@@ -277,7 +253,7 @@
                         "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
                     },
                     "os_name": "iOS",
-                    "app_version": "2021.11.1 (2021.266)",
+                    "app_version": "2021.12.1 (2021.327)",
                     "device_id": "46C8B83C-8EF9-4CC8-A740-0958C551BAC4",
                     "device_name": "andre\u2019s iPhone (2)",
                     "app_id": "io.robbie.HomeAssistant",
@@ -410,7 +386,7 @@
                         "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
                     },
                     "supports_encryption": true,
-                    "app_version": "2021.11.1 (2021.266)",
+                    "app_version": "2021.12.1 (2021.327)",
                     "app_name": "Home Assistant",
                     "os_name": "iOS",
                     "webhook_id": "c730b1337640492628c04134d0471db01d7019d5d60ab7d7e2482a9e195b4ba1",
@@ -587,7 +563,7 @@
                 "domain": "mobile_app",
                 "title": "iPad (2)",
                 "data": {
-                    "app_version": "2021.11.1 (2021.266)",
+                    "app_version": "2021.12.1 (2021.327)",
                     "supports_encryption": true,
                     "device_id": "04A212C5-1552-4AD4-99DE-17D32B3F221E",
                     "app_name": "Home Assistant",
@@ -610,6 +586,21 @@
                 "pref_disable_polling": false,
                 "source": "registration",
                 "unique_id": "io.robbie.HomeAssistant-04A212C5-1552-4AD4-99DE-17D32B3F221E",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "87f78c3504172014bb01f28cd4f184cb",
+                "version": 1,
+                "domain": "hacs",
+                "title": "",
+                "data": {
+                    "token": "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"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
                 "disabled_by": null
             }
         ]

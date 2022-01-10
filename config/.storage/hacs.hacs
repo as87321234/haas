@@ -8,11 +8,14 @@
         "archived_repositories": [
             "estevez-dev/extended-banner-card",
             "estevez-dev/extended-banner-card",
-            "ppanagiotis/pymusiccast"
+            "ppanagiotis/pymusiccast",
+            "KoljaWindeler/kaco"
         ],
         "renamed_repositories": {
             "marksie1988/atomic-calendar-revive": "totaldebug/atomic-calendar-revive",
-            "PepegaBruh/CryptoTracker": "BigNocciolino/CryptoTracker"
+            "PepegaBruh/CryptoTracker": "BigNocciolino/CryptoTracker",
+            "9a4gl/hass-peltec": "9a4gl/hass-centrometal-boiler",
+            "78wesley/Darkish-Theme": "78wesley/Home-Assistant-Darkish-Theme"
         }
     }
 }

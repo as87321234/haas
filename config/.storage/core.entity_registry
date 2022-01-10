@@ -850,24 +850,6 @@
                 "entity_category": null
             },
             {
-                "entity_id": "sensor.hacs",
-                "config_entry_id": "93a734419a1039a97b4879e705085606",
-                "device_id": "69b10203d78c935bf16297e0df8219d2",
-                "area_id": null,
-                "unique_id": "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd",
-                "platform": "hacs",
-                "name": null,
-                "icon": null,
-                "disabled_by": null,
-                "capabilities": {},
-                "supported_features": 0,
-                "device_class": null,
-                "unit_of_measurement": "pending update(s)",
-                "original_name": "hacs",
-                "original_icon": "hacs:hacs",
-                "entity_category": null
-            },
-            {
                 "entity_id": "switch.sonoff_1001095f16",
                 "config_entry_id": null,
                 "device_id": null,
@@ -4904,12 +4886,30 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "Dim Living Room",
                 "original_icon": null,
+                "entity_category": null
+            },
+            {
+                "entity_id": "sensor.hacs",
+                "config_entry_id": "87f78c3504172014bb01f28cd4f184cb",
+                "device_id": "69b10203d78c935bf16297e0df8219d2",
+                "area_id": null,
+                "unique_id": "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd",
+                "platform": "hacs",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": "pending update(s)",
+                "original_name": "hacs",
+                "original_icon": "hacs:hacs",
                 "entity_category": null
             }
         ]

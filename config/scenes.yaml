@@ -19,12 +19,16 @@
     light.corner:
       supported_color_modes:
       - brightness
+      color_mode: brightness
+      brightness: 48
       friendly_name: Corner
       supported_features: 41
-      state: 'off'
+      state: 'on'
     light.piano:
       supported_color_modes:
       - brightness
+      color_mode: brightness
+      brightness: 38
       friendly_name: Piano
       supported_features: 41
-      state: 'off'
+      state: 'on'

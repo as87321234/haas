@@ -6,16 +6,7 @@
     event: sunset
   condition: []
   action:
-  - type: turn_on
-    device_id: 84cf756d5f385e9c9e762b8afaf0abc9
-    entity_id: light.corner
-    domain: light
-    brightness_pct: 50
-  - type: turn_on
-    device_id: 4525442a58e7449adec305be7518c711
-    entity_id: light.piano
-    domain: light
-    brightness_pct: 50
+  - scene: scene.dim_living_room
   mode: single
   max: 10
 - id: '1637542004159'
@@ -43,7 +34,10 @@
     to: 'off'
   - platform: state
     entity_id: switch.aquarium_4
-  condition: []
+  condition:
+  - condition: time
+    after: '23:00:00'
+    before: 08:00:00
   action:
   - type: turn_on
     device_id: 918303de6618ce10fa5ed4cb21efdaaf

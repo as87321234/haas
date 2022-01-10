@@ -13,7 +13,7 @@
         "domain": "",
         "domains": [],
         "downloads": 0,
-        "etag_repository": "W/\"22e64598979f36ebf15fb8ac82ac34490ccd1019e187b121a6525890bf03985e\"",
+        "etag_repository": "W/\"42938dc6e502854d31506f24c51b3c51d74ff1783694ac340516b6702452291b\"",
         "file_name": "slate.yaml",
         "filename": "",
         "first_install": false,
@@ -41,7 +41,7 @@
         "published_tags": [],
         "selected_tag": null,
         "show_beta": false,
-        "stargazers_count": 84,
+        "stargazers_count": 85,
         "topics": [
             "hacs",
             "home-assistant",

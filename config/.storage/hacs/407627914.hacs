@@ -13,7 +13,7 @@
         "domain": "",
         "domains": [],
         "downloads": 0,
-        "etag_repository": "W/\"3ffd880bffd5d5251ee1e40c1300797a1dc74d6eba61e162cb0d3c212004b430\"",
+        "etag_repository": "W/\"daa69cba73770325b31969fad8128b111dbb753c5a78b2f34bbdf9109f5c64b7\"",
         "file_name": "google_dark_theme.yaml",
         "filename": "",
         "first_install": false,
@@ -43,7 +43,7 @@
         ],
         "selected_tag": null,
         "show_beta": false,
-        "stargazers_count": 2,
+        "stargazers_count": 4,
         "topics": [
             "ha",
             "hacs",

@@ -411,6 +411,77 @@
                             ],
                             "hours_to_show": 2400,
                             "refresh_interval": 0
+                        },
+                        {
+                            "type": "horizontal-stack",
+                            "title": "Batteries",
+                            "cards": [
+                                {
+                                    "type": "vertical-stack",
+                                    "cards": [
+                                        {
+                                            "type": "gauge",
+                                            "entity": "sensor.andres_iphone_2_battery_level",
+                                            "min": 0,
+                                            "max": 100,
+                                            "needle": true,
+                                            "severity": {
+                                                "green": 15,
+                                                "yellow": 5,
+                                                "red": 0
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "vertical-stack",
+                                    "cards": [
+                                        {
+                                            "type": "gauge",
+                                            "entity": "sensor.iphone_12_pro_battery_level",
+                                            "min": 0,
+                                            "max": 100,
+                                            "needle": true,
+                                            "severity": {
+                                                "green": 15,
+                                                "yellow": 5,
+                                                "red": 0
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "vertical-stack",
+                                    "cards": [
+                                        {
+                                            "type": "gauge",
+                                            "entity": "sensor.iphone_battery_level",
+                                            "min": 0,
+                                            "max": 100,
+                                            "needle": true,
+                                            "severity": {
+                                                "green": 15,
+                                                "yellow": 5,
+                                                "red": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "camera.lorex_mediaprofile_channel1_mainstream"
+                                },
+                                {
+                                    "entity": "camera.lorex_mediaprofile_channel1_mainstream_2"
+                                },
+                                {
+                                    "entity": "camera.doorbird_live"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -426,7 +497,7 @@
                                     "entity": "light.front_yard_light"
                                 }
                             ],
-                            "image": "http://10.0.0.248:8892/",
+                            "image": "https://has.pointtomap.com:8892/",
                             "title": "GARAGE DOOR"
                         },
                         {
@@ -437,7 +508,7 @@
                                     "entity": "light.front_yard_light"
                                 }
                             ],
-                            "image": "http://10.0.0.248:8891/"
+                            "image": "https://has.pointtomap.com:8891/"
                         },
                         {
                             "type": "picture-glance",
@@ -446,7 +517,7 @@
                                     "entity": "switch.backyard"
                                 }
                             ],
-                            "image": "http://10.0.0.248:8893/",
+                            "image": "https://has.pointtomap.com:8893/",
                             "title": "BACKYARD"
                         },
                         {
@@ -456,7 +527,7 @@
                                     "entity": "light.front_yard_light"
                                 }
                             ],
-                            "image": "http://10.0.0.248:8894/",
+                            "image": "https://has.pointtomap.com:8894/",
                             "title": "?"
                         },
                         {
@@ -466,7 +537,7 @@
                                     "entity": "light.front_yard_light"
                                 }
                             ],
-                            "image": "http://10.0.0.248:8895/",
+                            "image": "https://has.pointtomap.com:8894/",
                             "title": "?"
                         }
                     ]
@@ -715,6 +786,62 @@
                                 "sensor.us_coronavirus_recovered"
                             ],
                             "title": "Sensor"
+                        }
+                    ]
+                },
+                {
+                    "title": "Remote",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "picture-glance",
+                            "entities": [
+                                {
+                                    "entity": "light.front_yard_light"
+                                }
+                            ],
+                            "image": "http://sb-nas.domoticplus.ca:8892",
+                            "title": "GARAGE DOOR"
+                        },
+                        {
+                            "type": "picture-glance",
+                            "title": "FRONT DOOR",
+                            "entities": [
+                                {
+                                    "entity": "light.front_yard_light"
+                                }
+                            ],
+                            "image": "http://sb-nas.domoticplus.ca:8891/"
+                        },
+                        {
+                            "type": "picture-glance",
+                            "entities": [
+                                {
+                                    "entity": "switch.backyard"
+                                }
+                            ],
+                            "image": "http://sb-nas.domoticplus.ca:8893/",
+                            "title": "BACKYARD"
+                        },
+                        {
+                            "type": "picture-glance",
+                            "entities": [
+                                {
+                                    "entity": "light.front_yard_light"
+                                }
+                            ],
+                            "image": "http://sb-nas.domoticplus.ca:8894/",
+                            "title": "?"
+                        },
+                        {
+                            "type": "picture-glance",
+                            "entities": [
+                                {
+                                    "entity": "light.front_yard_light"
+                                }
+                            ],
+                            "image": "http://sb-nas.domoticplus.ca:8895/",
+                            "title": "?"
                         }
                     ]
                 }
